@@ -2,7 +2,7 @@
  * Archivo: Robot.c
  * Autores: Ing. Oscar Rigoberto Carvajal Ortiz
  * Fecha: 4 de Mayo de 2017, 05:59 PM
- * Versión: 1.0
+ * Versiï¿½n: 1.0
  * IDE: MPLAB XC8
  * Empresa: 
  * MCU: PIC18F4550
@@ -79,12 +79,12 @@ extern unsigned char comando[40];
 extern unsigned char TramaTablet[20];
 
 
-//Función (ISR) (interrupciones)
+//Funciï¿½n (ISR) (interrupciones)
 void interrupt TMRO_USART(void) { 
 
 
     
-    //Interrupción USART
+    //Interrupciï¿½n USART
     if (PIR1bits.RCIF) {
         
 //        Lcd_Clear();
@@ -135,7 +135,7 @@ void interrupt TMRO_USART(void) {
     PIR1bits.RCIF=0;
 }
 
-
+//Github
 int main()
 {
   INTCON =0X00;
