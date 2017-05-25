@@ -157,6 +157,10 @@
 [v _OpenPWM1ConfigIO OpenPWM1ConfigIO `(v  1 e 0 0 ]
 "7 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c
 [v _SetDCPWM1 SetDCPWM1 `(v  1 e 0 0 ]
+"18 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c
+[v _OpenPWM2 OpenPWM2 `(v  1 e 0 0 ]
+"7 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c
+[v _SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
 "73 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c
 [v _OpenUSART OpenUSART `(v  1 e 0 0 ]
 "15 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c
@@ -197,10 +201,14 @@
 [v _Lcd_Write_Float Lcd_Write_Float `(v  1 e 0 0 ]
 "113
 [v _Lcd_Write_Integer Lcd_Write_Integer `(v  1 e 0 0 ]
-"34 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c
+"20 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c
 [v _PWM_init1 PWM_init1 `(v  1 e 0 0 ]
-"57
+"33
 [v _PWM_DutyCycle1 PWM_DutyCycle1 `(v  1 e 0 0 ]
+"42
+[v _PWM_init2 PWM_init2 `(v  1 e 0 0 ]
+"55
+[v _PWM_DutyCycle2 PWM_DutyCycle2 `(v  1 e 0 0 ]
 "4 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c
 [v _Pause_us Pause_us `(v  1 e 0 0 ]
 "11
@@ -223,7 +231,7 @@
 [v _PORTA PORTA `VEuc  1 e 1 @3968 ]
 "2725
 [v _PORTB PORTB `VEuc  1 e 1 @3969 ]
-[s S441 . 1 `uc 1 RD0 1 0 :1:0 
+[s S451 . 1 `uc 1 RD0 1 0 :1:0 
 `uc 1 RD1 1 0 :1:1 
 `uc 1 RD2 1 0 :1:2 
 `uc 1 RD3 1 0 :1:3 
@@ -233,7 +241,7 @@
 `uc 1 RD7 1 0 :1:7 
 ]
 "3018
-[s S450 . 1 `uc 1 SPP0 1 0 :1:0 
+[s S460 . 1 `uc 1 SPP0 1 0 :1:0 
 `uc 1 SPP1 1 0 :1:1 
 `uc 1 SPP2 1 0 :1:2 
 `uc 1 SPP3 1 0 :1:3 
@@ -242,14 +250,14 @@
 `uc 1 SPP6 1 0 :1:6 
 `uc 1 SPP7 1 0 :1:7 
 ]
-[s S459 . 1 `uc 1 . 1 0 :7:0 
+[s S469 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 SS2 1 0 :1:7 
 ]
-[u S462 . 1 `S441 1 . 1 0 `S450 1 . 1 0 `S459 1 . 1 0 ]
-[v _PORTDbits PORTDbits `VES462  1 e 1 @3971 ]
+[u S472 . 1 `S451 1 . 1 0 `S460 1 . 1 0 `S469 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES472  1 e 1 @3971 ]
 "3107
 [v _PORTE PORTE `VEuc  1 e 1 @3972 ]
-[s S488 . 1 `uc 1 RE0 1 0 :1:0 
+[s S498 . 1 `uc 1 RE0 1 0 :1:0 
 `uc 1 RE1 1 0 :1:1 
 `uc 1 RE2 1 0 :1:2 
 `uc 1 RE3 1 0 :1:3 
@@ -257,77 +265,98 @@
 `uc 1 RDPU 1 0 :1:7 
 ]
 "3209
-[s S495 . 1 `uc 1 CK1SPP 1 0 :1:0 
+[s S505 . 1 `uc 1 CK1SPP 1 0 :1:0 
 `uc 1 CK2SPP 1 0 :1:1 
 `uc 1 OESPP 1 0 :1:2 
 ]
-[s S499 . 1 `uc 1 . 1 0 :2:0 
+[s S509 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 CCP10 1 0 :1:2 
 ]
-[s S502 . 1 `uc 1 . 1 0 :7:0 
+[s S512 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 CCP2E 1 0 :1:7 
 ]
-[s S505 . 1 `uc 1 . 1 0 :6:0 
+[s S515 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 CCP6E 1 0 :1:6 
 ]
-[s S508 . 1 `uc 1 . 1 0 :5:0 
+[s S518 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 CCP7E 1 0 :1:5 
 ]
-[s S511 . 1 `uc 1 . 1 0 :4:0 
+[s S521 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CCP8E 1 0 :1:4 
 ]
-[s S514 . 1 `uc 1 . 1 0 :3:0 
+[s S524 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 CCP9E 1 0 :1:3 
 ]
-[s S517 . 1 `uc 1 . 1 0 :2:0 
+[s S527 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 CS 1 0 :1:2 
 ]
-[s S520 . 1 `uc 1 . 1 0 :7:0 
+[s S530 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 PA2E 1 0 :1:7 
 ]
-[s S523 . 1 `uc 1 . 1 0 :6:0 
+[s S533 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 PB1E 1 0 :1:6 
 ]
-[s S526 . 1 `uc 1 . 1 0 :2:0 
+[s S536 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PB2 1 0 :1:2 
 ]
-[s S529 . 1 `uc 1 . 1 0 :4:0 
+[s S539 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 PB3E 1 0 :1:4 
 ]
-[s S532 . 1 `uc 1 . 1 0 :5:0 
+[s S542 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 PC1E 1 0 :1:5 
 ]
-[s S535 . 1 `uc 1 . 1 0 :1:0 
+[s S545 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 PC2 1 0 :1:1 
 ]
-[s S538 . 1 `uc 1 . 1 0 :3:0 
+[s S548 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 PC3E 1 0 :1:3 
 ]
-[s S541 . 1 `uc 1 PD2 1 0 :1:0 
+[s S551 . 1 `uc 1 PD2 1 0 :1:0 
 ]
-[s S543 . 1 `uc 1 RDE 1 0 :1:0 
+[s S553 . 1 `uc 1 RDE 1 0 :1:0 
 ]
-[s S545 . 1 `uc 1 . 1 0 :4:0 
+[s S555 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 RE4 1 0 :1:4 
 ]
-[s S548 . 1 `uc 1 . 1 0 :5:0 
+[s S558 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RE5 1 0 :1:5 
 ]
-[s S551 . 1 `uc 1 . 1 0 :6:0 
+[s S561 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RE6 1 0 :1:6 
 ]
-[s S554 . 1 `uc 1 . 1 0 :7:0 
+[s S564 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RE7 1 0 :1:7 
 ]
-[s S557 . 1 `uc 1 . 1 0 :1:0 
+[s S567 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 WRE 1 0 :1:1 
 ]
-[u S560 . 1 `S488 1 . 1 0 `S495 1 . 1 0 `S499 1 . 1 0 `S502 1 . 1 0 `S505 1 . 1 0 `S508 1 . 1 0 `S511 1 . 1 0 `S514 1 . 1 0 `S517 1 . 1 0 `S520 1 . 1 0 `S523 1 . 1 0 `S526 1 . 1 0 `S529 1 . 1 0 `S532 1 . 1 0 `S535 1 . 1 0 `S538 1 . 1 0 `S541 1 . 1 0 `S543 1 . 1 0 `S545 1 . 1 0 `S548 1 . 1 0 `S551 1 . 1 0 `S554 1 . 1 0 `S557 1 . 1 0 ]
-[v _PORTEbits PORTEbits `VES560  1 e 1 @3972 ]
+[u S570 . 1 `S498 1 . 1 0 `S505 1 . 1 0 `S509 1 . 1 0 `S512 1 . 1 0 `S515 1 . 1 0 `S518 1 . 1 0 `S521 1 . 1 0 `S524 1 . 1 0 `S527 1 . 1 0 `S530 1 . 1 0 `S533 1 . 1 0 `S536 1 . 1 0 `S539 1 . 1 0 `S542 1 . 1 0 `S545 1 . 1 0 `S548 1 . 1 0 `S551 1 . 1 0 `S553 1 . 1 0 `S555 1 . 1 0 `S558 1 . 1 0 `S561 1 . 1 0 `S564 1 . 1 0 `S567 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES570  1 e 1 @3972 ]
 "3974
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
 "4171
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S1322 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4203
+[s S1331 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S1340 . 1 `S1322 1 . 1 0 `S1331 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES1340  1 e 1 @3987 ]
 "4392
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
 [s S245 . 1 `uc 1 TRISC0 1 0 :1:0 
@@ -356,7 +385,7 @@
 [v _TRISE TRISE `VEuc  1 e 1 @3990 ]
 "4943
 [v _PIE1 PIE1 `VEuc  1 e 1 @3997 ]
-[s S706 . 1 `uc 1 TMR1IF 1 0 :1:0 
+[s S716 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR2IF 1 0 :1:1 
 `uc 1 CCP1IF 1 0 :1:2 
 `uc 1 SSPIF 1 0 :1:3 
@@ -366,22 +395,22 @@
 `uc 1 SPPIF 1 0 :1:7 
 ]
 "4972
-[s S715 . 1 `uc 1 . 1 0 :7:0 
+[s S725 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 PSPIF 1 0 :1:7 
 ]
-[s S718 . 1 `uc 1 . 1 0 :5:0 
+[s S728 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RC1IF 1 0 :1:5 
 ]
-[s S721 . 1 `uc 1 . 1 0 :4:0 
+[s S731 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TX1IF 1 0 :1:4 
 ]
-[u S724 . 1 `S706 1 . 1 0 `S715 1 . 1 0 `S718 1 . 1 0 `S721 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES724  1 e 1 @3997 ]
+[u S734 . 1 `S716 1 . 1 0 `S725 1 . 1 0 `S728 1 . 1 0 `S731 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES734  1 e 1 @3997 ]
 "5060
-[v _PIR1bits PIR1bits `VES724  1 e 1 @3998 ]
+[v _PIR1bits PIR1bits `VES734  1 e 1 @3998 ]
 "5500
 [v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
-[s S1325 . 1 `uc 1 RX9D 1 0 :1:0 
+[s S1461 . 1 `uc 1 RX9D 1 0 :1:0 
 `uc 1 OERR 1 0 :1:1 
 `uc 1 FERR 1 0 :1:2 
 `uc 1 ADDEN 1 0 :1:3 
@@ -391,22 +420,22 @@
 `uc 1 SPEN 1 0 :1:7 
 ]
 "5541
-[s S1334 . 1 `uc 1 . 1 0 :3:0 
+[s S1470 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 ADEN 1 0 :1:3 
 ]
-[s S1337 . 1 `uc 1 . 1 0 :5:0 
+[s S1473 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 SRENA 1 0 :1:5 
 ]
-[s S1340 . 1 `uc 1 . 1 0 :6:0 
+[s S1476 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC8_9 1 0 :1:6 
 ]
-[s S1343 . 1 `uc 1 . 1 0 :6:0 
+[s S1479 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC9 1 0 :1:6 
 ]
-[s S1346 . 1 `uc 1 RCD8 1 0 :1:0 
+[s S1482 . 1 `uc 1 RCD8 1 0 :1:0 
 ]
-[u S1348 . 1 `S1325 1 . 1 0 `S1334 1 . 1 0 `S1337 1 . 1 0 `S1340 1 . 1 0 `S1343 1 . 1 0 `S1346 1 . 1 0 ]
-[v _RCSTAbits RCSTAbits `VES1348  1 e 1 @4011 ]
+[u S1484 . 1 `S1461 1 . 1 0 `S1470 1 . 1 0 `S1473 1 . 1 0 `S1476 1 . 1 0 `S1479 1 . 1 0 `S1482 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES1484  1 e 1 @4011 ]
 "5709
 [v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
 [s S67 . 1 `uc 1 TX9D 1 0 :1:0 
@@ -457,40 +486,44 @@
 [v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
 "6039
 [v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"6841
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+"6910
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
 "6922
 [v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
 "7089
 [v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
-[s S898 . 1 `uc 1 PCFG 1 0 :4:0 
+[s S908 . 1 `uc 1 PCFG 1 0 :4:0 
 `uc 1 VCFG 1 0 :2:4 
 ]
 "7202
-[s S901 . 1 `uc 1 PCFG0 1 0 :1:0 
+[s S911 . 1 `uc 1 PCFG0 1 0 :1:0 
 `uc 1 PCFG1 1 0 :1:1 
 `uc 1 PCFG2 1 0 :1:2 
 `uc 1 PCFG3 1 0 :1:3 
 `uc 1 VCFG0 1 0 :1:4 
 `uc 1 VCFG1 1 0 :1:5 
 ]
-[s S908 . 1 `uc 1 . 1 0 :3:0 
+[s S918 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 CHSN3 1 0 :1:3 
 ]
-[s S911 . 1 `uc 1 . 1 0 :4:0 
+[s S921 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 VCFG01 1 0 :1:4 
 ]
-[s S914 . 1 `uc 1 . 1 0 :5:0 
+[s S924 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 VCFG11 1 0 :1:5 
 ]
-[u S917 . 1 `S898 1 . 1 0 `S901 1 . 1 0 `S908 1 . 1 0 `S911 1 . 1 0 `S914 1 . 1 0 ]
-[v _ADCON1bits ADCON1bits `VES917  1 e 1 @4033 ]
+[u S927 . 1 `S908 1 . 1 0 `S911 1 . 1 0 `S918 1 . 1 0 `S921 1 . 1 0 `S924 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES927  1 e 1 @4033 ]
 "7809
 [v _T2CON T2CON `VEuc  1 e 1 @4042 ]
-[s S1092 . 1 `uc 1 T2CKPS 1 0 :2:0 
+[s S1102 . 1 `uc 1 T2CKPS 1 0 :2:0 
 `uc 1 TMR2ON 1 0 :1:2 
 `uc 1 TOUTPS 1 0 :4:3 
 ]
 "7837
-[s S1096 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+[s S1106 . 1 `uc 1 T2CKPS0 1 0 :1:0 
 `uc 1 T2CKPS1 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 T2OUTPS0 1 0 :1:3 
@@ -498,14 +531,14 @@
 `uc 1 T2OUTPS2 1 0 :1:5 
 `uc 1 T2OUTPS3 1 0 :1:6 
 ]
-[s S1104 . 1 `uc 1 . 1 0 :3:0 
+[s S1114 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 TOUTPS0 1 0 :1:3 
 `uc 1 TOUTPS1 1 0 :1:4 
 `uc 1 TOUTPS2 1 0 :1:5 
 `uc 1 TOUTPS3 1 0 :1:6 
 ]
-[u S1110 . 1 `S1092 1 . 1 0 `S1096 1 . 1 0 `S1104 1 . 1 0 ]
-[v _T2CONbits T2CONbits `VES1110  1 e 1 @4042 ]
+[u S1120 . 1 `S1102 1 . 1 0 `S1106 1 . 1 0 `S1114 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1120  1 e 1 @4042 ]
 "7906
 [v _PR2 PR2 `VEuc  1 e 1 @4043 ]
 "8015
@@ -535,15 +568,15 @@
 [v __powers_ _powers_ `C[13]d  1 e 39 0 ]
 "39
 [v __npowers_ _npowers_ `C[13]d  1 e 39 0 ]
-[s S1464 . 1 `uc 1 RX_NINE 1 0 :1:0 
+[s S1600 . 1 `uc 1 RX_NINE 1 0 :1:0 
 `uc 1 TX_NINE 1 0 :1:1 
 `uc 1 FRAME_ERROR 1 0 :1:2 
 `uc 1 OVERRUN_ERROR 1 0 :1:3 
 `uc 1 fill 1 0 :4:4 
 ]
 "5 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\udefs.c
-[u S1470 USART 1 `uc 1 val 1 0 `S1464 1 . 1 0 ]
-[v _USART_Status USART_Status `S1470  1 e 1 0 ]
+[u S1606 USART 1 `uc 1 val 1 0 `S1600 1 . 1 0 ]
+[v _USART_Status USART_Status `S1606  1 e 1 0 ]
 "13 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c
 [v _FinComandB FinComandB `uc  1 e 1 0 ]
 "14
@@ -637,7 +670,7 @@
 "48
 [v _SendBlueToothCommand SendBlueToothCommand `(v  1 e 0 0 ]
 {
-[v SendBlueToothCommand@command command `*.35Cuc  1 p 2 34 ]
+[v SendBlueToothCommand@command command `*.34Cuc  1 p 2 34 ]
 [v SendBlueToothCommand@total total `ui  1 p 2 36 ]
 "51
 } 0
@@ -648,7 +681,7 @@
 [v putSTRINGU1@cont cont `uc  1 a 1 33 ]
 [v putSTRINGU1@last last `uc  1 a 1 32 ]
 "21
-[v putSTRINGU1@dato dato `*.35Cuc  1 p 2 26 ]
+[v putSTRINGU1@dato dato `*.34Cuc  1 p 2 26 ]
 [v putSTRINGU1@total total `ui  1 p 2 28 ]
 "31
 } 0
@@ -686,7 +719,7 @@
 {
 "268
 [v Comando_Tablet@sum sum `i  1 a 2 22 ]
-"317
+"319
 } 0
 "102 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c
 [v _putcBluetoothInt putcBluetoothInt `(v  1 e 0 0 ]
@@ -734,14 +767,33 @@
 [v clrBufferUSART@i i `i  1 a 2 24 ]
 "76
 } 0
-"34 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c
+"42 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c
+[v _PWM_init2 PWM_init2 `(v  1 e 0 0 ]
+{
+[v PWM_init2@period period `uc  1 a 1 wreg ]
+[v PWM_init2@period period `uc  1 a 1 wreg ]
+[v PWM_init2@period period `uc  1 a 1 27 ]
+"54
+} 0
+"18 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c
+[v _OpenPWM2 OpenPWM2 `(v  1 e 0 0 ]
+{
+[v OpenPWM2@period period `uc  1 a 1 wreg ]
+"23
+[v OpenPWM2@ccp2mx ccp2mx `uc  1 a 1 26 ]
+"18
+[v OpenPWM2@period period `uc  1 a 1 wreg ]
+"33
+[v OpenPWM2@period period `uc  1 a 1 25 ]
+"80
+} 0
+"20 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c
 [v _PWM_init1 PWM_init1 `(v  1 e 0 0 ]
 {
 [v PWM_init1@period period `uc  1 a 1 wreg ]
 [v PWM_init1@period period `uc  1 a 1 wreg ]
-"36
 [v PWM_init1@period period `uc  1 a 1 25 ]
-"56
+"32
 } 0
 "8 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c
 [v _OpenPWM1 OpenPWM1 `(v  1 e 0 0 ]
@@ -752,19 +804,41 @@
 [v OpenPWM1@period period `uc  1 a 1 24 ]
 "19
 } 0
-"57 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c
+"55 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c
+[v _PWM_DutyCycle2 PWM_DutyCycle2 `(v  1 e 0 0 ]
+{
+[v PWM_DutyCycle2@percentageDuty percentageDuty `uc  1 a 1 wreg ]
+[v PWM_DutyCycle2@DC DC `ui  1 a 2 41 ]
+"57
+[v PWM_DutyCycle2@DutyCycle DutyCycle `ui  1 a 2 38 ]
+"55
+[v PWM_DutyCycle2@percentageDuty percentageDuty `uc  1 a 1 wreg ]
+"57
+[v PWM_DutyCycle2@percentageDuty percentageDuty `uc  1 a 1 40 ]
+"62
+} 0
+"7 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c
+[v _SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
+{
+[u S1289 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+"9
+[v SetDCPWM2@DCycle DCycle `S1289  1 a 2 28 ]
+"7
+[v SetDCPWM2@dutycycle dutycycle `ui  1 p 2 24 ]
+"19
+} 0
+"33 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c
 [v _PWM_DutyCycle1 PWM_DutyCycle1 `(v  1 e 0 0 ]
 {
 [v PWM_DutyCycle1@percentageDuty percentageDuty `uc  1 a 1 wreg ]
-"58
 [v PWM_DutyCycle1@DC DC `ui  1 a 2 41 ]
-"60
+"35
 [v PWM_DutyCycle1@DutyCycle DutyCycle `ui  1 a 2 38 ]
-"57
+"33
 [v PWM_DutyCycle1@percentageDuty percentageDuty `uc  1 a 1 wreg ]
-"60
+"35
 [v PWM_DutyCycle1@percentageDuty percentageDuty `uc  1 a 1 40 ]
-"67
+"40
 } 0
 "27 C:\Program Files\Microchip\xc8\v1.33\sources\common\lbtoft.c
 [v ___lbtoft __lbtoft `(f  1 e 3 0 ]
@@ -778,9 +852,9 @@
 "7 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c
 [v _SetDCPWM1 SetDCPWM1 `(v  1 e 0 0 ]
 {
-[u S1263 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+[u S1289 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
 "9
-[v SetDCPWM1@DCycle DCycle `S1263  1 a 2 28 ]
+[v SetDCPWM1@DCycle DCycle `S1289  1 a 2 28 ]
 "7
 [v SetDCPWM1@dutycycle dutycycle `ui  1 p 2 24 ]
 "19
@@ -800,11 +874,11 @@
 "1210
 [v sprintf@vd vd `ul  1 a 4 60 ]
 "1238
-[v sprintf@vd_1212 vd `ul  1 a 4 64 ]
-[s S1197 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+[v sprintf@vd_1238 vd `ul  1 a 4 64 ]
+[s S1223 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
 "525
-[u S1200 . 5 `ul 1 _val 4 0 `S1197 1 _str 5 0 ]
-[v sprintf@_val _val `S1200  1 a 5 77 ]
+[u S1226 . 5 `ul 1 _val 4 0 `S1223 1 _str 5 0 ]
+[v sprintf@_val _val `S1226  1 a 5 77 ]
 "516
 [v sprintf@fval fval `d  1 a 3 84 ]
 [v sprintf@integ integ `d  1 a 3 72 ]
@@ -819,7 +893,7 @@
 [v sprintf@c c `c  1 a 1 87 ]
 "492
 [v sprintf@sp sp `*.39uc  1 p 2 40 ]
-[v sprintf@f f `*.25Cuc  1 p 2 42 ]
+[v sprintf@f f `*.32Cuc  1 p 2 42 ]
 "1550
 } 0
 "425
@@ -1003,7 +1077,7 @@
 "91
 [v Lcd_Write_String@i i `i  1 a 2 32 ]
 "90
-[v Lcd_Write_String@a a `*.35uc  1 p 2 28 ]
+[v Lcd_Write_String@a a `*.34uc  1 p 2 28 ]
 "94
 } 0
 "75
@@ -1064,7 +1138,7 @@
 [v i2_Lcd_Write_String Lcd_Write_String `(v  1 e 0 0 ]
 {
 [v i2Lcd_Write_String@i Lcd_Write_String `i  1 a 2 8 ]
-[v i2Lcd_Write_String@a a `*.35uc  1 p 2 4 ]
+[v i2Lcd_Write_String@a a `*.34uc  1 p 2 4 ]
 "94
 } 0
 "75

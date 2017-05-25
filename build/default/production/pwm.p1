@@ -55,6 +55,10 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _OpenPWM1 `(v ~T0 @X0 0 ef1`uc ]
 "468
 [v _SetDCPWM1 `(v ~T0 @X0 0 ef1`ui ]
+"485
+[v _OpenPWM2 `(v ~T0 @X0 0 ef1`uc ]
+"486
+[v _SetDCPWM2 `(v ~T0 @X0 0 ef1`ui ]
 [; ;htc.h: 21: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 24: extern void __builtin_software_breakpoint(void);
 [; ;pic18f4550.h: 47: extern volatile unsigned char SPPDATA @ 0xF62;
@@ -4863,6 +4867,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;pic18.h: 151: extern __nonreentrant void _delay3(unsigned char);
 [; ;pwm.h: 41: void PWM_init1(unsigned char period);
 [; ;pwm.h: 42: void PWM_DutyCycle1(unsigned char percentageDuty );
+[; ;pwm.h: 43: void PWM_init2(unsigned char period);
+[; ;pwm.h: 44: void PWM_DutyCycle2(unsigned char percentageDuty );
 "15 pwm.c
 [v _i `i ~T0 @X0 1 e ]
 [i _i
@@ -4884,72 +4890,125 @@ Version 3.2 HI-TECH Software Intermediate Code
 "18
 [v _Timer2Config `uc ~T0 @X0 1 e ]
 [; ;pwm.c: 18: unsigned char Timer2Config;
-"34
+"20
 [v _PWM_init1 `(v ~T0 @X0 1 ef1`uc ]
-"35
 {
-[; ;pwm.c: 34: void PWM_init1(unsigned char period)
-[; ;pwm.c: 35: {
+[; ;pwm.c: 20: void PWM_init1(unsigned char period) {
 [e :U _PWM_init1 ]
-"34
 [v _period `uc ~T0 @X0 1 r1 ]
-"35
 [f ]
-[; ;pwm.c: 36: Timer2Config = 0b11111110;
-"36
+[; ;pwm.c: 21: Timer2Config = 0b11111110;
+"21
 [e = _Timer2Config -> -> 254 `i `uc ]
-[; ;pwm.c: 40: T2CON = (0xfb & Timer2Config);
-"40
+[; ;pwm.c: 22: T2CON = (0xfb & Timer2Config);
+"22
 [e = _T2CON -> & -> 251 `i -> _Timer2Config `i `uc ]
-[; ;pwm.c: 43: TMR2 = 0;
-"43
+[; ;pwm.c: 25: TMR2 = 0;
+"25
 [e = _TMR2 -> -> 0 `i `uc ]
-[; ;pwm.c: 44: PIR1bits.TMR2IF = 0;
-"44
+[; ;pwm.c: 26: PIR1bits.TMR2IF = 0;
+"26
 [e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
-[; ;pwm.c: 47: PIE1bits.TMR2IE = 0;
-"47
+[; ;pwm.c: 27: PIE1bits.TMR2IE = 0;
+"27
 [e = . . _PIE1bits 0 1 -> -> 0 `i `uc ]
-[; ;pwm.c: 49: T2CONbits.TMR2ON = 1;
-"49
+[; ;pwm.c: 28: T2CONbits.TMR2ON = 1;
+"28
 [e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
-[; ;pwm.c: 53: OpenPWM1(period);
-"53
+[; ;pwm.c: 29: OpenPWM1(period);
+"29
 [e ( _OpenPWM1 (1 _period ]
-[; ;pwm.c: 55: return;
-"55
+[; ;pwm.c: 31: return;
+"31
 [e $UE 593  ]
-[; ;pwm.c: 56: }
-"56
+[; ;pwm.c: 32: }
+"32
 [e :UE 593 ]
 }
-"57
+"33
 [v _PWM_DutyCycle1 `(v ~T0 @X0 1 ef1`uc ]
-"58
 {
-[; ;pwm.c: 57: void PWM_DutyCycle1(unsigned char percentageDuty )
-[; ;pwm.c: 58: {
+[; ;pwm.c: 33: void PWM_DutyCycle1(unsigned char percentageDuty) {
 [e :U _PWM_DutyCycle1 ]
-"57
 [v _percentageDuty `uc ~T0 @X0 1 r1 ]
-"58
 [f ]
 [v _DC `ui ~T0 @X0 1 a ]
-[; ;pwm.c: 60: unsigned int DC=0, DutyCycle=0;
-"60
+[; ;pwm.c: 35: unsigned int DC = 0, DutyCycle = 0;
+"35
 [e = _DC -> -> 0 `i `ui ]
 [v _DutyCycle `ui ~T0 @X0 1 a ]
 [e = _DutyCycle -> -> 0 `i `ui ]
-[; ;pwm.c: 62: DC=(unsigned int)(percentageDuty *10.23);
-"62
+[; ;pwm.c: 37: DC = (unsigned int)(percentageDuty * 10.23);
+"37
 [e = _DC -> * -> _percentageDuty `d .10.23 `ui ]
-[; ;pwm.c: 65: SetDCPWM1(DC);
-"65
+[; ;pwm.c: 38: SetDCPWM1(DC);
+"38
 [e ( _SetDCPWM1 (1 _DC ]
-[; ;pwm.c: 66: return;
-"66
+[; ;pwm.c: 39: return;
+"39
 [e $UE 594  ]
-[; ;pwm.c: 67: }
-"67
+[; ;pwm.c: 40: }
+"40
 [e :UE 594 ]
+}
+"42
+[v _PWM_init2 `(v ~T0 @X0 1 ef1`uc ]
+{
+[; ;pwm.c: 42: void PWM_init2(unsigned char period) {
+[e :U _PWM_init2 ]
+[v _period `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;pwm.c: 43: Timer2Config = 0b11111110;
+"43
+[e = _Timer2Config -> -> 254 `i `uc ]
+[; ;pwm.c: 44: T2CON = (0xfb & Timer2Config);
+"44
+[e = _T2CON -> & -> 251 `i -> _Timer2Config `i `uc ]
+[; ;pwm.c: 47: TMR2 = 0;
+"47
+[e = _TMR2 -> -> 0 `i `uc ]
+[; ;pwm.c: 48: PIR1bits.TMR2IF = 0;
+"48
+[e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
+[; ;pwm.c: 49: PIE1bits.TMR2IE = 0;
+"49
+[e = . . _PIE1bits 0 1 -> -> 0 `i `uc ]
+[; ;pwm.c: 50: T2CONbits.TMR2ON = 1;
+"50
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+[; ;pwm.c: 51: OpenPWM2(period);
+"51
+[e ( _OpenPWM2 (1 _period ]
+[; ;pwm.c: 53: return;
+"53
+[e $UE 595  ]
+[; ;pwm.c: 54: }
+"54
+[e :UE 595 ]
+}
+"55
+[v _PWM_DutyCycle2 `(v ~T0 @X0 1 ef1`uc ]
+{
+[; ;pwm.c: 55: void PWM_DutyCycle2(unsigned char percentageDuty) {
+[e :U _PWM_DutyCycle2 ]
+[v _percentageDuty `uc ~T0 @X0 1 r1 ]
+[f ]
+[v _DC `ui ~T0 @X0 1 a ]
+[; ;pwm.c: 57: unsigned int DC = 0, DutyCycle = 0;
+"57
+[e = _DC -> -> 0 `i `ui ]
+[v _DutyCycle `ui ~T0 @X0 1 a ]
+[e = _DutyCycle -> -> 0 `i `ui ]
+[; ;pwm.c: 59: DC = (unsigned int)(percentageDuty * 10.23);
+"59
+[e = _DC -> * -> _percentageDuty `d .10.23 `ui ]
+[; ;pwm.c: 60: SetDCPWM2(DC);
+"60
+[e ( _SetDCPWM2 (1 _DC ]
+[; ;pwm.c: 61: return;
+"61
+[e $UE 596  ]
+[; ;pwm.c: 62: }
+"62
+[e :UE 596 ]
 }

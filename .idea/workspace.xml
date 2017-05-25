@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44b863c9-997e-45f5-b116-e72fc041c1fd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.elf" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.elf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.obj" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.rlf" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.rlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/l.obj" afterPath="$PROJECT_DIR$/l.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Funciones_Db.c" afterPath="$PROJECT_DIR$/Funciones_Db.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Funciones_Db.pre" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.pre" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/pwm.p1" afterPath="$PROJECT_DIR$/build/default/production/pwm.p1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/pwm.pre" afterPath="$PROJECT_DIR$/build/default/production/pwm.pre" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/robot.p1" afterPath="$PROJECT_DIR$/build/default/production/robot.p1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/robot.pre" afterPath="$PROJECT_DIR$/build/default/production/robot.pre" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.cmf" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.cmf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hex" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hxl" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hxl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.lst" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.map" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sdb" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sym" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sym" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/funclist" afterPath="$PROJECT_DIR$/funclist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pwm.c" afterPath="$PROJECT_DIR$/pwm.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pwm.h" afterPath="$PROJECT_DIR$/pwm.h" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +38,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="robot.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="robot.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robot.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="163" column="17" lean-forward="true" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
+            <state relative-caret-position="-252">
+              <caret line="134" column="20" lean-forward="false" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Funciones_Db.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Funciones_Db.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4947">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -31,6 +62,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/robot.c" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -60,6 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -75,7 +114,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,7 +212,8 @@
       <updated>1495747026572</updated>
       <workItem from="1495747030228" duration="303000" />
       <workItem from="1495747345900" duration="446000" />
-      <workItem from="1495747817351" duration="81000" />
+      <workItem from="1495747817351" duration="247000" />
+      <workItem from="1495749133507" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1495747684911</created>
@@ -183,14 +222,29 @@
       <option name="project" value="LOCAL" />
       <updated>1495747684911</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial">
+      <created>1495747906159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1495747906159</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial">
+      <created>1495748025742</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1495748025742</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="830000" />
+    <option name="totallyTimeSpent" value="1023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25403818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -198,7 +252,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -235,8 +289,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="163" column="17" lean-forward="true" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="134" column="20" lean-forward="false" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Funciones_Db.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4947">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -40,6 +40,8 @@
 //void PWM_init(unsigned long pwm_freq);
 void PWM_init1(unsigned char period);
 void PWM_DutyCycle1(unsigned char percentageDuty );
+void PWM_init2(unsigned char period);
+void PWM_DutyCycle2(unsigned char percentageDuty );
 //void PWM_init2(unsigned char period);
 //void PWM_DutyCycle2(unsigned char percentageDuty );
 

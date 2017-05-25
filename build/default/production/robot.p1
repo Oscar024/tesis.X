@@ -5179,6 +5179,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;lcd.h: 34: void Lcd_Write_Integer(int a);
 [; ;pwm.h: 41: void PWM_init1(unsigned char period);
 [; ;pwm.h: 42: void PWM_DutyCycle1(unsigned char percentageDuty );
+[; ;pwm.h: 43: void PWM_init2(unsigned char period);
+[; ;pwm.h: 44: void PWM_DutyCycle2(unsigned char percentageDuty );
 "27 robot.c
 [p x VREGEN=OFF ]
 "28
@@ -5314,9 +5316,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;robot.c: 77: extern unsigned char contador2;
 [; ;robot.c: 78: extern unsigned char comando[40];
 [; ;robot.c: 79: extern unsigned char TramaTablet[20];
-[v F5689 `(v ~T0 @X0 1 tf ]
+[v F5693 `(v ~T0 @X0 1 tf ]
 "83
-[v _TMRO_USART `IF5689 ~T0 @X0 1 e ]
+[v _TMRO_USART `IF5693 ~T0 @X0 1 e ]
 {
 [; ;robot.c: 83: void interrupt TMRO_USART(void) {
 [e :U _TMRO_USART ]

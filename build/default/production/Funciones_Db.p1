@@ -72,8 +72,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _putcBluetoothInt `(v ~T0 @X0 0 ef1`i ]
 "41 pwm.h
 [v _PWM_init1 `(v ~T0 @X0 0 ef1`uc ]
+"43
+[v _PWM_init2 `(v ~T0 @X0 0 ef1`uc ]
 "42
 [v _PWM_DutyCycle1 `(v ~T0 @X0 0 ef1`uc ]
+"44
+[v _PWM_DutyCycle2 `(v ~T0 @X0 0 ef1`uc ]
 [; ;htc.h: 21: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 24: extern void __builtin_software_breakpoint(void);
 [; ;pic18f4550.h: 47: extern volatile unsigned char SPPDATA @ 0xF62;
@@ -5055,6 +5059,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;lcd.h: 34: void Lcd_Write_Integer(int a);
 [; ;pwm.h: 41: void PWM_init1(unsigned char period);
 [; ;pwm.h: 42: void PWM_DutyCycle1(unsigned char percentageDuty );
+[; ;pwm.h: 43: void PWM_init2(unsigned char period);
+[; ;pwm.h: 44: void PWM_DutyCycle2(unsigned char percentageDuty );
 "13 Funciones_Db.c
 [v _FinComandB `uc ~T0 @X0 1 e ]
 [; ;Funciones_Db.c: 13: char FinComandB;
@@ -5378,30 +5384,36 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Funciones_Db.c: 302: PWM_init1(0xff);
 "302
 [e ( _PWM_init1 (1 -> -> 255 `i `uc ]
-[; ;Funciones_Db.c: 304: PWM_DutyCycle1(BluetoothDato[3]);
-"304
+[; ;Funciones_Db.c: 303: PWM_init2(0xff);
+"303
+[e ( _PWM_init2 (1 -> -> 255 `i `uc ]
+[; ;Funciones_Db.c: 305: PWM_DutyCycle1(BluetoothDato[3]);
+"305
 [e ( _PWM_DutyCycle1 (1 *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
-[; ;Funciones_Db.c: 307: break;
-"307
-[e $U 605  ]
-[; ;Funciones_Db.c: 308: default:
-"308
-[e :U 612 ]
-[; ;Funciones_Db.c: 309: Lcd_Clear();
+[; ;Funciones_Db.c: 306: PWM_DutyCycle2(BluetoothDato[4]);
+"306
+[e ( _PWM_DutyCycle2 (1 *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
+[; ;Funciones_Db.c: 309: break;
 "309
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 310: Lcd_Set_Cursor(1, 1);
-"310
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 311: Lcd_Write_String("Default");
-"311
-[e ( _Lcd_Write_String (1 -> :s 11C `*uc ]
-[; ;Funciones_Db.c: 312: break;
-"312
 [e $U 605  ]
+[; ;Funciones_Db.c: 310: default:
+"310
+[e :U 612 ]
+[; ;Funciones_Db.c: 311: Lcd_Clear();
+"311
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 312: Lcd_Set_Cursor(1, 1);
+"312
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 313: Lcd_Write_String("Default");
 "313
+[e ( _Lcd_Write_String (1 -> :s 11C `*uc ]
+[; ;Funciones_Db.c: 314: break;
+"314
+[e $U 605  ]
+"315
 }
-[; ;Funciones_Db.c: 313: }
+[; ;Funciones_Db.c: 315: }
 [e $U 605  ]
 "271
 [e :U 606 ]
@@ -5411,16 +5423,16 @@ Version 3.2 HI-TECH Software Intermediate Code
  , $ -> -> 4 `i `uc 610
  , $ -> -> 5 `i `uc 611
  612 ]
-"313
-[e :U 605 ]
-[; ;Funciones_Db.c: 314: clrBufferUSART();
-"314
-[e ( _clrBufferUSART ..  ]
-[; ;Funciones_Db.c: 315: return;
 "315
-[e $UE 604  ]
-[; ;Funciones_Db.c: 317: }
+[e :U 605 ]
+[; ;Funciones_Db.c: 316: clrBufferUSART();
+"316
+[e ( _clrBufferUSART ..  ]
+[; ;Funciones_Db.c: 317: return;
 "317
+[e $UE 604  ]
+[; ;Funciones_Db.c: 319: }
+"319
 [e :UE 604 ]
 }
 [a 11C 68 101 102 97 117 108 116 0 ]

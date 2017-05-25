@@ -6305,6 +6305,8 @@ extern __nonreentrant void _delay3(unsigned char);
 # 41 "pwm.h"
 void PWM_init1(unsigned char period);
 void PWM_DutyCycle1(unsigned char percentageDuty );
+void PWM_init2(unsigned char period);
+void PWM_DutyCycle2(unsigned char percentageDuty );
 
 # 15 "pwm.c"
 int i = 0;
@@ -6312,39 +6314,47 @@ int countup = 1;
 int DutyCycle = 0;
 unsigned char Timer2Config;
 
-# 34
-void PWM_init1(unsigned char period)
-{
+void PWM_init1(unsigned char period) {
 Timer2Config = 0b11111110;
-
-
-
 T2CON = (0xfb & Timer2Config);
 
 
 TMR2 = 0;
 PIR1bits.TMR2IF = 0;
-
-
 PIE1bits.TMR2IE = 0;
-
 T2CONbits.TMR2ON = 1;
-
-
-
 OpenPWM1(period);
 
 return;
 }
-void PWM_DutyCycle1(unsigned char percentageDuty )
-{
+void PWM_DutyCycle1(unsigned char percentageDuty) {
 
-unsigned int DC=0, DutyCycle=0;
+unsigned int DC = 0, DutyCycle = 0;
 
-DC=(unsigned int)(percentageDuty *10.23);
-
-
+DC = (unsigned int)(percentageDuty * 10.23);
 SetDCPWM1(DC);
+return;
+}
+
+void PWM_init2(unsigned char period) {
+Timer2Config = 0b11111110;
+T2CON = (0xfb & Timer2Config);
+
+
+TMR2 = 0;
+PIR1bits.TMR2IF = 0;
+PIE1bits.TMR2IE = 0;
+T2CONbits.TMR2ON = 1;
+OpenPWM2(period);
+
+return;
+}
+void PWM_DutyCycle2(unsigned char percentageDuty) {
+
+unsigned int DC = 0, DutyCycle = 0;
+
+DC = (unsigned int)(percentageDuty * 10.23);
+SetDCPWM2(DC);
 return;
 }
 

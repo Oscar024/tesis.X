@@ -300,8 +300,10 @@ void Comando_Tablet() {
       sum = (int)(BluetoothDato[3] + BluetoothDato[4]);
       putcBluetoothInt(sum);
       PWM_init1(0xff);
+      PWM_init2(0xff);
 //      INTCONbits.PEIE= 0x20;
       PWM_DutyCycle1(BluetoothDato[3]);
+      PWM_DutyCycle2(BluetoothDato[4]);
 //      ClosePWM1();
 //      CloseTimer2();
       break;  
