@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44b863c9-997e-45f5-b116-e72fc041c1fd" name="Default" comment="initial">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Backup Of Simulacion2.pdsbak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulacion2.pdsprj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.elf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.rlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/l.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/tesis.X.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bluetooth.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bluetooth.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CC1101_v2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CC1101_v2.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Funciones_Db.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Funciones_Db.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GLK12232-25.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GLK12232-25.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Retardos.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Retardos.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulacion2.pdsprj.oscar-PC.oscar.workspace" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UART1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UART1.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/Bluetooth.p1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/Bluetooth.p1.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/Bluetooth.pre" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.pre" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/Retardos.p1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/Retardos.p1.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/Retardos.pre" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/UART1.p1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/UART1.p1.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/UART1.pre" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/lcd.p1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/lcd.p1.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/lcd.pre" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/pwm.p1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/pwm.p1.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/pwm.pre" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/robot.p1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/robot.p1.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/robot.pre" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/doprnt.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/doprnt.p1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/doprnt.pre" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.cmf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hxl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sym" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/funclist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lcd.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lcd.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/Makefile-default.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/Makefile-genesis.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/Makefile-impl.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/Makefile-local-default.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/Makefile-variables.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/Package-default.bash" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/configurations.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/private/configurations.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/project.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pwm.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pwm.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robot.c" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="robot.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/robot.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="152" column="10" lean-forward="true" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tesis.X" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tesis.X" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44b863c9-997e-45f5-b116-e72fc041c1fd" name="Default" comment="" />
+      <created>1495747026572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1495747026572</updated>
+      <workItem from="1495747030228" duration="303000" />
+      <workItem from="1495747345900" duration="274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="577000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25403818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/robot.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="152" column="10" lean-forward="true" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
