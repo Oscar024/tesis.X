@@ -6581,6 +6581,8 @@ extern unsigned char cleanBfer,Timer1;
 char array[20];
 unsigned char j=0;
 
+unsigned int contadorbt=0;
+
 
 
 
@@ -6639,14 +6641,12 @@ Lcd_Write_String("BT INICIALIZADO");
 Pause_seg(7);
 cad = 0;
 clrBufferUSART();
-
-# 96
 return;
 }
 
-# 267
+
+
 void Comando_Tablet() {
-int sum=0;
 
 
 switch (BluetoothDato[1]) {
@@ -6671,6 +6671,10 @@ case 4:
 Lcd_Clear();
 Lcd_Set_Cursor(1, 1);
 Lcd_Write_String("4");
+putcBluetoothInt(contadorbt);
+putcBluetoothString("\n");
+
+contadorbt++;
 break;
 case 5:
 Lcd_Clear();
@@ -6678,15 +6682,10 @@ Lcd_Set_Cursor(1, 1);
 Lcd_Write_Integer(BluetoothDato[3]);
 Lcd_Set_Cursor(2, 1);
 Lcd_Write_Integer(BluetoothDato[4]);
-sum = (int)(BluetoothDato[3] + BluetoothDato[4]);
-putcBluetoothInt(sum);
 PWM_init1(0xff);
 PWM_init2(0xff);
-
 PWM_DutyCycle1(BluetoothDato[3]);
 PWM_DutyCycle2(BluetoothDato[4]);
-
-
 break;
 default:
 Lcd_Clear();

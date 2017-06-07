@@ -6484,9 +6484,6 @@ WriteUSART(character);
 while ((!TXSTAbits.TRMT));
 }
 
-
-
-
 void putSTRINGU1(const char *dato,unsigned int total){
 unsigned char cont,last;
 

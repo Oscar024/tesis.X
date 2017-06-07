@@ -5327,217 +5327,217 @@ Version 3.2 HI-TECH Software Intermediate Code
 "88
 [e $ ! != -> . . _PIR1bits 0 5 `i -> -> -> 0 `i `Vuc `i 599  ]
 {
-[; ;robot.c: 98: BluetoothDato[cad] = ReadUSART();
-"98
+[; ;robot.c: 90: BluetoothDato[cad] = ReadUSART();
+"90
 [e = *U + &U _BluetoothDato * -> _cad `ux -> -> # *U &U _BluetoothDato `ui `ux ( _ReadUSART ..  ]
-[; ;robot.c: 99: if (BluetoothDato[cad] == '#') {
-"99
+[; ;robot.c: 91: if (BluetoothDato[cad] == '#') {
+"91
 [e $ ! == -> *U + &U _BluetoothDato * -> _cad `ux -> -> # *U &U _BluetoothDato `ui `ux `ui -> 35 `ui 600  ]
 {
-[; ;robot.c: 100: if (ComanTFlag == 0) {
-"100
+[; ;robot.c: 92: if (ComanTFlag == 0) {
+"92
 [e $ ! == -> _ComanTFlag `i -> 0 `i 601  ]
 {
-[; ;robot.c: 101: EntTrama = 1;
-"101
+[; ;robot.c: 93: EntTrama = 1;
+"93
 [e = _EntTrama -> -> 1 `i `uc ]
-[; ;robot.c: 102: FinComandT = 0;
-"102
+[; ;robot.c: 94: FinComandT = 0;
+"94
 [e = _FinComandT -> -> 0 `i `uc ]
-[; ;robot.c: 103: ComanTFlag = 1;
-"103
+[; ;robot.c: 95: ComanTFlag = 1;
+"95
 [e = _ComanTFlag -> -> 1 `i `uc ]
-[; ;robot.c: 104: cad++;
-"104
+[; ;robot.c: 96: cad++;
+"96
 [e ++ _cad -> -> 1 `i `uc ]
-"105
+"97
 }
-[; ;robot.c: 105: }
+[; ;robot.c: 97: }
 [e $U 602  ]
-"106
+"98
 [e :U 601 ]
-[; ;robot.c: 106: else if (ComanTFlag == 1) {
+[; ;robot.c: 98: else if (ComanTFlag == 1) {
 [e $ ! == -> _ComanTFlag `i -> 1 `i 603  ]
 {
-[; ;robot.c: 107: ComanTFlag = 0;
-"107
+[; ;robot.c: 99: ComanTFlag = 0;
+"99
 [e = _ComanTFlag -> -> 0 `i `uc ]
-[; ;robot.c: 108: FinComandT = 1;
-"108
+[; ;robot.c: 100: FinComandT = 1;
+"100
 [e = _FinComandT -> -> 1 `i `uc ]
-[; ;robot.c: 109: EntTrama = 0;
-"109
+[; ;robot.c: 101: EntTrama = 0;
+"101
 [e = _EntTrama -> -> 0 `i `uc ]
-"110
+"102
 }
 [e :U 603 ]
-"111
+"103
 [e :U 602 ]
 }
-[; ;robot.c: 110: }
-[; ;robot.c: 111: }
+[; ;robot.c: 102: }
+[; ;robot.c: 103: }
 [e $U 604  ]
-"123
+"105
 [e :U 600 ]
-[; ;robot.c: 123: else if (EntTrama == 1)
+[; ;robot.c: 105: else if (EntTrama == 1)
 [e $ ! == -> _EntTrama `i -> 1 `i 605  ]
-[; ;robot.c: 124: cad++;
-"124
+[; ;robot.c: 106: cad++;
+"106
 [e ++ _cad -> -> 1 `i `uc ]
 [e :U 605 ]
-"126
+"108
 [e :U 604 ]
 }
-[; ;robot.c: 126: }
+[; ;robot.c: 108: }
 [e $U 606  ]
-"128
+"110
 [e :U 599 ]
-[; ;robot.c: 128: else if(PIR1bits.TMR2IF){
+[; ;robot.c: 110: else if(PIR1bits.TMR2IF){
 [e $ ! != -> . . _PIR1bits 0 1 `i -> -> -> 0 `i `Vuc `i 607  ]
 {
+[; ;robot.c: 111: Lcd_Clear();
+"111
+[e ( _Lcd_Clear ..  ]
+[; ;robot.c: 112: Lcd_Set_Cursor(1,1);
+"112
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;robot.c: 113: Lcd_Write_String("Interruption TMR2");
+"113
+[e ( _Lcd_Write_String (1 -> :s 1C `*uc ]
+[; ;robot.c: 114: PIE1bits.TMR2IE = 0;
+"114
+[e = . . _PIE1bits 0 1 -> -> 0 `i `uc ]
+"115
+}
+[e :U 607 ]
+"116
+[e :U 606 ]
+[; ;robot.c: 115: }
+[; ;robot.c: 116: PIR1bits.TMR2IF=0;
+[e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
+[; ;robot.c: 117: PIR1bits.RCIF=0;
+"117
+[e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
+[; ;robot.c: 118: }
+"118
+[e :UE 598 ]
+}
+"121
+[v _main `(i ~T0 @X0 1 ef ]
+"122
+{
+[; ;robot.c: 121: int main()
+[; ;robot.c: 122: {
+[e :U _main ]
+[f ]
+[; ;robot.c: 123: INTCON =0X00;
+"123
+[e = _INTCON -> -> 0 `i `uc ]
+[; ;robot.c: 124: TRISD = 0x00;
+"124
+[e = _TRISD -> -> 0 `i `uc ]
+[; ;robot.c: 125: TRISE = 0x00;
+"125
+[e = _TRISE -> -> 0 `i `uc ]
+[; ;robot.c: 126: PORTEbits.RE1=0;
+"126
+[e = . . _PORTEbits 0 1 -> -> 0 `i `uc ]
+[; ;robot.c: 127: ADCON1bits.PCFG=0b1111;
+"127
+[e = . . _ADCON1bits 0 0 -> -> 15 `i `uc ]
+[; ;robot.c: 128: Lcd_Init();
+"128
+[e ( _Lcd_Init ..  ]
 [; ;robot.c: 129: Lcd_Clear();
 "129
 [e ( _Lcd_Clear ..  ]
 [; ;robot.c: 130: Lcd_Set_Cursor(1,1);
 "130
 [e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;robot.c: 131: Lcd_Write_String("Interruption TMR2");
+[; ;robot.c: 131: Lcd_Write_String("Inicio");
 "131
-[e ( _Lcd_Write_String (1 -> :s 1C `*uc ]
-[; ;robot.c: 132: PIE1bits.TMR2IE = 0;
-"132
-[e = . . _PIE1bits 0 1 -> -> 0 `i `uc ]
-"133
-}
-[e :U 607 ]
-"134
-[e :U 606 ]
-[; ;robot.c: 133: }
-[; ;robot.c: 134: PIR1bits.TMR2IF=0;
-[e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
-[; ;robot.c: 135: PIR1bits.RCIF=0;
-"135
-[e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
-[; ;robot.c: 136: }
-"136
-[e :UE 598 ]
-}
-"139
-[v _main `(i ~T0 @X0 1 ef ]
-"140
-{
-[; ;robot.c: 139: int main()
-[; ;robot.c: 140: {
-[e :U _main ]
-[f ]
-[; ;robot.c: 141: INTCON =0X00;
-"141
-[e = _INTCON -> -> 0 `i `uc ]
-[; ;robot.c: 142: TRISD = 0x00;
-"142
-[e = _TRISD -> -> 0 `i `uc ]
-[; ;robot.c: 143: TRISE = 0x00;
-"143
-[e = _TRISE -> -> 0 `i `uc ]
-[; ;robot.c: 144: PORTEbits.RE1=0;
-"144
-[e = . . _PORTEbits 0 1 -> -> 0 `i `uc ]
-[; ;robot.c: 145: ADCON1bits.PCFG=0b1111;
-"145
-[e = . . _ADCON1bits 0 0 -> -> 15 `i `uc ]
-[; ;robot.c: 146: Lcd_Init();
-"146
-[e ( _Lcd_Init ..  ]
-[; ;robot.c: 147: Lcd_Clear();
-"147
-[e ( _Lcd_Clear ..  ]
-[; ;robot.c: 148: Lcd_Set_Cursor(1,1);
-"148
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;robot.c: 149: Lcd_Write_String("Inicio");
-"149
 [e ( _Lcd_Write_String (1 -> :s 2C `*uc ]
-[; ;robot.c: 150: Inicializa_Driveby();
-"150
+[; ;robot.c: 132: Inicializa_Driveby();
+"132
 [e ( _Inicializa_Driveby ..  ]
-[; ;robot.c: 153: while(1)
-"153
+[; ;robot.c: 135: while(1)
+"135
 [e :U 610 ]
-[; ;robot.c: 154: {
-"154
+[; ;robot.c: 136: {
+"136
 {
-[; ;robot.c: 157: if (cleanBfer == 1) {
-"157
+[; ;robot.c: 139: if (cleanBfer == 1) {
+"139
 [e $ ! == -> _cleanBfer `i -> 1 `i 612  ]
 {
-[; ;robot.c: 158: clrBufferUSART();
-"158
+[; ;robot.c: 140: clrBufferUSART();
+"140
 [e ( _clrBufferUSART ..  ]
-[; ;robot.c: 159: cleanBfer = 0;
-"159
+[; ;robot.c: 141: cleanBfer = 0;
+"141
 [e = _cleanBfer -> -> 0 `i `uc ]
-"160
+"142
 }
 [e :U 612 ]
-[; ;robot.c: 160: }
-[; ;robot.c: 161: if (FinComandT == 1) {
-"161
+[; ;robot.c: 142: }
+[; ;robot.c: 143: if (FinComandT == 1) {
+"143
 [e $ ! == -> _FinComandT `i -> 1 `i 613  ]
 {
-[; ;robot.c: 162: Lcd_Clear();
-"162
+[; ;robot.c: 144: Lcd_Clear();
+"144
 [e ( _Lcd_Clear ..  ]
-[; ;robot.c: 163: Lcd_Set_Cursor(2,1);
-"163
+[; ;robot.c: 145: Lcd_Set_Cursor(2,1);
+"145
 [e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-[; ;robot.c: 164: Lcd_Write_String("CMD TABLET");
-"164
+[; ;robot.c: 146: Lcd_Write_String("CMD TABLET");
+"146
 [e ( _Lcd_Write_String (1 -> :s 3C `*uc ]
-[; ;robot.c: 165: FinComandT = 0;
-"165
+[; ;robot.c: 147: FinComandT = 0;
+"147
 [e = _FinComandT -> -> 0 `i `uc ]
-[; ;robot.c: 166: RCSTA&=0b01001111,TXSTAbits.TXEN=0,PIE1&=0b11001111;
-"166
+[; ;robot.c: 148: RCSTA&=0b01001111,TXSTAbits.TXEN=0,PIE1&=0b11001111;
+"148
 [e ; ; =& _RCSTA -> -> 79 `i `uc = . . _TXSTAbits 0 5 -> -> 0 `i `uc =& _PIE1 -> -> 207 `i `uc ]
-[; ;robot.c: 167: Comando_Tablet();
-"167
+[; ;robot.c: 149: Comando_Tablet();
+"149
 [e ( _Comando_Tablet ..  ]
-[; ;robot.c: 168: UART1_Init(51);
-"168
+[; ;robot.c: 150: UART1_Init(51);
+"150
 [e ( _UART1_Init (1 -> -> 51 `i `uc ]
-"170
+"152
 }
-[; ;robot.c: 170: }
+[; ;robot.c: 152: }
 [e $U 614  ]
-"171
+"153
 [e :U 613 ]
-[; ;robot.c: 171: else if (FinComandB == 1) {
+[; ;robot.c: 153: else if (FinComandB == 1) {
 [e $ ! == -> _FinComandB `i -> 1 `i 615  ]
 {
-[; ;robot.c: 176: FinComandB = 0;
-"176
+[; ;robot.c: 158: FinComandB = 0;
+"158
 [e = _FinComandB -> -> 0 `i `uc ]
-[; ;robot.c: 177: RCSTA&=0b01001111,TXSTAbits.TXEN=0,PIE1&=0b11001111;
-"177
+[; ;robot.c: 159: RCSTA&=0b01001111,TXSTAbits.TXEN=0,PIE1&=0b11001111;
+"159
 [e ; ; =& _RCSTA -> -> 79 `i `uc = . . _TXSTAbits 0 5 -> -> 0 `i `uc =& _PIE1 -> -> 207 `i `uc ]
-"181
+"163
 }
 [e :U 615 ]
-"184
+"166
 [e :U 614 ]
 }
 [e :U 609 ]
-"153
+"135
 [e $U 610  ]
 [e :U 611 ]
-[; ;robot.c: 181: }
-[; ;robot.c: 184: }
-[; ;robot.c: 185: return 0;
-"185
+[; ;robot.c: 163: }
+[; ;robot.c: 166: }
+[; ;robot.c: 167: return 0;
+"167
 [e ) -> 0 `i ]
 [e $UE 608  ]
-[; ;robot.c: 186: }
-"186
+[; ;robot.c: 168: }
+"168
 [e :UE 608 ]
 }
 [a 2C 73 110 105 99 105 111 0 ]

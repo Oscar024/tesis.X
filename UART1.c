@@ -15,9 +15,6 @@ void putcTxU1(char character)
     while (BusyUSART());
 }
 
-
-
-
 void putSTRINGU1(const char *dato,unsigned int total){
         unsigned char cont,last;
 

@@ -5000,61 +5000,61 @@ Version 3.2 HI-TECH Software Intermediate Code
 "16
 [e :UE 599 ]
 }
-"21
+"18
 [v _putSTRINGU1 `(v ~T0 @X0 1 ef2`*Cuc`ui ]
 {
-[; ;UART1.c: 21: void putSTRINGU1(const char *dato,unsigned int total){
+[; ;UART1.c: 18: void putSTRINGU1(const char *dato,unsigned int total){
 [e :U _putSTRINGU1 ]
 [v _dato `*Cuc ~T0 @X0 1 r1 ]
 [v _total `ui ~T0 @X0 1 r2 ]
 [f ]
-"22
+"19
 [v _cont `uc ~T0 @X0 1 a ]
 [v _last `uc ~T0 @X0 1 a ]
-[; ;UART1.c: 22: unsigned char cont,last;
-[; ;UART1.c: 24: for(cont=0,last=0;cont<total;cont++){
-"24
+[; ;UART1.c: 19: unsigned char cont,last;
+[; ;UART1.c: 21: for(cont=0,last=0;cont<total;cont++){
+"21
 {
 [e ; = _cont -> -> 0 `i `uc = _last -> -> 0 `i `uc ]
 [e $U 607  ]
 [e :U 604 ]
 {
-[; ;UART1.c: 25: if(dato[cont]!='\0') last=cont;
-"25
+[; ;UART1.c: 22: if(dato[cont]!='\0') last=cont;
+"22
 [e $ ! != -> *U + _dato * -> _cont `ux -> -> # *U _dato `ui `ux `ui -> 0 `ui 608  ]
 [e = _last _cont ]
 [e :U 608 ]
-"26
+"23
 }
-"24
+"21
 [e ++ _cont -> -> 1 `i `uc ]
 [e :U 607 ]
 [e $ < -> _cont `ui _total 604  ]
 [e :U 605 ]
-"26
+"23
 }
-[; ;UART1.c: 26: }
-[; ;UART1.c: 28: for (cont=0;cont<=last;cont++){
-"28
+[; ;UART1.c: 23: }
+[; ;UART1.c: 25: for (cont=0;cont<=last;cont++){
+"25
 {
 [e = _cont -> -> 0 `i `uc ]
 [e $U 612  ]
 [e :U 609 ]
 {
-[; ;UART1.c: 29: putcTxU1(*dato++);
-"29
+[; ;UART1.c: 26: putcTxU1(*dato++);
+"26
 [e ( _putcTxU1 (1 *U ++ _dato * -> -> 1 `i `x -> -> # *U _dato `i `x ]
-"30
+"27
 }
-"28
+"25
 [e ++ _cont -> -> 1 `i `uc ]
 [e :U 612 ]
 [e $ <= -> _cont `i -> _last `i 609  ]
 [e :U 610 ]
-"30
+"27
 }
-[; ;UART1.c: 30: }
-[; ;UART1.c: 31: }
-"31
+[; ;UART1.c: 27: }
+[; ;UART1.c: 28: }
+"28
 [e :UE 603 ]
 }

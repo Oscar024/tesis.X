@@ -87,14 +87,6 @@ void interrupt TMRO_USART(void) {
     //Interrupci�n USART
     if (PIR1bits.RCIF) {
         
-//        Lcd_Clear();
-//        Lcd_Set_Cursor(2,1);
-//        Lcd_Write_String("Interruption USART");
-//        Led_Verde = ~Led_Verde;
-//         Lcd_Clear();
-//         Lcd_Set_Cursor(1,1);
-//         Lcd_Write_String("ISR");
-
         BluetoothDato[cad] = getcUSART();
         if (BluetoothDato[cad] == '#') {
             if (ComanTFlag == 0) {
@@ -109,17 +101,7 @@ void interrupt TMRO_USART(void) {
                 EntTrama = 0;
             }
         }
-//        else if (BluetoothDato[cad] == '\n' && ComanBFlag == 0) {
-//            EntTrama = 1; //Bandera para indicar que los datos siguientes son parte de una trama Tablet o Bluetooth
-//            FinComandB = 0; //Limpiar bandera de finalizado de comando bluetooth
-//            cad++;
-//            ComanBFlag = 1;
-//        }
-//        else if (BluetoothDato[cad] == '\n' && ComanBFlag == 1) {
-//            FinComandB = 1; //Bandera en 1 para indicar en bucle que se ha finalizado la entrada de comando de bluetooth
-//            ComanBFlag = 0;
-//            EntTrama = 0;
-//        }
+
         else if (EntTrama == 1)
             cad++;
 

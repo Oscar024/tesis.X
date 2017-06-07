@@ -6625,7 +6625,6 @@ void interrupt TMRO_USART(void) {
 
 if (PIR1bits.RCIF) {
 
-# 98
 BluetoothDato[cad] = ReadUSART();
 if (BluetoothDato[cad] == '#') {
 if (ComanTFlag == 0) {
@@ -6641,7 +6640,6 @@ EntTrama = 0;
 }
 }
 
-# 123
 else if (EntTrama == 1)
 cad++;
 
