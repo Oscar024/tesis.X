@@ -5367,60 +5367,67 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Funciones_Db.c: 126: contadorbt++;
 "126
 [e ++ _contadorbt -> -> 1 `i `ui ]
-[; ;Funciones_Db.c: 127: break;
+[; ;Funciones_Db.c: 127: if(contadorbt == 10)
 "127
-[e $U 605  ]
-[; ;Funciones_Db.c: 128: case 5:
+[e $ ! == _contadorbt -> -> 10 `i `ui 611  ]
+[; ;Funciones_Db.c: 128: contadorbt = 0;
 "128
+[e = _contadorbt -> -> 0 `i `ui ]
 [e :U 611 ]
-[; ;Funciones_Db.c: 129: Lcd_Clear();
+[; ;Funciones_Db.c: 129: break;
 "129
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 130: Lcd_Set_Cursor(1, 1);
+[e $U 605  ]
+[; ;Funciones_Db.c: 130: case 5:
 "130
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 131: Lcd_Write_Integer(BluetoothDato[3]);
-"131
-[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
-[; ;Funciones_Db.c: 132: Lcd_Set_Cursor(2, 1);
-"132
-[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 133: Lcd_Write_Integer(BluetoothDato[4]);
-"133
-[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
-[; ;Funciones_Db.c: 134: PWM_init1(0xff);
-"134
-[e ( _PWM_init1 (1 -> -> 255 `i `uc ]
-[; ;Funciones_Db.c: 135: PWM_init2(0xff);
-"135
-[e ( _PWM_init2 (1 -> -> 255 `i `uc ]
-[; ;Funciones_Db.c: 136: PWM_DutyCycle1(BluetoothDato[3]);
-"136
-[e ( _PWM_DutyCycle1 (1 *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
-[; ;Funciones_Db.c: 137: PWM_DutyCycle2(BluetoothDato[4]);
-"137
-[e ( _PWM_DutyCycle2 (1 *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
-[; ;Funciones_Db.c: 138: break;
-"138
-[e $U 605  ]
-[; ;Funciones_Db.c: 139: default:
-"139
 [e :U 612 ]
-[; ;Funciones_Db.c: 140: Lcd_Clear();
-"140
+[; ;Funciones_Db.c: 131: Lcd_Clear();
+"131
 [e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 141: Lcd_Set_Cursor(1, 1);
-"141
+[; ;Funciones_Db.c: 132: Lcd_Set_Cursor(1, 1);
+"132
 [e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 142: Lcd_Write_String("Default");
-"142
-[e ( _Lcd_Write_String (1 -> :s 12C `*uc ]
-[; ;Funciones_Db.c: 143: break;
-"143
+[; ;Funciones_Db.c: 133: Lcd_Write_Integer(BluetoothDato[3]);
+"133
+[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
+[; ;Funciones_Db.c: 134: Lcd_Set_Cursor(2, 1);
+"134
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 135: Lcd_Write_Integer(BluetoothDato[4]);
+"135
+[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
+[; ;Funciones_Db.c: 136: PWM_init1(0xff);
+"136
+[e ( _PWM_init1 (1 -> -> 255 `i `uc ]
+[; ;Funciones_Db.c: 137: PWM_init2(0xff);
+"137
+[e ( _PWM_init2 (1 -> -> 255 `i `uc ]
+[; ;Funciones_Db.c: 138: PWM_DutyCycle1(BluetoothDato[3]);
+"138
+[e ( _PWM_DutyCycle1 (1 *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
+[; ;Funciones_Db.c: 139: PWM_DutyCycle2(BluetoothDato[4]);
+"139
+[e ( _PWM_DutyCycle2 (1 *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
+[; ;Funciones_Db.c: 140: break;
+"140
 [e $U 605  ]
+[; ;Funciones_Db.c: 141: default:
+"141
+[e :U 613 ]
+[; ;Funciones_Db.c: 142: Lcd_Clear();
+"142
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 143: Lcd_Set_Cursor(1, 1);
+"143
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 144: Lcd_Write_String("Default");
 "144
+[e ( _Lcd_Write_String (1 -> :s 12C `*uc ]
+[; ;Funciones_Db.c: 145: break;
+"145
+[e $U 605  ]
+"146
 }
-[; ;Funciones_Db.c: 144: }
+[; ;Funciones_Db.c: 146: }
 [e $U 605  ]
 "101
 [e :U 606 ]
@@ -5428,18 +5435,18 @@ Version 3.2 HI-TECH Software Intermediate Code
  , $ -> -> 2 `i `uc 608
  , $ -> -> 3 `i `uc 609
  , $ -> -> 4 `i `uc 610
- , $ -> -> 5 `i `uc 611
- 612 ]
-"144
-[e :U 605 ]
-[; ;Funciones_Db.c: 145: clrBufferUSART();
-"145
-[e ( _clrBufferUSART ..  ]
-[; ;Funciones_Db.c: 146: return;
+ , $ -> -> 5 `i `uc 612
+ 613 ]
 "146
-[e $UE 604  ]
-[; ;Funciones_Db.c: 148: }
+[e :U 605 ]
+[; ;Funciones_Db.c: 147: clrBufferUSART();
+"147
+[e ( _clrBufferUSART ..  ]
+[; ;Funciones_Db.c: 148: return;
 "148
+[e $UE 604  ]
+[; ;Funciones_Db.c: 150: }
+"150
 [e :UE 604 ]
 }
 [a 12C 68 101 102 97 117 108 116 0 ]

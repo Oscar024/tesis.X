@@ -124,6 +124,8 @@ void Comando_Tablet() {
       putcBluetoothString("\n");
 
       contadorbt++;
+      if(contadorbt == 10)
+          contadorbt = 0;
       break;
     case 5:
       Lcd_Clear();
