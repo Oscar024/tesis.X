@@ -148,3 +148,25 @@ void Comando_Tablet() {
   return;
 
 }
+
+int sensar(){
+    int position;
+    
+    if(SENSOR_Z){
+        position=0;
+    }
+    else if(SENSOR_P){
+        position = 5;
+    }
+    else if(SENSOR_N){
+        position = -5;
+    }
+    else if(SENSOR_PL){
+        position = 8;
+    }
+    else if(SENSOR_NL){
+        position = -8;
+    }
+    return position;    
+}
+

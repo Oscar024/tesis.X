@@ -6307,7 +6307,7 @@ extern __nonreentrant void _delaywdt(unsigned long);
 #pragma intrinsic(_delay3)
 extern __nonreentrant void _delay3(unsigned char);
 
-# 34 "Funciones_Db.h"
+# 40 "Funciones_Db.h"
 void PantallaPrin(void);
 void PONGBT(void);
 void clrBufferDato(void);
@@ -6320,6 +6320,7 @@ char Tecla(void);
 void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
+int sensar(void);
 
 # 4 "Retardos.c"
 void Pause_us(unsigned int x){

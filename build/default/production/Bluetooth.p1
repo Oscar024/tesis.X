@@ -5021,18 +5021,19 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;string.h: 64: extern char * strichr(const char *, int);
 [; ;string.h: 65: extern char * strrchr(const char *, int);
 [; ;string.h: 66: extern char * strrichr(const char *, int);
-[; ;Funciones_Db.h: 34: void PantallaPrin(void);
-[; ;Funciones_Db.h: 35: void PONGBT(void);
-[; ;Funciones_Db.h: 36: void clrBufferDato(void);
-[; ;Funciones_Db.h: 37: void ConecBatteria(int Off_On_BAt);
-[; ;Funciones_Db.h: 38: void EstadoBluetooth(void);
-[; ;Funciones_Db.h: 39: void Comando_Tablet(void);
-[; ;Funciones_Db.h: 40: void Inicializa_Driveby(void);
-[; ;Funciones_Db.h: 41: void Mandar_Tablet(void);
-[; ;Funciones_Db.h: 42: char Tecla(void);
-[; ;Funciones_Db.h: 43: void Teclado(void);
-[; ;Funciones_Db.h: 44: void DelayCommands();
-[; ;Funciones_Db.h: 45: void BT_ModoVisible(void);
+[; ;Funciones_Db.h: 40: void PantallaPrin(void);
+[; ;Funciones_Db.h: 41: void PONGBT(void);
+[; ;Funciones_Db.h: 42: void clrBufferDato(void);
+[; ;Funciones_Db.h: 43: void ConecBatteria(int Off_On_BAt);
+[; ;Funciones_Db.h: 44: void EstadoBluetooth(void);
+[; ;Funciones_Db.h: 45: void Comando_Tablet(void);
+[; ;Funciones_Db.h: 46: void Inicializa_Driveby(void);
+[; ;Funciones_Db.h: 47: void Mandar_Tablet(void);
+[; ;Funciones_Db.h: 48: char Tecla(void);
+[; ;Funciones_Db.h: 49: void Teclado(void);
+[; ;Funciones_Db.h: 50: void DelayCommands();
+[; ;Funciones_Db.h: 51: void BT_ModoVisible(void);
+[; ;Funciones_Db.h: 52: int sensar(void);
 [; ;lcd.h: 24: void Lcd_Port(char a);
 [; ;lcd.h: 25: void Lcd_Cmd(char a);
 [; ;lcd.h: 26: void Lcd_Clear(void);
@@ -5063,8 +5064,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Bluetooth.c: 21: Pause_seg(1);
 "21
 [e ( _Pause_seg (1 -> -> 1 `i `uc ]
-[v F5669 `uc ~T0 @X0 -> 18 `i s ]
-[i F5669
+[v F5671 `uc ~T0 @X0 -> 18 `i s ]
+[i F5671
 :U ..
 -> 65 `c
 -> 84 `c
@@ -5091,7 +5092,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Bluetooth.c: 23: "AT+NAME=robot\r\n\0"
 [; ;Bluetooth.c: 24: };
 "24
-[e = _nameBT F5669 ]
+[e = _nameBT F5671 ]
 [; ;Bluetooth.c: 27: SendBlueToothCommand("AT+ROLE=0\r\n", 11);
 "27
 [e ( _SendBlueToothCommand (2 , :s 1C -> -> 11 `i `ui ]

@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v1.33\dat\en_msgs.txt -cs \
   -h+dist/default/production\tesis.X.production.sym \
   --cmf=dist/default/production\tesis.X.production.cmf -z -Q18F4550 \
-  -oC:\Users\MCC\AppData\Local\Temp\s4kk.6 \
+  -oC:\Users\MCC\AppData\Local\Temp\s4lg.6 \
   -Mdist/default/production/tesis.X.production.map -E1 -ver=XC8 \
   -ASTACK=0170h-07ffh -pstack=STACK -ACODE=00h-07FFFh -ACONST=00h-07FFFh \
   -ASMALLCONST=0800h-08FFhx120 -AMEDIUMCONST=0800h-07FFFh -ACOMRAM=01h-05Fh \
@@ -22,7 +22,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE \
-  C:\Users\MCC\AppData\Local\Temp\s4kk.obj \
+  C:\Users\MCC\AppData\Local\Temp\s4lg.obj \
   dist/default/production\tesis.X.production.obj 
 
 Object code version is 3.11
@@ -35,7 +35,7 @@ Call graph: (short form)
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\MCC\AppData\Local\Temp\s4kk.obj
+C:\Users\MCC\AppData\Local\Temp\s4lg.obj
                 end_init                             18       18        4        4       0
                 reset_vec                             0        0        4        0       0
                 idloc                            200000   200000        8   200000       0
@@ -290,7 +290,7 @@ UNUSED ADDRESS RANGES
 ?_fround                       cstackBANK0  00006C
 ?_scale                        cstackBANK0  00006C
 ?_sprintf                      cstackBANK0  000088
-BT_Init@F5669                  dataBANK0    0000DA
+BT_Init@F5671                  dataBANK0    0000DA
 BT_Init@nameBT                 cstackBANK0  000060
 Inicializa_Driveby@i           cstackCOMRAM 000028
 Lcd_Cmd@a                      cstackCOMRAM 00001B
@@ -371,6 +371,7 @@ _PIE1                          (abs)        000F9D
 _PIE1bits                      (abs)        000F9D
 _PIR1bits                      (abs)        000F9E
 _PORTA                         (abs)        000F80
+_PORTAbits                     (abs)        000F80
 _PORTB                         (abs)        000F81
 _PORTDbits                     (abs)        000F83
 _PORTE                         (abs)        000F84
@@ -986,8 +987,8 @@ _contadorbt                    bssBANK0     0000C2
 _countup                       dataBANK0    0000EC
 _dpowers                       mediumconst  007ECB
 _fround                        text28       000DB8
-_fround$2287                   cstackBANK0  000072
-_fround$2288                   cstackBANK0  00006F
+_fround$2374                   cstackBANK0  000072
+_fround$2375                   cstackBANK0  00006F
 _i                             bssBANK0     0000C4
 _j                             bssCOMRAM    000041
 _lenght                        bssCOMRAM    000042
@@ -1001,10 +1002,10 @@ _putcBluetoothInt              text11       001EE4
 _putcBluetoothString           text10       00224A
 _putcTxU1                      text6        0028CE
 _scale                         text27       000940
-_scale$2289                    cstackBANK0  00006F
+_scale$2376                    cstackBANK0  00006F
 _sprintf                       text26       00001C
-_sprintf$1239                  cstackBANK0  000098
-_sprintf$2290                  cstackBANK0  000095
+_sprintf$1323                  cstackBANK0  000098
+_sprintf$2377                  cstackBANK0  000095
 clrBufferUSART@i               cstackCOMRAM 000019
 end_of_initialization          cinit        0024C2
 fround@prec                    cstackBANK0  000075
@@ -1053,7 +1054,7 @@ sprintf@integ                  cstackBANK0  0000A8
 sprintf@prec                   cstackBANK0  0000AB
 sprintf@sp                     cstackBANK0  000088
 sprintf@vd                     cstackBANK0  00009C
-sprintf@vd_1241                cstackBANK0  0000A0
+sprintf@vd_1325                cstackBANK0  0000A0
 stackhi                        (abs)        0007FF
 stacklo                        (abs)        000170
 start                          init         000018
@@ -1070,7 +1071,7 @@ FUNCTION INFORMATION:
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
-                  2  367[COMRAM] int 
+                  2  381[COMRAM] int 
  Registers used:
 		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, prodl, prodh, cstack
  Tracked objects:

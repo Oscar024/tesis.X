@@ -6527,7 +6527,7 @@ extern char * strichr(const char *, int);
 extern char * strrchr(const char *, int);
 extern char * strrichr(const char *, int);
 
-# 34 "Funciones_Db.h"
+# 40 "Funciones_Db.h"
 void PantallaPrin(void);
 void PONGBT(void);
 void clrBufferDato(void);
@@ -6540,6 +6540,7 @@ char Tecla(void);
 void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
+int sensar(void);
 
 # 24 "lcd.h"
 void Lcd_Port(char a);
@@ -6699,3 +6700,25 @@ clrBufferUSART();
 return;
 
 }
+
+int sensar(){
+int position;
+
+if(PORTAbits.RA2){
+position=0;
+}
+else if(PORTAbits.RA3){
+position = 5;
+}
+else if(PORTAbits.RA1){
+position = -5;
+}
+else if(PORTAbits.RA4){
+position = 8;
+}
+else if(PORTAbits.RA0){
+position = -8;
+}
+return position;
+}
+

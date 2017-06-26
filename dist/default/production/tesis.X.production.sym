@@ -111,6 +111,7 @@ __Hbss 0 0 RAM 1
 __CFG_STVREN$ON 0 0 ABS 0
 __Lbss 0 0 RAM 1
 ___ftge@ff1 19 0 COMRAM 1
+BT_Init@F5671 DA 0 BANK0 1
 __Hnvrram 0 0 COMRAM 1
 __Lnvrram 0 0 COMRAM 1
 _CheckSum 30 0 COMRAM 1
@@ -256,6 +257,7 @@ ___wmul@multiplicand 29 0 COMRAM 1
 __end_ofi2_Lcd_Write_Char 26DC 0 CODE 0
 __size_of_SendBlueToothCommand 0 0 ABS 0
 __CFG_VREGEN$OFF 0 0 ABS 0
+_scale$2376 6F 0 BANK0 1
 _num_med_medium 45 0 COMRAM 1
 __CFG_PLLDIV$1 0 0 ABS 0
 _TramaTablet 100 0 BANK1 1
@@ -270,6 +272,7 @@ _TRISBbits F93 0 ABS 0
 __end_of___ftadd 12DE 0 CODE 0
 __end_of___lltoft 23DE 0 CODE 0
 _TRISCbits F94 0 ABS 0
+_PORTAbits F80 0 ABS 0
 _TXSTAbits FAC 0 ABS 0
 _PORTDbits F83 0 ABS 0
 _T2CONbits FCA 0 ABS 0
@@ -297,10 +300,8 @@ __Lbank1 0 0 ABS 0
 __Hbank2 0 0 ABS 0
 __Lbank2 0 0 ABS 0
 __end_ofi2_Lcd_Port 2766 0 CODE 0
-_scale$2289 6F 0 BANK0 1
 __Hbank3 0 0 ABS 0
 __Lbank3 0 0 ABS 0
-sprintf@vd_1241 A0 0 BANK0 1
 ___ftmul@exp 66 0 BANK0 1
 __end_of_PWM_init1 2852 0 CODE 0
 __end_of_PWM_init2 2834 0 CODE 0
@@ -361,7 +362,6 @@ __end_of__npowers_ 7F1A 0 MEDIUMCONST 0
 __end_ofi2_Lcd_Cmd 2816 0 CODE 0
 __Hclrtext 0 0 ABS 0
 __Lclrtext 0 0 ABS 0
-_sprintf$1239 98 0 BANK0 1
 _Lcd_Write_Integer 25FA 0 CODE 0
 __end_of_UART1_Init 28CE 0 CODE 0
 __end_ofi2_Lcd_Clear 28F8 0 CODE 0
@@ -372,6 +372,7 @@ __end_of__initialization 24C2 0 CODE 0
 Lcd_Write_String@a 1D 0 COMRAM 1
 OpenPWM1@period 19 0 COMRAM 1
 Lcd_Write_String@i 21 0 COMRAM 1
+_sprintf$2377 95 0 BANK0 1
 __CFG_USBDIV$2 0 0 ABS 0
 OpenPWM2@period 1A 0 COMRAM 1
 PWM_DutyCycle1@DutyCycle 86 0 BANK0 1
@@ -383,6 +384,7 @@ _SendBlueToothCommand 2870 0 CODE 0
 __end_of__div_to_l_ 17FA 0 CODE 0
 _Lcd_Cmd 27D6 0 CODE 0
 __size_of_scale 0 0 ABS 0
+sprintf@vd_1325 A0 0 BANK0 1
 ___ftadd 105E 0 CODE 0
 _USART_Status 3C 0 COMRAM 1
 __size_of_fround 0 0 ABS 0
@@ -450,6 +452,7 @@ __size_of_Lcd_Set_Cursor 0 0 ABS 0
 ?__div_to_l_ 19 0 COMRAM 1
 __size_of_OpenUSART 0 0 ABS 0
 __tdiv_to_l_ 17FA 0 CODE 0
+_fround$2374 72 0 BANK0 1
 __div_to_l_@exp1 28 0 COMRAM 1
 _FinComandB 36 0 COMRAM 1
 _UART1_Init 28BE 0 CODE 0
@@ -469,6 +472,7 @@ __end_of_Lcd_Clear 28EA 0 CODE 0
 ___ftpack@arg 19 0 COMRAM 1
 Lcd_Set_Cursor@z 1E 0 COMRAM 1
 __CFG_WRT1$OFF 0 0 ABS 0
+_fround$2375 6F 0 BANK0 1
 _PWM_DutyCycle2 1FEC 0 CODE 0
 SetDCPWM1@dutycycle 19 0 COMRAM 1
 ___ftadd@exp2 80 0 BANK0 1
@@ -653,7 +657,6 @@ __ptext39 2510 0 CODE 0
 _ReadUSART 2852 0 CODE 0
 _OSCCONbits FD3 0 ABS 0
 __ptext49 270E 0 CODE 0
-_fround$2287 72 0 BANK0 1
 _OpenUSART 22B4 0 CODE 0
 __Hend_init 1C 0 CODE 0
 __Lend_init 18 0 CODE 0
@@ -681,13 +684,11 @@ __end_of___llmod 2382 0 CODE 0
 __CFG_CP0$OFF 0 0 ABS 0
 __smallconst 0 0 SMALLCONST 0
 __tdiv_to_l_@cntr 26 0 COMRAM 1
-BT_Init@F5669 DA 0 BANK0 1
 SetDCPWM1@DCycle 1D 0 COMRAM 1
 __size_of_putcBluetoothString 0 0 ABS 0
 __CFG_CP1$OFF 0 0 ABS 0
 __size_ofi2_Lcd_Clear 0 0 ABS 0
 __size_of___wmul 0 0 ABS 0
-_fround$2288 6F 0 BANK0 1
 __Hreset_vec 4 0 CODE 0
 __Lreset_vec 0 0 CODE 0
 SetDCPWM2@DCycle 1D 0 COMRAM 1
@@ -748,6 +749,7 @@ __size_of_Inicializa_Driveby 0 0 ABS 0
 __size_of_clrBufferUSART 0 0 ABS 0
 __CFG_MCLRE$ON 0 0 ABS 0
 __end_of___fttol 1580 0 CODE 0
+_sprintf$1323 98 0 BANK0 1
 _RXComandoTB 39 0 COMRAM 1
 __size_of_sprintf 0 0 ABS 0
 i2Lcd_Port@a 1 0 COMRAM 1
@@ -757,7 +759,6 @@ __initialization 247E 0 CODE 0
 __end_of___ftge 1EE4 0 CODE 0
 Lcd_Cmd@a 1B 0 COMRAM 1
 PWM_DutyCycle1@DC 89 0 BANK0 1
-_sprintf$2290 95 0 BANK0 1
 ___llmod@dividend 26 0 COMRAM 1
 __CFG_LPT1OSC$OFF 0 0 ABS 0
 PWM_DutyCycle1@percentageDuty 88 0 BANK0 1
@@ -796,45 +797,45 @@ bssBANK1 100 16F BANK1 100 1
 %locals
 dist/default/production\tesis.X.production.obj
 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
-C:\Users\MCC\AppData\Local\Temp\s4kk.
-3200 247E 0 CODE 0
+C:\Users\MCC\AppData\Local\Temp\s4lg.
 3202 247E 0 CODE 0
-3205 247E 0 CODE 0
-3358 247E 0 CODE 0
-3359 2482 0 CODE 0
-3360 2484 0 CODE 0
-3361 2484 0 CODE 0
-3362 2486 0 CODE 0
-3363 2488 0 CODE 0
-3366 248A 0 CODE 0
-3367 248E 0 CODE 0
-3368 2490 0 CODE 0
-3369 2490 0 CODE 0
-3370 2492 0 CODE 0
-3371 2494 0 CODE 0
-3374 2496 0 CODE 0
-3375 249A 0 CODE 0
-3376 249C 0 CODE 0
-3377 249C 0 CODE 0
-3378 249E 0 CODE 0
-3379 24A0 0 CODE 0
-3384 24A2 0 CODE 0
-3385 24A4 0 CODE 0
-3386 24A6 0 CODE 0
-3387 24A8 0 CODE 0
-3388 24AA 0 CODE 0
-3389 24AC 0 CODE 0
-3390 24AE 0 CODE 0
-3391 24B2 0 CODE 0
-3392 24B6 0 CODE 0
-3393 24B6 0 CODE 0
-3394 24B8 0 CODE 0
-3395 24BC 0 CODE 0
-3396 24BE 0 CODE 0
-3397 24C0 0 CODE 0
-3403 24C2 0 CODE 0
-3404 24C2 0 CODE 0
-3405 24C4 0 CODE 0
+3204 247E 0 CODE 0
+3207 247E 0 CODE 0
+3360 247E 0 CODE 0
+3361 2482 0 CODE 0
+3362 2484 0 CODE 0
+3363 2484 0 CODE 0
+3364 2486 0 CODE 0
+3365 2488 0 CODE 0
+3368 248A 0 CODE 0
+3369 248E 0 CODE 0
+3370 2490 0 CODE 0
+3371 2490 0 CODE 0
+3372 2492 0 CODE 0
+3373 2494 0 CODE 0
+3376 2496 0 CODE 0
+3377 249A 0 CODE 0
+3378 249C 0 CODE 0
+3379 249C 0 CODE 0
+3380 249E 0 CODE 0
+3381 24A0 0 CODE 0
+3386 24A2 0 CODE 0
+3387 24A4 0 CODE 0
+3388 24A6 0 CODE 0
+3389 24A8 0 CODE 0
+3390 24AA 0 CODE 0
+3391 24AC 0 CODE 0
+3392 24AE 0 CODE 0
+3393 24B2 0 CODE 0
+3394 24B6 0 CODE 0
+3395 24B6 0 CODE 0
+3396 24B8 0 CODE 0
+3397 24BC 0 CODE 0
+3398 24BE 0 CODE 0
+3399 24C0 0 CODE 0
+3405 24C2 0 CODE 0
+3406 24C2 0 CODE 0
+3407 24C4 0 CODE 0
 robot.c
 121 1C9A 0 CODE 0
 123 1C9A 0 CODE 0

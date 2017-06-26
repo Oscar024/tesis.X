@@ -146,7 +146,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _ADCON1bits `VS443 ~T0 @X0 0 e@4033 ]
 "28 lcd.h
 [v _Lcd_Init `(v ~T0 @X0 0 ef ]
-"40 Funciones_Db.h
+"46 Funciones_Db.h
 [v _Inicializa_Driveby `(v ~T0 @X0 0 ef ]
 "31 Bluetooth.h
 [v _clrBufferUSART `(v ~T0 @X0 0 ef ]
@@ -192,7 +192,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _TXSTAbits `VS367 ~T0 @X0 0 e@4012 ]
 "4943
 [v _PIE1 `Vuc ~T0 @X0 0 e@3997 ]
-"39 Funciones_Db.h
+"45 Funciones_Db.h
 [v _Comando_Tablet `(v ~T0 @X0 0 ef ]
 "39 UART1.h
 [v _UART1_Init `(v ~T0 @X0 0 ef1`uc ]
@@ -5111,18 +5111,19 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;string.h: 64: extern char * strichr(const char *, int);
 [; ;string.h: 65: extern char * strrchr(const char *, int);
 [; ;string.h: 66: extern char * strrichr(const char *, int);
-[; ;Funciones_Db.h: 34: void PantallaPrin(void);
-[; ;Funciones_Db.h: 35: void PONGBT(void);
-[; ;Funciones_Db.h: 36: void clrBufferDato(void);
-[; ;Funciones_Db.h: 37: void ConecBatteria(int Off_On_BAt);
-[; ;Funciones_Db.h: 38: void EstadoBluetooth(void);
-[; ;Funciones_Db.h: 39: void Comando_Tablet(void);
-[; ;Funciones_Db.h: 40: void Inicializa_Driveby(void);
-[; ;Funciones_Db.h: 41: void Mandar_Tablet(void);
-[; ;Funciones_Db.h: 42: char Tecla(void);
-[; ;Funciones_Db.h: 43: void Teclado(void);
-[; ;Funciones_Db.h: 44: void DelayCommands();
-[; ;Funciones_Db.h: 45: void BT_ModoVisible(void);
+[; ;Funciones_Db.h: 40: void PantallaPrin(void);
+[; ;Funciones_Db.h: 41: void PONGBT(void);
+[; ;Funciones_Db.h: 42: void clrBufferDato(void);
+[; ;Funciones_Db.h: 43: void ConecBatteria(int Off_On_BAt);
+[; ;Funciones_Db.h: 44: void EstadoBluetooth(void);
+[; ;Funciones_Db.h: 45: void Comando_Tablet(void);
+[; ;Funciones_Db.h: 46: void Inicializa_Driveby(void);
+[; ;Funciones_Db.h: 47: void Mandar_Tablet(void);
+[; ;Funciones_Db.h: 48: char Tecla(void);
+[; ;Funciones_Db.h: 49: void Teclado(void);
+[; ;Funciones_Db.h: 50: void DelayCommands();
+[; ;Funciones_Db.h: 51: void BT_ModoVisible(void);
+[; ;Funciones_Db.h: 52: int sensar(void);
 [; ;Retardos.h: 7: void Pause_us(unsigned int x);
 [; ;Retardos.h: 8: void Pause_ms(unsigned int x);
 [; ;Retardos.h: 9: void Pause_seg(unsigned char x);
@@ -5316,9 +5317,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;robot.c: 77: extern unsigned char contador2;
 [; ;robot.c: 78: extern unsigned char comando[40];
 [; ;robot.c: 79: extern unsigned char TramaTablet[20];
-[v F5693 `(v ~T0 @X0 1 tf ]
+[v F5695 `(v ~T0 @X0 1 tf ]
 "83
-[v _TMRO_USART `IF5693 ~T0 @X0 1 e ]
+[v _TMRO_USART `IF5695 ~T0 @X0 1 e ]
 {
 [; ;robot.c: 83: void interrupt TMRO_USART(void) {
 [e :U _TMRO_USART ]
