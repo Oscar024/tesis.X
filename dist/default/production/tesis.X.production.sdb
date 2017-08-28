@@ -167,13 +167,15 @@
 [v _ReadUSART ReadUSART `(uc  1 e 1 0 ]
 "13 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c
 [v _WriteUSART WriteUSART `(v  1 e 0 0 ]
-"38 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c
+"3 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c
+[v _getCNY70Value getCNY70Value `(i  1 e 2 0 ]
+"39 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c
 [v _EstadoBluetooth EstadoBluetooth `(v  1 e 0 0 ]
-"61
+"62
 [v _Inicializa_Driveby Inicializa_Driveby `(v  1 e 0 0 ]
-"98
+"104
 [v _Comando_Tablet Comando_Tablet `(v  1 e 0 0 ]
-"152
+"158
 [v _sensar sensar `(i  1 e 2 0 ]
 "6 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c
 [v _Lcd_Port Lcd_Port `(v  1 e 0 0 ]
@@ -217,9 +219,9 @@
 [v _Pause_ms Pause_ms `(v  1 e 0 0 ]
 "18
 [v _Pause_seg Pause_seg `(v  1 e 0 0 ]
-"83 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c
+"84 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c
 [v _TMRO_USART TMRO_USART `II(v  1 e 0 0 ]
-"121
+"122
 [v _main main `(i  1 e 2 0 ]
 "5 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c
 [v _UART1_Init UART1_Init `(v  1 e 0 0 ]
@@ -231,7 +233,7 @@
 [v _comando comando `[20]uc  1 e 20 0 ]
 "2569 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [v _PORTA PORTA `VEuc  1 e 1 @3968 ]
-[s S328 . 1 `uc 1 RA0 1 0 :1:0 
+[s S372 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 RA2 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
@@ -240,7 +242,7 @@
 `uc 1 RA6 1 0 :1:6 
 ]
 "2616
-[s S336 . 1 `uc 1 AN0 1 0 :1:0 
+[s S380 . 1 `uc 1 AN0 1 0 :1:0 
 `uc 1 AN1 1 0 :1:1 
 `uc 1 AN2 1 0 :1:2 
 `uc 1 AN3 1 0 :1:3 
@@ -248,28 +250,51 @@
 `uc 1 AN4 1 0 :1:5 
 `uc 1 OSC2 1 0 :1:6 
 ]
-[s S344 . 1 `uc 1 . 1 0 :2:0 
+[s S388 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 VREFM 1 0 :1:2 
 `uc 1 VREFP 1 0 :1:3 
 `uc 1 . 1 0 :1:4 
 `uc 1 LVDIN 1 0 :1:5 
 ]
-[s S350 . 1 `uc 1 . 1 0 :5:0 
+[s S394 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 HLVDIN 1 0 :1:5 
 ]
-[s S353 . 1 `uc 1 . 1 0 :7:0 
+[s S397 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RA7 1 0 :1:7 
 ]
-[s S356 . 1 `uc 1 . 1 0 :7:0 
+[s S400 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RJPU 1 0 :1:7 
 ]
-[s S359 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+[s S403 . 1 `uc 1 ULPWUIN 1 0 :1:0 
 ]
-[u S361 . 1 `S328 1 . 1 0 `S336 1 . 1 0 `S344 1 . 1 0 `S350 1 . 1 0 `S353 1 . 1 0 `S356 1 . 1 0 `S359 1 . 1 0 ]
-[v _PORTAbits PORTAbits `VES361  1 e 1 @3968 ]
+[u S405 . 1 `S372 1 . 1 0 `S380 1 . 1 0 `S388 1 . 1 0 `S394 1 . 1 0 `S397 1 . 1 0 `S400 1 . 1 0 `S403 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES405  1 e 1 @3968 ]
 "2725
 [v _PORTB PORTB `VEuc  1 e 1 @3969 ]
-[s S538 . 1 `uc 1 RD0 1 0 :1:0 
+[s S295 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2755
+[s S1329 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S1337 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S1340 . 1 `S295 1 . 1 0 `S1329 1 . 1 0 `S1337 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1340  1 e 1 @3969 ]
+[s S589 . 1 `uc 1 RD0 1 0 :1:0 
 `uc 1 RD1 1 0 :1:1 
 `uc 1 RD2 1 0 :1:2 
 `uc 1 RD3 1 0 :1:3 
@@ -279,7 +304,7 @@
 `uc 1 RD7 1 0 :1:7 
 ]
 "3018
-[s S547 . 1 `uc 1 SPP0 1 0 :1:0 
+[s S598 . 1 `uc 1 SPP0 1 0 :1:0 
 `uc 1 SPP1 1 0 :1:1 
 `uc 1 SPP2 1 0 :1:2 
 `uc 1 SPP3 1 0 :1:3 
@@ -288,14 +313,14 @@
 `uc 1 SPP6 1 0 :1:6 
 `uc 1 SPP7 1 0 :1:7 
 ]
-[s S556 . 1 `uc 1 . 1 0 :7:0 
+[s S607 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 SS2 1 0 :1:7 
 ]
-[u S559 . 1 `S538 1 . 1 0 `S547 1 . 1 0 `S556 1 . 1 0 ]
-[v _PORTDbits PORTDbits `VES559  1 e 1 @3971 ]
+[u S610 . 1 `S589 1 . 1 0 `S598 1 . 1 0 `S607 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES610  1 e 1 @3971 ]
 "3107
 [v _PORTE PORTE `VEuc  1 e 1 @3972 ]
-[s S585 . 1 `uc 1 RE0 1 0 :1:0 
+[s S636 . 1 `uc 1 RE0 1 0 :1:0 
 `uc 1 RE1 1 0 :1:1 
 `uc 1 RE2 1 0 :1:2 
 `uc 1 RE3 1 0 :1:3 
@@ -303,78 +328,78 @@
 `uc 1 RDPU 1 0 :1:7 
 ]
 "3209
-[s S592 . 1 `uc 1 CK1SPP 1 0 :1:0 
+[s S643 . 1 `uc 1 CK1SPP 1 0 :1:0 
 `uc 1 CK2SPP 1 0 :1:1 
 `uc 1 OESPP 1 0 :1:2 
 ]
-[s S596 . 1 `uc 1 . 1 0 :2:0 
+[s S647 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 CCP10 1 0 :1:2 
 ]
-[s S599 . 1 `uc 1 . 1 0 :7:0 
+[s S650 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 CCP2E 1 0 :1:7 
 ]
-[s S602 . 1 `uc 1 . 1 0 :6:0 
+[s S653 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 CCP6E 1 0 :1:6 
 ]
-[s S605 . 1 `uc 1 . 1 0 :5:0 
+[s S656 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 CCP7E 1 0 :1:5 
 ]
-[s S608 . 1 `uc 1 . 1 0 :4:0 
+[s S659 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CCP8E 1 0 :1:4 
 ]
-[s S611 . 1 `uc 1 . 1 0 :3:0 
+[s S662 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 CCP9E 1 0 :1:3 
 ]
-[s S614 . 1 `uc 1 . 1 0 :2:0 
+[s S665 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 CS 1 0 :1:2 
 ]
-[s S617 . 1 `uc 1 . 1 0 :7:0 
+[s S668 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 PA2E 1 0 :1:7 
 ]
-[s S620 . 1 `uc 1 . 1 0 :6:0 
+[s S671 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 PB1E 1 0 :1:6 
 ]
-[s S623 . 1 `uc 1 . 1 0 :2:0 
+[s S674 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PB2 1 0 :1:2 
 ]
-[s S626 . 1 `uc 1 . 1 0 :4:0 
+[s S677 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 PB3E 1 0 :1:4 
 ]
-[s S629 . 1 `uc 1 . 1 0 :5:0 
+[s S680 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 PC1E 1 0 :1:5 
 ]
-[s S632 . 1 `uc 1 . 1 0 :1:0 
+[s S683 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 PC2 1 0 :1:1 
 ]
-[s S635 . 1 `uc 1 . 1 0 :3:0 
+[s S686 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 PC3E 1 0 :1:3 
 ]
-[s S638 . 1 `uc 1 PD2 1 0 :1:0 
+[s S689 . 1 `uc 1 PD2 1 0 :1:0 
 ]
-[s S640 . 1 `uc 1 RDE 1 0 :1:0 
+[s S691 . 1 `uc 1 RDE 1 0 :1:0 
 ]
-[s S642 . 1 `uc 1 . 1 0 :4:0 
+[s S693 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 RE4 1 0 :1:4 
 ]
-[s S645 . 1 `uc 1 . 1 0 :5:0 
+[s S696 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RE5 1 0 :1:5 
 ]
-[s S648 . 1 `uc 1 . 1 0 :6:0 
+[s S699 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RE6 1 0 :1:6 
 ]
-[s S651 . 1 `uc 1 . 1 0 :7:0 
+[s S702 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RE7 1 0 :1:7 
 ]
-[s S654 . 1 `uc 1 . 1 0 :1:0 
+[s S705 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 WRE 1 0 :1:1 
 ]
-[u S657 . 1 `S585 1 . 1 0 `S592 1 . 1 0 `S596 1 . 1 0 `S599 1 . 1 0 `S602 1 . 1 0 `S605 1 . 1 0 `S608 1 . 1 0 `S611 1 . 1 0 `S614 1 . 1 0 `S617 1 . 1 0 `S620 1 . 1 0 `S623 1 . 1 0 `S626 1 . 1 0 `S629 1 . 1 0 `S632 1 . 1 0 `S635 1 . 1 0 `S638 1 . 1 0 `S640 1 . 1 0 `S642 1 . 1 0 `S645 1 . 1 0 `S648 1 . 1 0 `S651 1 . 1 0 `S654 1 . 1 0 ]
-[v _PORTEbits PORTEbits `VES657  1 e 1 @3972 ]
+[u S708 . 1 `S636 1 . 1 0 `S643 1 . 1 0 `S647 1 . 1 0 `S650 1 . 1 0 `S653 1 . 1 0 `S656 1 . 1 0 `S659 1 . 1 0 `S662 1 . 1 0 `S665 1 . 1 0 `S668 1 . 1 0 `S671 1 . 1 0 `S674 1 . 1 0 `S677 1 . 1 0 `S680 1 . 1 0 `S683 1 . 1 0 `S686 1 . 1 0 `S689 1 . 1 0 `S691 1 . 1 0 `S693 1 . 1 0 `S696 1 . 1 0 `S699 1 . 1 0 `S702 1 . 1 0 `S705 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES708  1 e 1 @3972 ]
 "3974
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
 "4171
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
-[s S1409 . 1 `uc 1 TRISB0 1 0 :1:0 
+[s S286 . 1 `uc 1 TRISB0 1 0 :1:0 
 `uc 1 TRISB1 1 0 :1:1 
 `uc 1 TRISB2 1 0 :1:2 
 `uc 1 TRISB3 1 0 :1:3 
@@ -384,17 +409,8 @@
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "4203
-[s S1418 . 1 `uc 1 RB0 1 0 :1:0 
-`uc 1 RB1 1 0 :1:1 
-`uc 1 RB2 1 0 :1:2 
-`uc 1 RB3 1 0 :1:3 
-`uc 1 RB4 1 0 :1:4 
-`uc 1 RB5 1 0 :1:5 
-`uc 1 RB6 1 0 :1:6 
-`uc 1 RB7 1 0 :1:7 
-]
-[u S1427 . 1 `S1409 1 . 1 0 `S1418 1 . 1 0 ]
-[v _TRISBbits TRISBbits `VES1427  1 e 1 @3987 ]
+[u S304 . 1 `S286 1 . 1 0 `S295 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES304  1 e 1 @3987 ]
 "4392
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
 [s S245 . 1 `uc 1 TRISC0 1 0 :1:0 
@@ -423,7 +439,7 @@
 [v _TRISE TRISE `VEuc  1 e 1 @3990 ]
 "4943
 [v _PIE1 PIE1 `VEuc  1 e 1 @3997 ]
-[s S803 . 1 `uc 1 TMR1IF 1 0 :1:0 
+[s S854 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR2IF 1 0 :1:1 
 `uc 1 CCP1IF 1 0 :1:2 
 `uc 1 SSPIF 1 0 :1:3 
@@ -433,22 +449,22 @@
 `uc 1 SPPIF 1 0 :1:7 
 ]
 "4972
-[s S812 . 1 `uc 1 . 1 0 :7:0 
+[s S863 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 PSPIF 1 0 :1:7 
 ]
-[s S815 . 1 `uc 1 . 1 0 :5:0 
+[s S866 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RC1IF 1 0 :1:5 
 ]
-[s S818 . 1 `uc 1 . 1 0 :4:0 
+[s S869 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TX1IF 1 0 :1:4 
 ]
-[u S821 . 1 `S803 1 . 1 0 `S812 1 . 1 0 `S815 1 . 1 0 `S818 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES821  1 e 1 @3997 ]
+[u S872 . 1 `S854 1 . 1 0 `S863 1 . 1 0 `S866 1 . 1 0 `S869 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES872  1 e 1 @3997 ]
 "5060
-[v _PIR1bits PIR1bits `VES821  1 e 1 @3998 ]
+[v _PIR1bits PIR1bits `VES872  1 e 1 @3998 ]
 "5500
 [v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
-[s S1548 . 1 `uc 1 RX9D 1 0 :1:0 
+[s S1627 . 1 `uc 1 RX9D 1 0 :1:0 
 `uc 1 OERR 1 0 :1:1 
 `uc 1 FERR 1 0 :1:2 
 `uc 1 ADDEN 1 0 :1:3 
@@ -458,22 +474,22 @@
 `uc 1 SPEN 1 0 :1:7 
 ]
 "5541
-[s S1557 . 1 `uc 1 . 1 0 :3:0 
+[s S1636 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 ADEN 1 0 :1:3 
 ]
-[s S1560 . 1 `uc 1 . 1 0 :5:0 
+[s S1639 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 SRENA 1 0 :1:5 
 ]
-[s S1563 . 1 `uc 1 . 1 0 :6:0 
+[s S1642 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC8_9 1 0 :1:6 
 ]
-[s S1566 . 1 `uc 1 . 1 0 :6:0 
+[s S1645 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC9 1 0 :1:6 
 ]
-[s S1569 . 1 `uc 1 RCD8 1 0 :1:0 
+[s S1648 . 1 `uc 1 RCD8 1 0 :1:0 
 ]
-[u S1571 . 1 `S1548 1 . 1 0 `S1557 1 . 1 0 `S1560 1 . 1 0 `S1563 1 . 1 0 `S1566 1 . 1 0 `S1569 1 . 1 0 ]
-[v _RCSTAbits RCSTAbits `VES1571  1 e 1 @4011 ]
+[u S1650 . 1 `S1627 1 . 1 0 `S1636 1 . 1 0 `S1639 1 . 1 0 `S1642 1 . 1 0 `S1645 1 . 1 0 `S1648 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES1650  1 e 1 @4011 ]
 "5709
 [v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
 [s S67 . 1 `uc 1 TX9D 1 0 :1:0 
@@ -532,36 +548,36 @@
 [v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
 "7089
 [v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
-[s S995 . 1 `uc 1 PCFG 1 0 :4:0 
+[s S1046 . 1 `uc 1 PCFG 1 0 :4:0 
 `uc 1 VCFG 1 0 :2:4 
 ]
 "7202
-[s S998 . 1 `uc 1 PCFG0 1 0 :1:0 
+[s S1049 . 1 `uc 1 PCFG0 1 0 :1:0 
 `uc 1 PCFG1 1 0 :1:1 
 `uc 1 PCFG2 1 0 :1:2 
 `uc 1 PCFG3 1 0 :1:3 
 `uc 1 VCFG0 1 0 :1:4 
 `uc 1 VCFG1 1 0 :1:5 
 ]
-[s S1005 . 1 `uc 1 . 1 0 :3:0 
+[s S1056 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 CHSN3 1 0 :1:3 
 ]
-[s S1008 . 1 `uc 1 . 1 0 :4:0 
+[s S1059 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 VCFG01 1 0 :1:4 
 ]
-[s S1011 . 1 `uc 1 . 1 0 :5:0 
+[s S1062 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 VCFG11 1 0 :1:5 
 ]
-[u S1014 . 1 `S995 1 . 1 0 `S998 1 . 1 0 `S1005 1 . 1 0 `S1008 1 . 1 0 `S1011 1 . 1 0 ]
-[v _ADCON1bits ADCON1bits `VES1014  1 e 1 @4033 ]
+[u S1065 . 1 `S1046 1 . 1 0 `S1049 1 . 1 0 `S1056 1 . 1 0 `S1059 1 . 1 0 `S1062 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES1065  1 e 1 @4033 ]
 "7809
 [v _T2CON T2CON `VEuc  1 e 1 @4042 ]
-[s S1189 . 1 `uc 1 T2CKPS 1 0 :2:0 
+[s S1240 . 1 `uc 1 T2CKPS 1 0 :2:0 
 `uc 1 TMR2ON 1 0 :1:2 
 `uc 1 TOUTPS 1 0 :4:3 
 ]
 "7837
-[s S1193 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+[s S1244 . 1 `uc 1 T2CKPS0 1 0 :1:0 
 `uc 1 T2CKPS1 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 T2OUTPS0 1 0 :1:3 
@@ -569,14 +585,14 @@
 `uc 1 T2OUTPS2 1 0 :1:5 
 `uc 1 T2OUTPS3 1 0 :1:6 
 ]
-[s S1201 . 1 `uc 1 . 1 0 :3:0 
+[s S1252 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 TOUTPS0 1 0 :1:3 
 `uc 1 TOUTPS1 1 0 :1:4 
 `uc 1 TOUTPS2 1 0 :1:5 
 `uc 1 TOUTPS3 1 0 :1:6 
 ]
-[u S1207 . 1 `S1189 1 . 1 0 `S1193 1 . 1 0 `S1201 1 . 1 0 ]
-[v _T2CONbits T2CONbits `VES1207  1 e 1 @4042 ]
+[u S1258 . 1 `S1240 1 . 1 0 `S1244 1 . 1 0 `S1252 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1258  1 e 1 @4042 ]
 "7906
 [v _PR2 PR2 `VEuc  1 e 1 @4043 ]
 "8015
@@ -606,45 +622,43 @@
 [v __powers_ _powers_ `C[13]d  1 e 39 0 ]
 "39
 [v __npowers_ _npowers_ `C[13]d  1 e 39 0 ]
-[s S1687 . 1 `uc 1 RX_NINE 1 0 :1:0 
+[s S1766 . 1 `uc 1 RX_NINE 1 0 :1:0 
 `uc 1 TX_NINE 1 0 :1:1 
 `uc 1 FRAME_ERROR 1 0 :1:2 
 `uc 1 OVERRUN_ERROR 1 0 :1:3 
 `uc 1 fill 1 0 :4:4 
 ]
 "5 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\udefs.c
-[u S1693 USART 1 `uc 1 val 1 0 `S1687 1 . 1 0 ]
-[v _USART_Status USART_Status `S1693  1 e 1 0 ]
-"13 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c
+[u S1772 USART 1 `uc 1 val 1 0 `S1766 1 . 1 0 ]
+[v _USART_Status USART_Status `S1772  1 e 1 0 ]
+"14 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c
 [v _FinComandB FinComandB `uc  1 e 1 0 ]
-"14
+"15
 [v _FinComandT FinComandT `uc  1 e 1 0 ]
-"16
-[v _TamanhoTrama TamanhoTrama `i  1 e 2 0 ]
 "17
-[v _num_med_low num_med_low `uc  1 e 1 0 ]
+[v _TamanhoTrama TamanhoTrama `i  1 e 2 0 ]
 "18
-[v _num_med_medium num_med_medium `uc  1 e 1 0 ]
+[v _num_med_low num_med_low `uc  1 e 1 0 ]
 "19
-[v _num_med_hi num_med_hi `uc  1 e 1 0 ]
+[v _num_med_medium num_med_medium `uc  1 e 1 0 ]
 "20
-[v _Med_msb Med_msb `i  1 e 2 0 ]
+[v _num_med_hi num_med_hi `uc  1 e 1 0 ]
 "21
+[v _Med_msb Med_msb `i  1 e 2 0 ]
+"22
 [v _Med_lsb Med_lsb `i  1 e 2 0 ]
-"23
-[v _packet packet `uc  1 e 1 0 ]
 "24
-[v _contador contador `uc  1 e 1 0 ]
+[v _packet packet `uc  1 e 1 0 ]
 "25
-[v _contador2 contador2 `uc  1 e 1 0 ]
+[v _contador contador `uc  1 e 1 0 ]
 "26
+[v _contador2 contador2 `uc  1 e 1 0 ]
+"27
 [v _TramaTablet TramaTablet `[20]uc  1 e 20 0 ]
-"30
-[v _array array `[20]uc  1 e 20 0 ]
 "31
+[v _array array `[20]uc  1 e 20 0 ]
+"32
 [v _j j `uc  1 e 1 0 ]
-"33
-[v _contadorbt contadorbt `ui  1 e 2 0 ]
 "15 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c
 [v _i i `i  1 e 2 0 ]
 "16
@@ -653,50 +667,50 @@
 [v _DutyCycle DutyCycle `i  1 e 2 0 ]
 "18
 [v _Timer2Config Timer2Config `uc  1 e 1 0 ]
-"59 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c
+"60 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c
 [v _CheckSum CheckSum `uc  1 e 1 0 ]
-"60
-[v _cleanBfer cleanBfer `uc  1 e 1 0 ]
 "61
-[v _ComanBFlag ComanBFlag `uc  1 e 1 0 ]
+[v _cleanBfer cleanBfer `uc  1 e 1 0 ]
 "62
-[v _Comando Comando `uc  1 e 1 0 ]
+[v _ComanBFlag ComanBFlag `uc  1 e 1 0 ]
 "63
-[v _ComandoTablet ComandoTablet `uc  1 e 1 0 ]
+[v _Comando Comando `uc  1 e 1 0 ]
 "64
-[v _ComanTFlag ComanTFlag `uc  1 e 1 0 ]
+[v _ComandoTablet ComandoTablet `uc  1 e 1 0 ]
 "65
+[v _ComanTFlag ComanTFlag `uc  1 e 1 0 ]
+"66
 [v _EntTrama EntTrama `uc  1 e 1 0 ]
-"68
-[v _InicioComando InicioComando `uc  1 e 1 0 ]
 "69
-[v _lenght lenght `uc  1 e 1 0 ]
+[v _InicioComando InicioComando `uc  1 e 1 0 ]
 "70
-[v _RXComandoTB RXComandoTB `uc  1 e 1 0 ]
+[v _lenght lenght `uc  1 e 1 0 ]
 "71
-[v _SBUSART SBUSART `uc  1 e 1 0 ]
+[v _RXComandoTB RXComandoTB `uc  1 e 1 0 ]
 "72
-[v _Timer1 Timer1 `uc  1 e 1 0 ]
+[v _SBUSART SBUSART `uc  1 e 1 0 ]
 "73
+[v _Timer1 Timer1 `uc  1 e 1 0 ]
+"74
 [v _BluetoothDato BluetoothDato `[50]uc  1 e 50 0 ]
-"75
+"76
 [v _cad cad `uc  1 e 1 0 ]
-"121
+"122
 [v _main main `(i  1 e 2 0 ]
 {
-"168
+"170
 } 0
 "57 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c
 [v _Lcd_Init Lcd_Init `(v  1 e 0 0 ]
 {
 "73
 } 0
-"61 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c
+"62 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c
 [v _Inicializa_Driveby Inicializa_Driveby `(v  1 e 0 0 ]
 {
-"66
+"67
 [v Inicializa_Driveby@i i `i  1 a 2 39 ]
-"94
+"100
 } 0
 "16 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c
 [v _BT_Init BT_Init `(v  1 e 0 0 ]
@@ -754,10 +768,12 @@
 [v Pause_ms@x x `ui  1 p 2 24 ]
 "16
 } 0
-"98 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c
+"104 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c
 [v _Comando_Tablet Comando_Tablet `(v  1 e 0 0 ]
 {
-"150
+"106
+[v Comando_Tablet@sensed sensed `i  1 a 2 22 ]
+"156
 } 0
 "90 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c
 [v _putcBluetoothString putcBluetoothString `(v  1 e 0 0 ]
@@ -806,6 +822,11 @@
 "75
 [v OpenUSART@config config `uc  1 a 1 29 ]
 "143
+} 0
+"3 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c
+[v _getCNY70Value getCNY70Value `(i  1 e 2 0 ]
+{
+"17
 } 0
 "68 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c
 [v _clrBufferUSART clrBufferUSART `(v  1 e 0 0 ]
@@ -867,9 +888,9 @@
 "7 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c
 [v _SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
 {
-[u S1376 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+[u S1481 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
 "9
-[v SetDCPWM2@DCycle DCycle `S1376  1 a 2 28 ]
+[v SetDCPWM2@DCycle DCycle `S1481  1 a 2 28 ]
 "7
 [v SetDCPWM2@dutycycle dutycycle `ui  1 p 2 24 ]
 "19
@@ -899,9 +920,9 @@
 "7 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c
 [v _SetDCPWM1 SetDCPWM1 `(v  1 e 0 0 ]
 {
-[u S1376 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+[u S1481 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
 "9
-[v SetDCPWM1@DCycle DCycle `S1376  1 a 2 28 ]
+[v SetDCPWM1@DCycle DCycle `S1481  1 a 2 28 ]
 "7
 [v SetDCPWM1@dutycycle dutycycle `ui  1 p 2 24 ]
 "19
@@ -910,7 +931,7 @@
 [v _Lcd_Write_Integer Lcd_Write_Integer `(v  1 e 0 0 ]
 {
 "114
-[v Lcd_Write_Integer@s s `[20]uc  1 a 20 0 ]
+[v Lcd_Write_Integer@s s `[20]uc  1 a 20 90 ]
 "113
 [v Lcd_Write_Integer@a a `i  1 p 2 88 ]
 "118
@@ -921,11 +942,11 @@
 "1210
 [v sprintf@vd vd `ul  1 a 4 60 ]
 "1238
-[v sprintf@vd_1325 vd `ul  1 a 4 64 ]
-[s S1310 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+[v sprintf@vd_1430 vd `ul  1 a 4 64 ]
+[s S1415 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
 "525
-[u S1313 . 5 `ul 1 _val 4 0 `S1310 1 _str 5 0 ]
-[v sprintf@_val _val `S1313  1 a 5 77 ]
+[u S1418 . 5 `ul 1 _val 4 0 `S1415 1 _str 5 0 ]
+[v sprintf@_val _val `S1418  1 a 5 77 ]
 "516
 [v sprintf@fval fval `d  1 a 3 84 ]
 [v sprintf@integ integ `d  1 a 3 72 ]
@@ -1176,10 +1197,10 @@
 [v Lcd_Port@a a `uc  1 a 1 24 ]
 "26
 } 0
-"83 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c
+"84 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c
 [v _TMRO_USART TMRO_USART `II(v  1 e 0 0 ]
 {
-"118
+"119
 } 0
 "90 C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c
 [v i2_Lcd_Write_String Lcd_Write_String `(v  1 e 0 0 ]

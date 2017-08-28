@@ -22,6 +22,7 @@
 #include"Bluetooth.h"
 #include "lcd.h"
 #include "pwm.h"
+#include "cny70.h"
 
 
 #pragma config VREGEN = OFF         // Voltage regulator USB , is Suspended
@@ -130,6 +131,7 @@ int main()
   Lcd_Set_Cursor(1,1);
   Lcd_Write_String("Inicio");
   Inicializa_Driveby();
+  
 //  PWM_init1(0xff);
 //  INTCONbits.PEIE= 0x20;
   while(1)

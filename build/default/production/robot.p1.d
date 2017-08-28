@@ -6,4 +6,5 @@ Retardos.h  \
 Bluetooth.h  \
 lcd.h  \
 UART1.h  \
-Funciones_Db.h 
+Funciones_Db.h  \
+cny70.h 

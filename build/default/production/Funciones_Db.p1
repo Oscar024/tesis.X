@@ -1,7 +1,7 @@
 Version 3.2 HI-TECH Software Intermediate Code
 "51 C:\Program Files\Microchip\xc8\v1.33\include\string.h
 [v _strcmp `(i ~T0 @X0 0 ef2`*Cuc`*Cuc ]
-"27 Funciones_Db.c
+"28 Funciones_Db.c
 [v _BluetoothDato `uc ~T0 @X0 -> 0 `x e ]
 "9 Retardos.h
 [v _Pause_seg `(v ~T0 @X0 0 ef1`uc ]
@@ -9,7 +9,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _BT_Init `(v ~T0 @X0 0 ef ]
 "30
 [v _CheckTX `(v ~T0 @X0 0 ef1`*Cuc ]
-"28 Funciones_Db.c
+"29 Funciones_Db.c
 [v _cad `uc ~T0 @X0 0 e ]
 "31 Bluetooth.h
 [v _clrBufferUSART `(v ~T0 @X0 0 ef ]
@@ -60,18 +60,31 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _PORTE `Vuc ~T0 @X0 0 e@3972 ]
 "2725
 [v _PORTB `Vuc ~T0 @X0 0 e@3969 ]
+"4182
+[s S298 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S298 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"4192
+[s S299 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S299 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"4181
+[u S297 `S298 1 `S299 1 ]
+[n S297 . . . ]
+"4203
+[v _TRISBbits `VS297 ~T0 @X0 0 e@3987 ]
 "26 lcd.h
 [v _Lcd_Clear `(v ~T0 @X0 0 ef ]
 "27
 [v _Lcd_Set_Cursor `(v ~T0 @X0 0 ef2`uc`uc ]
 "30
 [v _Lcd_Write_String `(v ~T0 @X0 0 ef1`*uc ]
+"52 cny70.h
+[v _getCNY70Value `(i ~T0 @X0 0 ef ]
+"34 lcd.h
+[v _Lcd_Write_Integer `(v ~T0 @X0 0 ef1`i ]
 "33 Bluetooth.h
 [v _putcBluetoothInt `(v ~T0 @X0 0 ef1`i ]
 "32
 [v _putcBluetoothString `(v ~T0 @X0 0 ef1`*uc ]
-"34 lcd.h
-[v _Lcd_Write_Integer `(v ~T0 @X0 0 ef1`i ]
 "41 pwm.h
 [v _PWM_init1 `(v ~T0 @X0 0 ef1`uc ]
 "43
@@ -5090,476 +5103,482 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;pwm.h: 42: void PWM_DutyCycle1(unsigned char percentageDuty );
 [; ;pwm.h: 43: void PWM_init2(unsigned char period);
 [; ;pwm.h: 44: void PWM_DutyCycle2(unsigned char percentageDuty );
-"13 Funciones_Db.c
+[; ;cny70.h: 52: int getCNY70Value(void);
+"14 Funciones_Db.c
 [v _FinComandB `uc ~T0 @X0 1 e ]
-[; ;Funciones_Db.c: 13: char FinComandB;
-"14
-[v _FinComandT `uc ~T0 @X0 1 e ]
-[; ;Funciones_Db.c: 14: char FinComandT;
+[; ;Funciones_Db.c: 14: char FinComandB;
 "15
+[v _FinComandT `uc ~T0 @X0 1 e ]
+[; ;Funciones_Db.c: 15: char FinComandT;
+"16
 [v _CheckSum `uc ~T0 @X0 1 e ]
 [i _CheckSum
 -> -> 0 `i `uc
 ]
-[; ;Funciones_Db.c: 15: char CheckSum = 0;
-"16
+[; ;Funciones_Db.c: 16: char CheckSum = 0;
+"17
 [v _TamanhoTrama `i ~T0 @X0 1 e ]
 [i _TamanhoTrama
 -> 0 `i
 ]
-[; ;Funciones_Db.c: 16: int TamanhoTrama = 0;
-"17
+[; ;Funciones_Db.c: 17: int TamanhoTrama = 0;
+"18
 [v _num_med_low `uc ~T0 @X0 1 e ]
 [i _num_med_low
 -> -> 0 `i `uc
 ]
-[; ;Funciones_Db.c: 17: unsigned char num_med_low = 0;
-"18
+[; ;Funciones_Db.c: 18: unsigned char num_med_low = 0;
+"19
 [v _num_med_medium `uc ~T0 @X0 1 e ]
 [i _num_med_medium
 -> -> 0 `i `uc
 ]
-[; ;Funciones_Db.c: 18: unsigned char num_med_medium = 0;
-"19
+[; ;Funciones_Db.c: 19: unsigned char num_med_medium = 0;
+"20
 [v _num_med_hi `uc ~T0 @X0 1 e ]
 [i _num_med_hi
 -> -> 0 `i `uc
 ]
-[; ;Funciones_Db.c: 19: unsigned char num_med_hi = 0;
-"20
+[; ;Funciones_Db.c: 20: unsigned char num_med_hi = 0;
+"21
 [v _Med_msb `i ~T0 @X0 1 e ]
 [i _Med_msb
 -> 0 `i
 ]
-[; ;Funciones_Db.c: 20: int Med_msb = 0;
-"21
+[; ;Funciones_Db.c: 21: int Med_msb = 0;
+"22
 [v _Med_lsb `i ~T0 @X0 1 e ]
 [i _Med_lsb
 -> 0 `i
 ]
-[; ;Funciones_Db.c: 21: int Med_lsb = 0;
-"23
+[; ;Funciones_Db.c: 22: int Med_lsb = 0;
+"24
 [v _packet `uc ~T0 @X0 1 e ]
 [i _packet
 -> -> 0 `i `uc
 ]
-[; ;Funciones_Db.c: 23: unsigned char packet = 0;
-"24
+[; ;Funciones_Db.c: 24: unsigned char packet = 0;
+"25
 [v _contador `uc ~T0 @X0 1 e ]
 [i _contador
 -> -> 0 `i `uc
 ]
-[; ;Funciones_Db.c: 24: unsigned char contador = 0;
-"25
+[; ;Funciones_Db.c: 25: unsigned char contador = 0;
+"26
 [v _contador2 `uc ~T0 @X0 1 e ]
 [i _contador2
 -> -> 0 `i `uc
 ]
-[; ;Funciones_Db.c: 25: unsigned char contador2 = 0;
-"26
+[; ;Funciones_Db.c: 26: unsigned char contador2 = 0;
+"27
 [v _TramaTablet `uc ~T0 @X0 -> 20 `i e ]
-[; ;Funciones_Db.c: 26: unsigned char TramaTablet[20];
-[; ;Funciones_Db.c: 27: extern unsigned char BluetoothDato[20];
-[; ;Funciones_Db.c: 28: extern unsigned char cad;
-[; ;Funciones_Db.c: 29: extern unsigned char cleanBfer,Timer1;
-"30
-[v _array `uc ~T0 @X0 -> 20 `i e ]
-[; ;Funciones_Db.c: 30: char array[20];
+[; ;Funciones_Db.c: 27: unsigned char TramaTablet[20];
+[; ;Funciones_Db.c: 28: extern unsigned char BluetoothDato[20];
+[; ;Funciones_Db.c: 29: extern unsigned char cad;
+[; ;Funciones_Db.c: 30: extern unsigned char cleanBfer,Timer1;
 "31
+[v _array `uc ~T0 @X0 -> 20 `i e ]
+[; ;Funciones_Db.c: 31: char array[20];
+"32
 [v _j `uc ~T0 @X0 1 e ]
 [i _j
 -> -> 0 `i `uc
 ]
-[; ;Funciones_Db.c: 31: unsigned char j=0;
-"33
-[v _contadorbt `ui ~T0 @X0 1 e ]
-[i _contadorbt
--> -> 0 `i `ui
-]
-[; ;Funciones_Db.c: 33: unsigned int contadorbt=0;
-"38
+[; ;Funciones_Db.c: 32: unsigned char j=0;
+"39
 [v _EstadoBluetooth `(v ~T0 @X0 1 ef ]
 {
-[; ;Funciones_Db.c: 38: void EstadoBluetooth(void) {
+[; ;Funciones_Db.c: 39: void EstadoBluetooth(void) {
 [e :U _EstadoBluetooth ]
 [f ]
-[; ;Funciones_Db.c: 40: if (strcmp(BluetoothDato, "\n+BTSTATE:1\r\n") == 0) {
-"40
+[; ;Funciones_Db.c: 41: if (strcmp(BluetoothDato, "\n+BTSTATE:1\r\n") == 0) {
+"41
 [e $ ! == ( _strcmp (2 , -> &U _BluetoothDato `*Cuc :s 1C -> 0 `i 599  ]
 {
-[; ;Funciones_Db.c: 41: Pause_seg(4);
-"41
+[; ;Funciones_Db.c: 42: Pause_seg(4);
+"42
 [e ( _Pause_seg (1 -> -> 4 `i `uc ]
-[; ;Funciones_Db.c: 43: BT_Init();
-"43
+[; ;Funciones_Db.c: 44: BT_Init();
+"44
 [e ( _BT_Init ..  ]
-[; ;Funciones_Db.c: 45: CheckTX("\n+BTSTATE:3\r\n");
-"45
+[; ;Funciones_Db.c: 46: CheckTX("\n+BTSTATE:3\r\n");
+"46
 [e ( _CheckTX (1 :s 2C ]
-[; ;Funciones_Db.c: 47: CheckTX("\nCONNECT:OK\r\n");
-"47
-[e ( _CheckTX (1 :s 3C ]
-[; ;Funciones_Db.c: 48: CheckTX("\n+BTSTATE:4\r\n");
+[; ;Funciones_Db.c: 48: CheckTX("\nCONNECT:OK\r\n");
 "48
-[e ( _CheckTX (1 :s 4C ]
-[; ;Funciones_Db.c: 49: Pause_seg(7);
+[e ( _CheckTX (1 :s 3C ]
+[; ;Funciones_Db.c: 49: CheckTX("\n+BTSTATE:4\r\n");
 "49
-[e ( _Pause_seg (1 -> -> 7 `i `uc ]
-[; ;Funciones_Db.c: 50: cad = 0;
+[e ( _CheckTX (1 :s 4C ]
+[; ;Funciones_Db.c: 50: Pause_seg(7);
 "50
-[e = _cad -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 51: clrBufferUSART();
+[e ( _Pause_seg (1 -> -> 7 `i `uc ]
+[; ;Funciones_Db.c: 51: cad = 0;
 "51
-[e ( _clrBufferUSART ..  ]
+[e = _cad -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 52: clrBufferUSART();
 "52
+[e ( _clrBufferUSART ..  ]
+"53
 }
 [e :U 599 ]
-[; ;Funciones_Db.c: 52: }
-[; ;Funciones_Db.c: 53: UART1_Init(51);
-"53
-[e ( _UART1_Init (1 -> -> 51 `i `uc ]
-[; ;Funciones_Db.c: 54: return;
+[; ;Funciones_Db.c: 53: }
+[; ;Funciones_Db.c: 54: UART1_Init(51);
 "54
+[e ( _UART1_Init (1 -> -> 51 `i `uc ]
+[; ;Funciones_Db.c: 55: return;
+"55
 [e $UE 598  ]
-[; ;Funciones_Db.c: 56: }
-"56
+[; ;Funciones_Db.c: 57: }
+"57
 [e :UE 598 ]
 }
-"61
+"62
 [v _Inicializa_Driveby `(v ~T0 @X0 1 ef ]
 {
-[; ;Funciones_Db.c: 61: void Inicializa_Driveby(void) {
+[; ;Funciones_Db.c: 62: void Inicializa_Driveby(void) {
 [e :U _Inicializa_Driveby ]
 [f ]
-[; ;Funciones_Db.c: 62: TRISA = TRISB = TRISC = TRISD = 0;
-"62
-[e = _TRISA = _TRISB = _TRISC = _TRISD -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 63: INTCON = 0b11000000;
+[; ;Funciones_Db.c: 63: TRISA = TRISB = TRISC = TRISD = 0;
 "63
+[e = _TRISA = _TRISB = _TRISC = _TRISD -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 64: INTCON = 0b11000000;
+"64
 [e = _INTCON -> -> 192 `i `uc ]
-"66
-[v _i `i ~T0 @X0 1 a ]
-[; ;Funciones_Db.c: 66: int i = 0;
-[e = _i -> 0 `i ]
-[; ;Funciones_Db.c: 67: _delay((unsigned long)((40)*(4000000/4000.0)));
 "67
-[e ( __delay (1 -> * -> -> 40 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
-[; ;Funciones_Db.c: 68: OSCCONbits.IRCF = 0b111;
+[v _i `i ~T0 @X0 1 a ]
+[; ;Funciones_Db.c: 67: int i = 0;
+[e = _i -> 0 `i ]
+[; ;Funciones_Db.c: 68: _delay((unsigned long)((40)*(4000000/4000.0)));
 "68
+[e ( __delay (1 -> * -> -> 40 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[; ;Funciones_Db.c: 69: OSCCONbits.IRCF = 0b111;
+"69
 [e = . . _OSCCONbits 0 3 -> -> 7 `i `uc ]
-[; ;Funciones_Db.c: 73: TRISA = 0;
-"73
-[e = _TRISA -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 74: PORTA = 0;
+[; ;Funciones_Db.c: 74: TRISA = 0;
 "74
-[e = _PORTA -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 75: TRISCbits.TRISC7 = 1;
+[e = _TRISA -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 75: PORTA = 0;
 "75
-[e = . . _TRISCbits 0 5 -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 76: TRISCbits.TRISC6 = 0;
+[e = _PORTA -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 76: TRISCbits.TRISC7 = 1;
 "76
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 77: for (i = 1; i <= 50; i++)
+[e = . . _TRISCbits 0 5 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 77: TRISCbits.TRISC6 = 0;
 "77
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 78: for (i = 1; i <= 50; i++)
+"78
 {
 [e = _i -> 1 `i ]
 [e $ <= _i -> 50 `i 601  ]
 [e $U 602  ]
-"78
+"79
 [e :U 601 ]
-[; ;Funciones_Db.c: 78: _delay((unsigned long)((20)*(4000000/4000.0)));
+[; ;Funciones_Db.c: 79: _delay((unsigned long)((20)*(4000000/4000.0)));
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
-"77
+"78
 [e ++ _i -> 1 `i ]
 [e $ <= _i -> 50 `i 601  ]
 [e :U 602 ]
-"78
-}
-[; ;Funciones_Db.c: 79: PORTE = 0;
 "79
-[e = _PORTE -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 80: PORTB = 0;
+}
+[; ;Funciones_Db.c: 80: PORTE = 0;
 "80
-[e = _PORTB -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 81: Lcd_Clear();
+[e = _PORTE -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 81: PORTB = 0;
 "81
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 82: Lcd_Set_Cursor(2, 1);
+[e = _PORTB -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 82: TRISBbits.TRISB0 = 1;
 "82
-[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 83: Lcd_Write_String("INICIO");
+[e = . . _TRISBbits 0 0 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 83: TRISBbits.TRISB1 = 1;
 "83
-[e ( _Lcd_Write_String (1 -> :s 5C `*uc ]
-[; ;Funciones_Db.c: 85: BT_Init();
+[e = . . _TRISBbits 0 1 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 84: TRISBbits.TRISB2 = 1;
+"84
+[e = . . _TRISBbits 0 2 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 85: TRISBbits.TRISB3 = 1;
 "85
-[e ( _BT_Init ..  ]
-[; ;Funciones_Db.c: 86: Lcd_Clear();
+[e = . . _TRISBbits 0 3 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 86: TRISBbits.TRISB4 = 1;
 "86
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 87: Lcd_Set_Cursor(1, 1);
+[e = . . _TRISBbits 0 4 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 87: Lcd_Clear();
 "87
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 88: Lcd_Write_String("BT INICIALIZADO");
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 88: Lcd_Set_Cursor(2, 1);
 "88
-[e ( _Lcd_Write_String (1 -> :s 6C `*uc ]
-[; ;Funciones_Db.c: 90: Pause_seg(7);
-"90
-[e ( _Pause_seg (1 -> -> 7 `i `uc ]
-[; ;Funciones_Db.c: 91: cad = 0;
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 89: Lcd_Write_String("INICIO");
+"89
+[e ( _Lcd_Write_String (1 -> :s 5C `*uc ]
+[; ;Funciones_Db.c: 91: BT_Init();
 "91
-[e = _cad -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 92: clrBufferUSART();
+[e ( _BT_Init ..  ]
+[; ;Funciones_Db.c: 92: Lcd_Clear();
 "92
-[e ( _clrBufferUSART ..  ]
-[; ;Funciones_Db.c: 93: return;
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 93: Lcd_Set_Cursor(1, 1);
 "93
-[e $UE 600  ]
-[; ;Funciones_Db.c: 94: }
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 94: Lcd_Write_String("BT INICIALIZADO");
 "94
+[e ( _Lcd_Write_String (1 -> :s 6C `*uc ]
+[; ;Funciones_Db.c: 96: Pause_seg(7);
+"96
+[e ( _Pause_seg (1 -> -> 7 `i `uc ]
+[; ;Funciones_Db.c: 97: cad = 0;
+"97
+[e = _cad -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 98: clrBufferUSART();
+"98
+[e ( _clrBufferUSART ..  ]
+[; ;Funciones_Db.c: 99: return;
+"99
+[e $UE 600  ]
+[; ;Funciones_Db.c: 100: }
+"100
 [e :UE 600 ]
 }
-"98
+"104
 [v _Comando_Tablet `(v ~T0 @X0 1 ef ]
 {
-[; ;Funciones_Db.c: 98: void Comando_Tablet() {
+[; ;Funciones_Db.c: 104: void Comando_Tablet() {
 [e :U _Comando_Tablet ]
 [f ]
-[; ;Funciones_Db.c: 101: switch (BluetoothDato[1]) {
-"101
+"106
+[v _sensed `i ~T0 @X0 1 a ]
+[; ;Funciones_Db.c: 106: int sensed=0;
+[e = _sensed -> 0 `i ]
+[; ;Funciones_Db.c: 107: switch (BluetoothDato[1]) {
+"107
 [e $U 606  ]
 {
-[; ;Funciones_Db.c: 102: case 1:
-"102
-[e :U 607 ]
-[; ;Funciones_Db.c: 103: Lcd_Clear();
-"103
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 104: Lcd_Set_Cursor(1, 1);
-"104
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 105: Lcd_Write_String("1");
-"105
-[e ( _Lcd_Write_String (1 -> :s 7C `*uc ]
-[; ;Funciones_Db.c: 106: break;
-"106
-[e $U 605  ]
-[; ;Funciones_Db.c: 107: case 2:
-"107
-[e :U 608 ]
-[; ;Funciones_Db.c: 108: Lcd_Clear();
+[; ;Funciones_Db.c: 108: case 1:
 "108
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 109: Lcd_Set_Cursor(1, 1);
+[e :U 607 ]
+[; ;Funciones_Db.c: 109: Lcd_Clear();
 "109
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 110: Lcd_Write_String("2");
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 110: Lcd_Set_Cursor(1, 1);
 "110
-[e ( _Lcd_Write_String (1 -> :s 8C `*uc ]
-[; ;Funciones_Db.c: 111: break;
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 111: Lcd_Write_String("1");
 "111
+[e ( _Lcd_Write_String (1 -> :s 7C `*uc ]
+[; ;Funciones_Db.c: 112: break;
+"112
 [e $U 605  ]
-[; ;Funciones_Db.c: 113: case 3:
+[; ;Funciones_Db.c: 113: case 2:
 "113
-[e :U 609 ]
+[e :U 608 ]
 [; ;Funciones_Db.c: 114: Lcd_Clear();
 "114
 [e ( _Lcd_Clear ..  ]
 [; ;Funciones_Db.c: 115: Lcd_Set_Cursor(1, 1);
 "115
 [e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 117: Lcd_Write_String("3");
+[; ;Funciones_Db.c: 116: Lcd_Write_String("2");
+"116
+[e ( _Lcd_Write_String (1 -> :s 8C `*uc ]
+[; ;Funciones_Db.c: 117: break;
 "117
-[e ( _Lcd_Write_String (1 -> :s 9C `*uc ]
-[; ;Funciones_Db.c: 118: break;
-"118
 [e $U 605  ]
-[; ;Funciones_Db.c: 119: case 4:
+[; ;Funciones_Db.c: 119: case 3:
 "119
-[e :U 610 ]
+[e :U 609 ]
 [; ;Funciones_Db.c: 120: Lcd_Clear();
 "120
 [e ( _Lcd_Clear ..  ]
 [; ;Funciones_Db.c: 121: Lcd_Set_Cursor(1, 1);
 "121
 [e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 122: Lcd_Write_String("4");
-"122
-[e ( _Lcd_Write_String (1 -> :s 10C `*uc ]
-[; ;Funciones_Db.c: 123: putcBluetoothInt(contadorbt);
+[; ;Funciones_Db.c: 123: Lcd_Write_String("3");
 "123
-[e ( _putcBluetoothInt (1 -> _contadorbt `i ]
-[; ;Funciones_Db.c: 124: putcBluetoothString("\n");
+[e ( _Lcd_Write_String (1 -> :s 9C `*uc ]
+[; ;Funciones_Db.c: 124: break;
 "124
-[e ( _putcBluetoothString (1 -> :s 11C `*uc ]
-[; ;Funciones_Db.c: 126: contadorbt++;
-"126
-[e ++ _contadorbt -> -> 1 `i `ui ]
-[; ;Funciones_Db.c: 127: if(contadorbt == 10)
-"127
-[e $ ! == _contadorbt -> -> 10 `i `ui 611  ]
-[; ;Funciones_Db.c: 128: contadorbt = 0;
-"128
-[e = _contadorbt -> -> 0 `i `ui ]
-[e :U 611 ]
-[; ;Funciones_Db.c: 129: break;
+[e $U 605  ]
+[; ;Funciones_Db.c: 125: case 4:
+"125
+[e :U 610 ]
+[; ;Funciones_Db.c: 129: sensed = getCNY70Value();
 "129
-[e $U 605  ]
-[; ;Funciones_Db.c: 130: case 5:
+[e = _sensed ( _getCNY70Value ..  ]
+[; ;Funciones_Db.c: 130: Lcd_Clear();
 "130
-[e :U 612 ]
-[; ;Funciones_Db.c: 131: Lcd_Clear();
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 131: Lcd_Set_Cursor(1,1);
 "131
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 132: Lcd_Set_Cursor(1, 1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 132: Lcd_Write_Integer(sensed);
 "132
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 133: Lcd_Write_Integer(BluetoothDato[3]);
+[e ( _Lcd_Write_Integer (1 _sensed ]
+[; ;Funciones_Db.c: 133: putcBluetoothInt(sensed);
 "133
-[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
-[; ;Funciones_Db.c: 134: Lcd_Set_Cursor(2, 1);
+[e ( _putcBluetoothInt (1 _sensed ]
+[; ;Funciones_Db.c: 134: putcBluetoothString("\n");
 "134
-[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 135: Lcd_Write_Integer(BluetoothDato[4]);
+[e ( _putcBluetoothString (1 -> :s 10C `*uc ]
+[; ;Funciones_Db.c: 135: break;
 "135
-[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
-[; ;Funciones_Db.c: 136: PWM_init1(0xff);
+[e $U 605  ]
+[; ;Funciones_Db.c: 136: case 5:
 "136
-[e ( _PWM_init1 (1 -> -> 255 `i `uc ]
-[; ;Funciones_Db.c: 137: PWM_init2(0xff);
+[e :U 611 ]
+[; ;Funciones_Db.c: 137: Lcd_Clear();
 "137
-[e ( _PWM_init2 (1 -> -> 255 `i `uc ]
-[; ;Funciones_Db.c: 138: PWM_DutyCycle1(BluetoothDato[3]);
-"138
-[e ( _PWM_DutyCycle1 (1 *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
-[; ;Funciones_Db.c: 139: PWM_DutyCycle2(BluetoothDato[4]);
-"139
-[e ( _PWM_DutyCycle2 (1 *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
-[; ;Funciones_Db.c: 140: break;
-"140
-[e $U 605  ]
-[; ;Funciones_Db.c: 141: default:
-"141
-[e :U 613 ]
-[; ;Funciones_Db.c: 142: Lcd_Clear();
-"142
 [e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 143: Lcd_Set_Cursor(1, 1);
-"143
+[; ;Funciones_Db.c: 138: Lcd_Set_Cursor(1, 1);
+"138
 [e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 144: Lcd_Write_String("Default");
+[; ;Funciones_Db.c: 139: Lcd_Write_Integer(BluetoothDato[3]);
+"139
+[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
+[; ;Funciones_Db.c: 140: Lcd_Set_Cursor(2, 1);
+"140
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 141: Lcd_Write_Integer(BluetoothDato[4]);
+"141
+[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
+[; ;Funciones_Db.c: 142: PWM_init1(0xff);
+"142
+[e ( _PWM_init1 (1 -> -> 255 `i `uc ]
+[; ;Funciones_Db.c: 143: PWM_init2(0xff);
+"143
+[e ( _PWM_init2 (1 -> -> 255 `i `uc ]
+[; ;Funciones_Db.c: 144: PWM_DutyCycle1(BluetoothDato[3]);
 "144
-[e ( _Lcd_Write_String (1 -> :s 12C `*uc ]
-[; ;Funciones_Db.c: 145: break;
+[e ( _PWM_DutyCycle1 (1 *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
+[; ;Funciones_Db.c: 145: PWM_DutyCycle2(BluetoothDato[4]);
 "145
-[e $U 605  ]
+[e ( _PWM_DutyCycle2 (1 *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
+[; ;Funciones_Db.c: 146: break;
 "146
-}
-[; ;Funciones_Db.c: 146: }
 [e $U 605  ]
-"101
+[; ;Funciones_Db.c: 147: default:
+"147
+[e :U 612 ]
+[; ;Funciones_Db.c: 148: Lcd_Clear();
+"148
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 149: Lcd_Set_Cursor(1, 1);
+"149
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 150: Lcd_Write_String("Default");
+"150
+[e ( _Lcd_Write_String (1 -> :s 11C `*uc ]
+[; ;Funciones_Db.c: 151: break;
+"151
+[e $U 605  ]
+"152
+}
+[; ;Funciones_Db.c: 152: }
+[e $U 605  ]
+"107
 [e :U 606 ]
 [e [\ *U + &U _BluetoothDato * -> -> -> 1 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux , $ -> -> 1 `i `uc 607
  , $ -> -> 2 `i `uc 608
  , $ -> -> 3 `i `uc 609
  , $ -> -> 4 `i `uc 610
- , $ -> -> 5 `i `uc 612
- 613 ]
-"146
+ , $ -> -> 5 `i `uc 611
+ 612 ]
+"152
 [e :U 605 ]
-[; ;Funciones_Db.c: 147: clrBufferUSART();
-"147
+[; ;Funciones_Db.c: 153: clrBufferUSART();
+"153
 [e ( _clrBufferUSART ..  ]
-[; ;Funciones_Db.c: 148: return;
-"148
+[; ;Funciones_Db.c: 154: return;
+"154
 [e $UE 604  ]
-[; ;Funciones_Db.c: 150: }
-"150
+[; ;Funciones_Db.c: 156: }
+"156
 [e :UE 604 ]
 }
-"152
+"158
 [v _sensar `(i ~T0 @X0 1 ef ]
 {
-[; ;Funciones_Db.c: 152: int sensar(){
+[; ;Funciones_Db.c: 158: int sensar(){
 [e :U _sensar ]
 [f ]
-"153
-[v _position `i ~T0 @X0 1 a ]
-[; ;Funciones_Db.c: 153: int position;
-[; ;Funciones_Db.c: 155: if(PORTAbits.RA2){
-"155
-[e $ ! != -> . . _PORTAbits 0 2 `i -> -> -> 0 `i `Vuc `i 615  ]
-{
-[; ;Funciones_Db.c: 156: position=0;
-"156
-[e = _position -> 0 `i ]
-"157
-}
-[; ;Funciones_Db.c: 157: }
-[e $U 616  ]
-"158
-[e :U 615 ]
-[; ;Funciones_Db.c: 158: else if(PORTAbits.RA3){
-[e $ ! != -> . . _PORTAbits 0 3 `i -> -> -> 0 `i `Vuc `i 617  ]
-{
-[; ;Funciones_Db.c: 159: position = 5;
 "159
-[e = _position -> 5 `i ]
-"160
-}
-[; ;Funciones_Db.c: 160: }
-[e $U 618  ]
+[v _position `i ~T0 @X0 1 a ]
+[; ;Funciones_Db.c: 159: int position;
+[; ;Funciones_Db.c: 161: if(PORTAbits.RA2){
 "161
-[e :U 617 ]
-[; ;Funciones_Db.c: 161: else if(PORTAbits.RA1){
-[e $ ! != -> . . _PORTAbits 0 1 `i -> -> -> 0 `i `Vuc `i 619  ]
+[e $ ! != -> . . _PORTAbits 0 2 `i -> -> -> 0 `i `Vuc `i 614  ]
 {
-[; ;Funciones_Db.c: 162: position = -5;
+[; ;Funciones_Db.c: 162: position=0;
 "162
-[e = _position -U -> 5 `i ]
+[e = _position -> 0 `i ]
 "163
 }
 [; ;Funciones_Db.c: 163: }
-[e $U 620  ]
+[e $U 615  ]
 "164
-[e :U 619 ]
-[; ;Funciones_Db.c: 164: else if(PORTAbits.RA4){
-[e $ ! != -> . . _PORTAbits 0 4 `i -> -> -> 0 `i `Vuc `i 621  ]
+[e :U 614 ]
+[; ;Funciones_Db.c: 164: else if(PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> -> -> 0 `i `Vuc `i 616  ]
 {
-[; ;Funciones_Db.c: 165: position = 8;
+[; ;Funciones_Db.c: 165: position = 5;
 "165
-[e = _position -> 8 `i ]
+[e = _position -> 5 `i ]
 "166
 }
 [; ;Funciones_Db.c: 166: }
-[e $U 622  ]
+[e $U 617  ]
 "167
-[e :U 621 ]
-[; ;Funciones_Db.c: 167: else if(PORTAbits.RA0){
-[e $ ! != -> . . _PORTAbits 0 0 `i -> -> -> 0 `i `Vuc `i 623  ]
+[e :U 616 ]
+[; ;Funciones_Db.c: 167: else if(PORTAbits.RA1){
+[e $ ! != -> . . _PORTAbits 0 1 `i -> -> -> 0 `i `Vuc `i 618  ]
 {
-[; ;Funciones_Db.c: 168: position = -8;
+[; ;Funciones_Db.c: 168: position = -5;
 "168
-[e = _position -U -> 8 `i ]
+[e = _position -U -> 5 `i ]
 "169
 }
-[e :U 623 ]
-"170
-[e :U 622 ]
-[e :U 620 ]
-[e :U 618 ]
-[e :U 616 ]
 [; ;Funciones_Db.c: 169: }
-[; ;Funciones_Db.c: 170: return position;
-[e ) _position ]
-[e $UE 614  ]
-[; ;Funciones_Db.c: 171: }
+[e $U 619  ]
+"170
+[e :U 618 ]
+[; ;Funciones_Db.c: 170: else if(PORTAbits.RA4){
+[e $ ! != -> . . _PORTAbits 0 4 `i -> -> -> 0 `i `Vuc `i 620  ]
+{
+[; ;Funciones_Db.c: 171: position = 8;
 "171
-[e :UE 614 ]
+[e = _position -> 8 `i ]
+"172
 }
-[a 12C 68 101 102 97 117 108 116 0 ]
+[; ;Funciones_Db.c: 172: }
+[e $U 621  ]
+"173
+[e :U 620 ]
+[; ;Funciones_Db.c: 173: else if(PORTAbits.RA0){
+[e $ ! != -> . . _PORTAbits 0 0 `i -> -> -> 0 `i `Vuc `i 622  ]
+{
+[; ;Funciones_Db.c: 174: position = -8;
+"174
+[e = _position -U -> 8 `i ]
+"175
+}
+[e :U 622 ]
+"176
+[e :U 621 ]
+[e :U 619 ]
+[e :U 617 ]
+[e :U 615 ]
+[; ;Funciones_Db.c: 175: }
+[; ;Funciones_Db.c: 176: return position;
+[e ) _position ]
+[e $UE 613  ]
+[; ;Funciones_Db.c: 177: }
+"177
+[e :UE 613 ]
+}
+[a 11C 68 101 102 97 117 108 116 0 ]
 [a 5C 73 78 73 67 73 79 0 ]
 [a 6C 66 84 32 73 78 73 67 73 65 76 73 90 65 68 79 0 ]
-[a 10C 52 0 ]
 [a 9C 51 0 ]
 [a 8C 50 0 ]
 [a 7C 49 0 ]
@@ -5567,4 +5586,4 @@ Version 3.2 HI-TECH Software Intermediate Code
 [a 4C 10 43 66 84 83 84 65 84 69 58 52 13 10 0 ]
 [a 2C 10 43 66 84 83 84 65 84 69 58 51 13 10 0 ]
 [a 1C 10 43 66 84 83 84 65 84 69 58 49 13 10 0 ]
-[a 11C 10 0 ]
+[a 10C 10 0 ]

@@ -8,21 +8,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/l.obj" afterPath="$PROJECT_DIR$/l.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Funciones_Db.c" afterPath="$PROJECT_DIR$/Funciones_Db.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Funciones_Db.h" afterPath="$PROJECT_DIR$/Funciones_Db.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Bluetooth.p1" afterPath="$PROJECT_DIR$/build/default/production/Bluetooth.p1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Bluetooth.pre" afterPath="$PROJECT_DIR$/build/default/production/Bluetooth.pre" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1.d" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1.d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Funciones_Db.pre" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.pre" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Retardos.p1" afterPath="$PROJECT_DIR$/build/default/production/Retardos.p1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Retardos.pre" afterPath="$PROJECT_DIR$/build/default/production/Retardos.pre" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/robot.p1" afterPath="$PROJECT_DIR$/build/default/production/robot.p1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/robot.p1.d" afterPath="$PROJECT_DIR$/build/default/production/robot.p1.d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/robot.pre" afterPath="$PROJECT_DIR$/build/default/production/robot.pre" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.cmf" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.cmf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hex" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hxl" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hxl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.lst" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.map" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sdb" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sym" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sym" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/funclist" afterPath="$PROJECT_DIR$/funclist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/Makefile-default.mk" afterPath="$PROJECT_DIR$/nbproject/Makefile-default.mk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/Makefile-genesis.properties" afterPath="$PROJECT_DIR$/nbproject/Makefile-genesis.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/configurations.xml" afterPath="$PROJECT_DIR$/nbproject/configurations.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot.c" afterPath="$PROJECT_DIR$/robot.c" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +43,8 @@
       <file leaf-file-name="robot.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="93" column="93" lean-forward="false" selection-start-line="93" selection-start-column="93" selection-end-line="93" selection-end-column="93" />
+            <state relative-caret-position="544">
+              <caret line="116" column="19" lean-forward="true" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -55,8 +58,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/robot.c" />
         <option value="$PROJECT_DIR$/Funciones_Db.c" />
+        <option value="$PROJECT_DIR$/robot.c" />
       </list>
     </option>
   </component>
@@ -67,10 +70,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -102,8 +105,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +210,9 @@
       <workItem from="1496824341979" duration="234000" />
       <workItem from="1496903494523" duration="41000" />
       <workItem from="1497300376830" duration="206000" />
-      <workItem from="1498521188954" duration="9000" />
+      <workItem from="1498521188954" duration="46000" />
+      <workItem from="1498521269526" duration="599000" />
+      <workItem from="1503961931525" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1495747684911</created>
@@ -258,11 +263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496903510401</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="cambios">
+      <created>1498521214165</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1498521214165</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2136000" />
+    <option name="totallyTimeSpent" value="2871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,15 +286,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25403818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30952382" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -310,6 +322,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/robot.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/robot.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -388,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="93" column="93" lean-forward="false" selection-start-line="93" selection-start-column="93" selection-end-line="93" selection-end-column="93" />
+        <state relative-caret-position="544">
+          <caret line="116" column="19" lean-forward="true" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
           <folding />
         </state>
       </provider>

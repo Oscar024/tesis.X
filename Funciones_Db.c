@@ -8,6 +8,7 @@
 #include"Funciones_Db.h"
 #include "lcd.h"
 #include "pwm.h"
+#include "cny70.h"
 
 
 char FinComandB;
@@ -30,7 +31,7 @@ extern unsigned char  cleanBfer,Timer1;
 char array[20];
 unsigned char j=0;
 
-unsigned int contadorbt=0;
+
 
 
 
@@ -78,6 +79,11 @@ void Inicializa_Driveby(void) {
       __delay_ms(20);
     PORTE = 0;
     PORTB = 0;
+    TRISBbits.TRISB0 = 1;
+    TRISBbits.TRISB1 = 1;
+    TRISBbits.TRISB2 = 1;
+    TRISBbits.TRISB3 = 1;
+    TRISBbits.TRISB4 = 1;
     Lcd_Clear();
     Lcd_Set_Cursor(2, 1);
     Lcd_Write_String("INICIO");
@@ -97,7 +103,7 @@ void Inicializa_Driveby(void) {
 
 void Comando_Tablet() {
    
-
+  int sensed=0;
   switch (BluetoothDato[1]) {
     case 1:
       Lcd_Clear();
@@ -117,15 +123,15 @@ void Comando_Tablet() {
       Lcd_Write_String("3");
       break;
     case 4:
+//      Lcd_Clear();
+//      Lcd_Set_Cursor(1, 1);
+//      Lcd_Write_String("4");
+      sensed = getCNY70Value();
       Lcd_Clear();
-      Lcd_Set_Cursor(1, 1);
-      Lcd_Write_String("4");
-      putcBluetoothInt(contadorbt);
-      putcBluetoothString("\n");
-
-      contadorbt++;
-      if(contadorbt == 10)
-          contadorbt = 0;
+      Lcd_Set_Cursor(1,1);
+      Lcd_Write_Integer(sensed);
+      putcBluetoothInt(sensed);
+      putcBluetoothString("\n");      
       break;
     case 5:
       Lcd_Clear();

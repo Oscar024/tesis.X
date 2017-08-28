@@ -6561,8 +6561,11 @@ void PWM_DutyCycle1(unsigned char percentageDuty );
 void PWM_init2(unsigned char period);
 void PWM_DutyCycle2(unsigned char percentageDuty );
 
+# 52 "cny70.h"
+int getCNY70Value(void);
 
-# 27 "robot.c"
+
+# 28 "robot.c"
 #pragma config VREGEN = OFF
 #pragma config WDT = OFF
 #pragma config PLLDIV = 1
@@ -6669,6 +6672,7 @@ Lcd_Clear();
 Lcd_Set_Cursor(1,1);
 Lcd_Write_String("Inicio");
 Inicializa_Driveby();
+
 
 
 while(1)
