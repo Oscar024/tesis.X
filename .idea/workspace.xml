@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44b863c9-997e-45f5-b116-e72fc041c1fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.elf" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.elf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.obj" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.rlf" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.rlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/l.obj" afterPath="$PROJECT_DIR$/l.obj" />
+    <list default="true" id="44b863c9-997e-45f5-b116-e72fc041c1fd" name="Default" comment="cambios">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/cny70.p1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/cny70.p1.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/default/production/cny70.pre" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cny70.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cny70.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Funciones_Db.c" afterPath="$PROJECT_DIR$/Funciones_Db.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1.d" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Funciones_Db.pre" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.pre" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/robot.p1" afterPath="$PROJECT_DIR$/build/default/production/robot.p1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/robot.p1.d" afterPath="$PROJECT_DIR$/build/default/production/robot.p1.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/robot.pre" afterPath="$PROJECT_DIR$/build/default/production/robot.pre" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.cmf" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.cmf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hex" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hxl" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.hxl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.lst" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.map" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sdb" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sym" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sym" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/funclist" afterPath="$PROJECT_DIR$/funclist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/Makefile-default.mk" afterPath="$PROJECT_DIR$/nbproject/Makefile-default.mk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/Makefile-genesis.properties" afterPath="$PROJECT_DIR$/nbproject/Makefile-genesis.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/configurations.xml" afterPath="$PROJECT_DIR$/nbproject/configurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot.c" afterPath="$PROJECT_DIR$/robot.c" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -212,7 +194,7 @@
       <workItem from="1497300376830" duration="206000" />
       <workItem from="1498521188954" duration="46000" />
       <workItem from="1498521269526" duration="599000" />
-      <workItem from="1503961931525" duration="99000" />
+      <workItem from="1503961931525" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1495747684911</created>
@@ -270,11 +252,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498521214165</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cambios">
+      <created>1503962045928</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1503962045928</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2871000" />
+    <option name="totallyTimeSpent" value="3055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
