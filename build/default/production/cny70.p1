@@ -4874,17 +4874,57 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e $U 603  ]
 "15
 [e :U 602 ]
-[; ;cny70.c: 15: else
-[; ;cny70.c: 16: return 0;
+[; ;cny70.c: 15: else if(PORTBbits.RB0 == 1 && PORTBbits.RB1 == 1 && PORTBbits.RB2 == 1 && PORTBbits.RB3 == 0 && PORTBbits.RB4 == 0)
+[e $ ! && && && && == -> . . _PORTBbits 0 0 `i -> 1 `i == -> . . _PORTBbits 0 1 `i -> 1 `i == -> . . _PORTBbits 0 2 `i -> 1 `i == -> . . _PORTBbits 0 3 `i -> 0 `i == -> . . _PORTBbits 0 4 `i -> 0 `i 604  ]
+[; ;cny70.c: 16: return 2;
 "16
+[e ) -> 2 `i ]
+[e $UE 593  ]
+[e $U 605  ]
+"17
+[e :U 604 ]
+[; ;cny70.c: 17: else if(PORTBbits.RB0 == 0 && PORTBbits.RB1 == 0 && PORTBbits.RB2 == 1 && PORTBbits.RB3 == 1 && PORTBbits.RB4 == 1)
+[e $ ! && && && && == -> . . _PORTBbits 0 0 `i -> 0 `i == -> . . _PORTBbits 0 1 `i -> 0 `i == -> . . _PORTBbits 0 2 `i -> 1 `i == -> . . _PORTBbits 0 3 `i -> 1 `i == -> . . _PORTBbits 0 4 `i -> 1 `i 606  ]
+[; ;cny70.c: 18: return -2;
+"18
+[e ) -U -> 2 `i ]
+[e $UE 593  ]
+[e $U 607  ]
+"19
+[e :U 606 ]
+[; ;cny70.c: 19: else if(PORTBbits.RB0 == 1 && PORTBbits.RB1 == 0 && PORTBbits.RB2 == 0 && PORTBbits.RB3 == 1 && PORTBbits.RB4 == 1)
+[e $ ! && && && && == -> . . _PORTBbits 0 0 `i -> 1 `i == -> . . _PORTBbits 0 1 `i -> 0 `i == -> . . _PORTBbits 0 2 `i -> 0 `i == -> . . _PORTBbits 0 3 `i -> 1 `i == -> . . _PORTBbits 0 4 `i -> 1 `i 608  ]
+[; ;cny70.c: 20: return -1;
+"20
+[e ) -U -> 1 `i ]
+[e $UE 593  ]
+[e $U 609  ]
+"21
+[e :U 608 ]
+[; ;cny70.c: 21: else if(PORTBbits.RB0 == 1 && PORTBbits.RB1 == 1 && PORTBbits.RB2 == 0 && PORTBbits.RB3 == 0 && PORTBbits.RB4 == 1)
+[e $ ! && && && && == -> . . _PORTBbits 0 0 `i -> 1 `i == -> . . _PORTBbits 0 1 `i -> 1 `i == -> . . _PORTBbits 0 2 `i -> 0 `i == -> . . _PORTBbits 0 3 `i -> 0 `i == -> . . _PORTBbits 0 4 `i -> 1 `i 610  ]
+[; ;cny70.c: 22: return 1;
+"22
+[e ) -> 1 `i ]
+[e $UE 593  ]
+[e $U 611  ]
+"23
+[e :U 610 ]
+[; ;cny70.c: 23: else
+[; ;cny70.c: 24: return 0;
+"24
 [e ) -> 0 `i ]
 [e $UE 593  ]
+[e :U 611 ]
+[e :U 609 ]
+[e :U 607 ]
+[e :U 605 ]
 [e :U 603 ]
 [e :U 601 ]
 [e :U 599 ]
 [e :U 597 ]
 [e :U 595 ]
-[; ;cny70.c: 17: }
-"17
+[; ;cny70.c: 25: }
+"25
 [e :UE 593 ]
 }

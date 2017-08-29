@@ -6318,6 +6318,14 @@ else if(PORTBbits.RB0 == 1 && PORTBbits.RB1 == 1 && PORTBbits.RB2 == 1 && PORTBb
 return 1;
 else if(PORTBbits.RB0 == 1 && PORTBbits.RB1 == 1 && PORTBbits.RB2 == 1 && PORTBbits.RB3 == 1 && PORTBbits.RB4 == 0)
 return 2;
+else if(PORTBbits.RB0 == 1 && PORTBbits.RB1 == 1 && PORTBbits.RB2 == 1 && PORTBbits.RB3 == 0 && PORTBbits.RB4 == 0)
+return 2;
+else if(PORTBbits.RB0 == 0 && PORTBbits.RB1 == 0 && PORTBbits.RB2 == 1 && PORTBbits.RB3 == 1 && PORTBbits.RB4 == 1)
+return -2;
+else if(PORTBbits.RB0 == 1 && PORTBbits.RB1 == 0 && PORTBbits.RB2 == 0 && PORTBbits.RB3 == 1 && PORTBbits.RB4 == 1)
+return -1;
+else if(PORTBbits.RB0 == 1 && PORTBbits.RB1 == 1 && PORTBbits.RB2 == 0 && PORTBbits.RB3 == 0 && PORTBbits.RB4 == 1)
+return 1;
 else
 return 0;
 }
