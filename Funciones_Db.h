@@ -30,12 +30,9 @@
 #define BT_DISCONN PORTCbits.RC0
 #define CHRG_EN    PORTBbits.RB5
 
-//Sensores CNY70
-#define SENSOR_NL PORTAbits.RA0
-#define SENSOR_N PORTAbits.RA1
-#define SENSOR_Z PORTAbits.RA2
-#define SENSOR_P PORTAbits.RA3
-#define SENSOR_PL PORTAbits.RA4
+#define LED_AMARILLO PORTAbits.RA0
+#define LED_VERDE PORTAbits.RA1
+#define LED_ROJO PORTAbits.RA2
 
 void PantallaPrin(void);
 void PONGBT(void);
@@ -49,6 +46,6 @@ char Tecla(void);
 void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
-int sensar(void);
+
 #endif	/* FUNCIONES_H */
 

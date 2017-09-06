@@ -131,7 +131,7 @@ int main()
   Lcd_Set_Cursor(1,1);
   Lcd_Write_String("Inicio");
   Inicializa_Driveby();
-  
+  LED_ROJO = 1;
 //  PWM_init1(0xff);
 //  INTCONbits.PEIE= 0x20;
   while(1)

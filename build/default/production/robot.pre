@@ -6465,7 +6465,7 @@ extern char * strichr(const char *, int);
 extern char * strrchr(const char *, int);
 extern char * strrichr(const char *, int);
 
-# 40 "Funciones_Db.h"
+# 37 "Funciones_Db.h"
 void PantallaPrin(void);
 void PONGBT(void);
 void clrBufferDato(void);
@@ -6478,7 +6478,6 @@ char Tecla(void);
 void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
-int sensar(void);
 
 # 7 "Retardos.h"
 void Pause_us(unsigned int x);
@@ -6672,7 +6671,7 @@ Lcd_Clear();
 Lcd_Set_Cursor(1,1);
 Lcd_Write_String("Inicio");
 Inicializa_Driveby();
-
+PORTAbits.RA2 = 1;
 
 
 while(1)
