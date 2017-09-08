@@ -6624,7 +6624,7 @@ TRISA = 0;
 PORTA = 0;
 TRISCbits.TRISC7 = 1;
 TRISCbits.TRISC6 = 0;
-for (i = 1; i <= 5; i++)
+for (i = 1; i <= 50; i++)
 _delay((unsigned long)((20)*(4000000/4000.0)));
 PORTE = 0;
 PORTB = 0;

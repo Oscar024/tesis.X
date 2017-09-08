@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+$C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 end_init CODE 0 18 18 4 1
 reset_vec CODE 0 0 0 4 1
 idloc IDLOC 0 200000 200000 8 1
@@ -784,44 +784,44 @@ $dist/default/production\tesis.X.production.obj
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":52 252E text54 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":53 2534 text54 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":55 253A text54 CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3540 253C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3542 253C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3545 253C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3695 253C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3696 2540 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3697 2542 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3698 2542 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3699 2544 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3700 2546 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3703 2548 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3704 254C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3705 254E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3706 254E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3707 2550 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3708 2552 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3711 2554 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3712 2558 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3713 255A cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3714 255A cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3715 255C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3716 255E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3721 2560 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3722 2562 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3723 2564 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3724 2566 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3725 2568 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3726 256A cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3727 256C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3728 2570 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3729 2574 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3730 2574 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3731 2576 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3732 257A cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3733 257C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3734 257E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3740 2580 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3741 2580 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s7t8.":3742 2582 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3540 253C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3542 253C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3545 253C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3695 253C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3696 2540 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3697 2542 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3698 2542 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3699 2544 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3700 2546 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3703 2548 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3704 254C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3705 254E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3706 254E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3707 2550 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3708 2552 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3711 2554 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3712 2558 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3713 255A cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3714 255A cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3715 255C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3716 255E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3721 2560 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3722 2562 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3723 2564 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3724 2566 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3725 2568 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3726 256A cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3727 256C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3728 2570 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3729 2574 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3730 2574 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3731 2576 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3732 257A cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3733 257C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3734 257E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3740 2580 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3741 2580 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s5h8.":3742 2582 cinit CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":18 2586 text7 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":19 2588 text7 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":20 258C text7 CODE
@@ -1081,9 +1081,9 @@ ___ftsub@f1 82 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.
 i2Lcd_Write_Char@a 4 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 i2Lcd_Write_Char@y 3 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 _main 1D56 0 CODE 0 text0 dist/default/production\tesis.X.production.obj
-___sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+___sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 SendBlueToothCommand@command 23 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-start 18 0 CODE 0 init C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+start 18 0 CODE 0 init C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 putSTRINGU1@dato 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __size_of_TMRO_USART 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ?___ftadd 76 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
@@ -1255,7 +1255,7 @@ __CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ___ftge 1F12 0 CODE 0 text44 dist/default/production\tesis.X.production.obj
 Lcd_Write_Char@y 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 _ComanTFlag 32 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
-stackhi 7FF 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+stackhi 7FF 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 sprintf@sp 88 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 _fround DB8 0 CODE 0 text29 dist/default/production\tesis.X.production.obj
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\tesis.X.production.obj
@@ -1265,7 +1265,7 @@ __pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.producti
 ___awmod@sign 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __Htemp 0 0 COMRAM 1 temp dist/default/production\tesis.X.production.obj
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\tesis.X.production.obj
-stacklo 172 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+stacklo 172 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 __Hrbit 0 0 COMRAM 1 rbit dist/default/production\tesis.X.production.obj
 __Lrbit 0 0 COMRAM 1 rbit dist/default/production\tesis.X.production.obj
 _packet 46 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
@@ -1483,8 +1483,8 @@ __pcinit 253C 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
 __CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ___awdiv 1CB2 0 CODE 0 text33 dist/default/production\tesis.X.production.obj
 __size_of_Lcd_Write_String 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__ramtop 800 0 RAM 0 ramtop C:\Users\MCC\AppData\Local\Temp\s7t8.obj
-__mediumconst 7ECC 0 MEDIUMCONST 0 mediumconst C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+__mediumconst 7ECC 0 MEDIUMCONST 0 mediumconst C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _dpowers 7ECD 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
 __end_of_Lcd_Set_Cursor 24EC 0 CODE 0 text47 dist/default/production\tesis.X.production.obj
@@ -1619,7 +1619,7 @@ _getCNY70Value 1AAC 0 CODE 0 text15 dist/default/production\tesis.X.production.o
 __ptext15 1AAC 0 CODE 0 text15 dist/default/production\tesis.X.production.obj
 __ptext34 17F4 0 CODE 0 text34 dist/default/production\tesis.X.production.obj
 __ptext53 2762 0 CODE 0 text53 dist/default/production\tesis.X.production.obj
-___inthi_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 __Htext54 0 0 ABS 0 text54 dist/default/production\tesis.X.production.obj
 __Htext35 0 0 ABS 0 text35 dist/default/production\tesis.X.production.obj
 __Htext16 0 0 ABS 0 text16 dist/default/production\tesis.X.production.obj
@@ -1690,7 +1690,7 @@ __ptext19 28F2 0 CODE 0 text19 dist/default/production\tesis.X.production.obj
 __ptext38 2028 0 CODE 0 text38 dist/default/production\tesis.X.production.obj
 __ptext57 27F8 0 CODE 0 text57 dist/default/production\tesis.X.production.obj
 __CFG_BORV$3 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-___intlo_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 __Htext58 0 0 ABS 0 text58 dist/default/production\tesis.X.production.obj
 __Htext39 0 0 ABS 0 text39 dist/default/production\tesis.X.production.obj
 __Ltext58 0 0 ABS 0 text58 dist/default/production\tesis.X.production.obj
@@ -1730,7 +1730,7 @@ __end_of_OpenPWM2 2644 0 CODE 0 text18 dist/default/production\tesis.X.productio
 __end_of_BT_Init 1CB2 0 CODE 0 text3 dist/default/production\tesis.X.production.obj
 __end_of___llmod 2440 0 CODE 0 text37 dist/default/production\tesis.X.production.obj
 __CFG_CP0$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 __tdiv_to_l_@cntr 26 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 BT_Init@F5669 EC 0 BANK0 1 dataBANK0 dist/default/production\tesis.X.production.obj
 SetDCPWM1@DCycle 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
@@ -1747,7 +1747,7 @@ __end_of_putSTRINGU1 1E82 0 CODE 0 text5 dist/default/production\tesis.X.product
 __stringdata 7F43 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
 __size_ofi2_Lcd_Write_String 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 i2Lcd_Cmd@a 3 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-__accesstop 60 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+__accesstop 60 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 __tdiv_to_l_@exp1 27 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __div_to_l_@cntr 27 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\tesis.X.production.obj
@@ -1757,14 +1757,14 @@ i2Lcd_Set_Cursor@b 4 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.pro
 i2Lcd_Set_Cursor@y 7 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 i2Lcd_Set_Cursor@z 6 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __pintcode_body 18F4 0 CODE 0 intcode_body dist/default/production\tesis.X.production.obj
-intlevel0 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s7t8.obj
-intlevel1 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+intlevel0 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+intlevel1 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 __CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of__tdiv_to_l_ 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-intlevel2 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+intlevel2 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 ___lltoft@exp 29 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 _Comando_Tablet 1580 0 CODE 0 text9 dist/default/production\tesis.X.production.obj
-intlevel3 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s7t8.obj
+intlevel3 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s5h8.obj
 __CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_PWM_DutyCycle1 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 Lcd_Write_Char@temp 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj

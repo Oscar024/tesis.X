@@ -67,16 +67,16 @@ void Inicializa_Driveby(void) {
     int i = 0;
     __delay_ms(40);
     OSCCONbits.IRCF = 0b111; // Oscilador Interno a 8 Mhz
-            OSCTUNEbits.PLLEN = 1; // PLL Activado (8 Mhz x 4 = 32 Mhz)_
-            __delay_ms(40);
+//            OSCTUNEbits.PLLEN = 1; // PLL Activado (8 Mhz x 4 = 32 Mhz)_
+//            __delay_ms(40);
     //        ODCON2bits.U2OD = 1; // Activa Open Drain en USART2
     //        TRISGbits.TRISG1 = 0; // USART2 TX
     TRISA = 0;
     PORTA = 0;
     TRISCbits.TRISC7 = 1;
     TRISCbits.TRISC6 = 0;
-//    for (i = 1; i <= 50; i++)
-//      __delay_ms(20);
+    for (i = 1; i <= 50; i++)
+      __delay_ms(20);
     PORTE = 0;
     PORTB = 0;
     TRISBbits.TRISB0 = 1;

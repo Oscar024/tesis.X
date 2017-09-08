@@ -5240,11 +5240,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Funciones_Db.c: 77: TRISCbits.TRISC6 = 0;
 "77
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 78: for (i = 1; i <= 5; i++)
+[; ;Funciones_Db.c: 78: for (i = 1; i <= 50; i++)
 "78
 {
 [e = _i -> 1 `i ]
-[e $ <= _i -> 5 `i 601  ]
+[e $ <= _i -> 50 `i 601  ]
 [e $U 602  ]
 "79
 [e :U 601 ]
@@ -5252,7 +5252,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "78
 [e ++ _i -> 1 `i ]
-[e $ <= _i -> 5 `i 601  ]
+[e $ <= _i -> 50 `i 601  ]
 [e :U 602 ]
 "79
 }

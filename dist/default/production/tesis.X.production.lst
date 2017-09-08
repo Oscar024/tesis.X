@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC18 LITE Macro Assembler V1.33 build 59893 
-                                                                                               Wed Sep 06 16:17:22 2017
+                                                                                               Thu Sep 07 19:07:54 2017
 
 Microchip Technology Omniscient Code Generator (Lite mode) build 59893
      1                           	processor	18F4550
@@ -1681,7 +1681,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   1675                           ;Funciones_Db.c: 77: TRISCbits.TRISC6 = 0;
   1676  001A22  9C94               	bcf	3988,6,c	;volatile
   1677                           
-  1678                           ;Funciones_Db.c: 78: for (i = 1; i <= 5; i++)
+  1678                           ;Funciones_Db.c: 78: for (i = 1; i <= 50; i++)
   1679  001A24  0E00               	movlw	0
   1680  001A26  6E29               	movwf	Inicializa_Driveby@i+1,c
   1681  001A28  0E01               	movlw	1
@@ -1689,7 +1689,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   1683  001A2C  5029               	movf	Inicializa_Driveby@i+1,w,c
   1684  001A2E  0A80               	xorlw	128
   1685  001A30  0F80               	addlw	-128
-  1686  001A32  0E06               	movlw	6
+  1686  001A32  0E33               	movlw	51
   1687  001A34  B4D8               	btfsc	status,2,c
   1688  001A36  5C28               	subwf	Inicializa_Driveby@i,w,c
   1689  001A38  B0D8               	btfsc	status,0,c
@@ -12125,7 +12125,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V1.33 build 59893 
-Symbol Table                                                                                   Wed Sep 06 16:17:22 2017
+Symbol Table                                                                                   Thu Sep 07 19:07:54 2017
 
                             _i 00D6                              _j 0041        __size_of_PWM_DutyCycle1 007C  
       __size_of_PWM_DutyCycle2 007C                             l54 2728                             l59 233A  
