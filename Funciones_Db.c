@@ -126,6 +126,7 @@ void Comando_Tablet() {
 //      Lcd_Clear();
 //      Lcd_Set_Cursor(1, 1);
 //      Lcd_Write_String("4");
+      LED_VERDE = ~ LED_VERDE;  
       sensed = getCNY70Value();
       Lcd_Clear();
       Lcd_Set_Cursor(1,1);
@@ -134,6 +135,7 @@ void Comando_Tablet() {
       putcBluetoothString("\n");      
       break;
     case 5:
+      LED_AMARILLO = ~ LED_AMARILLO;  
       Lcd_Clear();
       Lcd_Set_Cursor(1, 1);
       Lcd_Write_Integer(BluetoothDato[3]);

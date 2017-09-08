@@ -6675,6 +6675,7 @@ case 4:
 
 
 
+PORTAbits.RA1 = ~ PORTAbits.RA1;
 sensed = getCNY70Value();
 Lcd_Clear();
 Lcd_Set_Cursor(1,1);
@@ -6683,6 +6684,7 @@ putcBluetoothInt(sensed);
 putcBluetoothString("\n");
 break;
 case 5:
+PORTAbits.RA0 = ~ PORTAbits.RA0;
 Lcd_Clear();
 Lcd_Set_Cursor(1, 1);
 Lcd_Write_Integer(BluetoothDato[3]);

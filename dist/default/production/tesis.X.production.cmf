@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+$C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 end_init CODE 0 18 18 4 1
 reset_vec CODE 0 0 0 4 1
 idloc IDLOC 0 200000 200000 8 1
@@ -19,65 +19,65 @@ config CONFIG 0 300000 300000 E 1
 $dist/default/production\tesis.X.production.obj
 intcode CODE 0 8 8 10 1
 mediumconst MEDIUMCONST 0 7ECC 7ECC 134 1
-text58 CODE 0 2910 2910 1E 1
-text57 CODE 0 27F8 27F8 2C 1
-text56 CODE 0 28B4 28B4 20 1
-text55 CODE 0 29A8 29A8 E 1
-text54 CODE 0 24EC 24EC 50 1
-text53 CODE 0 2762 2762 38 1
-text52 CODE 0 221C 221C 7A 1
-intcode_body CODE 0 18F4 18F4 F4 1
-text50 CODE 0 27CC 27CC 2C 1
-text49 CODE 0 2894 2894 20 1
-text48 CODE 0 299A 299A E 1
-text47 CODE 0 249C 249C 50 1
-text46 CODE 0 272A 272A 38 1
-text45 CODE 0 21A2 21A2 7A 1
-text44 CODE 0 1F12 1F12 90 1
-text43 CODE 0 284A 284A 26 1
-text42 CODE 0 1B64 1B64 A8 1
+text58 CODE 0 2914 2914 1E 1
+text57 CODE 0 27FC 27FC 2C 1
+text56 CODE 0 28B8 28B8 20 1
+text55 CODE 0 29AC 29AC E 1
+text54 CODE 0 24F0 24F0 50 1
+text53 CODE 0 2766 2766 38 1
+text52 CODE 0 2220 2220 7A 1
+intcode_body CODE 0 18F8 18F8 F4 1
+text50 CODE 0 27D0 27D0 2C 1
+text49 CODE 0 2898 2898 20 1
+text48 CODE 0 299E 299E E 1
+text47 CODE 0 24A0 24A0 50 1
+text46 CODE 0 272E 272E 38 1
+text45 CODE 0 21A6 21A6 7A 1
+text44 CODE 0 1F16 1F16 90 1
+text43 CODE 0 284E 284E 26 1
+text42 CODE 0 1B68 1B68 A8 1
 text41 CODE 0 105E 105E 280 1
-text40 CODE 0 25CE 25CE 3C 1
+text40 CODE 0 25D2 25D2 3C 1
 text39 CODE 0 1436 1436 14A 1
-text38 CODE 0 2028 2028 82 1
-text37 CODE 0 23DA 23DA 66 1
-text36 CODE 0 2440 2440 5C 1
-text35 CODE 0 16BE 16BE 136 1
-text34 CODE 0 17F4 17F4 100 1
-text33 CODE 0 1CB2 1CB2 A4 1
-text32 CODE 0 1E82 1E82 90 1
+text38 CODE 0 202C 202C 82 1
+text37 CODE 0 23DE 23DE 66 1
+text36 CODE 0 2444 2444 5C 1
+text35 CODE 0 16C2 16C2 136 1
+text34 CODE 0 17F8 17F8 100 1
+text33 CODE 0 1CB6 1CB6 A4 1
+text32 CODE 0 1E86 1E86 90 1
 text31 CODE 0 12DE 12DE 158 1
-text30 CODE 0 2824 2824 26 1
+text30 CODE 0 2828 2828 26 1
 text29 CODE 0 DB8 DB8 2A6 1
 text28 CODE 0 940 940 478 1
 text27 CODE 0 1C 1C 924 1
-text26 CODE 0 26B8 26B8 3A 1
-text25 CODE 0 267E 267E 3A 1
-text24 CODE 0 2870 2870 24 1
-text23 CODE 0 2126 2126 7C 1
-text22 CODE 0 2644 2644 3A 1
-text21 CODE 0 20AA 20AA 7C 1
-text20 CODE 0 296A 296A 12 1
-text19 CODE 0 28F2 28F2 1E 1
-text18 CODE 0 260A 260A 3A 1
-text17 CODE 0 28D4 28D4 1E 1
-text16 CODE 0 26F2 26F2 38 1
-text15 CODE 0 1AAC 1AAC B8 1
-text14 CODE 0 2372 2372 68 1
-text13 CODE 0 297C 297C 10 1
-text12 CODE 0 2958 2958 12 1
-text11 CODE 0 1FA2 1FA2 86 1
-text10 CODE 0 2308 2308 6A 1
-text9 CODE 0 1580 1580 13E 1
-text8 CODE 0 279A 279A 32 1
-text7 CODE 0 2586 2586 48 1
-text6 CODE 0 298C 298C E 1
-text5 CODE 0 1DEE 1DEE 94 1
-text4 CODE 0 292E 292E 16 1
-text3 CODE 0 1C0C 1C0C A6 1
-text2 CODE 0 19E8 19E8 C4 1
-text1 CODE 0 2296 2296 72 1
-text0 CODE 0 1D56 1D56 98 1
+text26 CODE 0 26BC 26BC 3A 1
+text25 CODE 0 2682 2682 3A 1
+text24 CODE 0 2874 2874 24 1
+text23 CODE 0 212A 212A 7C 1
+text22 CODE 0 2648 2648 3A 1
+text21 CODE 0 20AE 20AE 7C 1
+text20 CODE 0 296E 296E 12 1
+text19 CODE 0 28F6 28F6 1E 1
+text18 CODE 0 260E 260E 3A 1
+text17 CODE 0 28D8 28D8 1E 1
+text16 CODE 0 26F6 26F6 38 1
+text15 CODE 0 1AB0 1AB0 B8 1
+text14 CODE 0 2376 2376 68 1
+text13 CODE 0 2980 2980 10 1
+text12 CODE 0 295C 295C 12 1
+text11 CODE 0 1FA6 1FA6 86 1
+text10 CODE 0 230C 230C 6A 1
+text9 CODE 0 1580 1580 142 1
+text8 CODE 0 279E 279E 32 1
+text7 CODE 0 258A 258A 48 1
+text6 CODE 0 2990 2990 E 1
+text5 CODE 0 1DF2 1DF2 94 1
+text4 CODE 0 2932 2932 16 1
+text3 CODE 0 1C10 1C10 A6 1
+text2 CODE 0 19EC 19EC C4 1
+text1 CODE 0 229A 229A 72 1
+text0 CODE 0 1D5A 1D5A 98 1
 cstackCOMRAM COMRAM 1 1 1 2F 1
 cstackBANK0 BANK0 1 60 60 6E 1
 cstackBANK1 BANK1 1 15A 15A 18 1
@@ -85,8 +85,8 @@ bssBANK1 BANK1 1 100 100 5A 1
 dataBANK0 BANK0 1 EC EC 14 1
 bssBANK0 BANK0 1 CE CE 1E 1
 bssCOMRAM COMRAM 1 30 30 18 1
-cinit CODE 0 253C 253C 4A 1
-idataBANK0 CODE 0 2944 2944 14 1
+cinit CODE 0 2540 2540 4A 1
+idataBANK0 CODE 0 2948 2948 14 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -103,15 +103,15 @@ BANK7 000700-0007FF 1
 BIGRAM 000048-00005F 1
 BIGRAM 000172-0007FF 1
 CODE 000004-000007 1
-CODE 0029B6-007ECB 1
+CODE 0029BA-007ECB 1
 COMRAM 000048-00005F 1
 CONST 000004-000007 1
-CONST 0029B6-007ECB 1
+CONST 0029BA-007ECB 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 0029B6-007ECB 1
+MEDIUMCONST 0029BA-007ECB 1
 RAM 000172-0007FF 1
 SFR 000F60-000FFF 1
-SMALLCONST 0029B6-007ECB 1
+SMALLCONST 0029BA-007ECB 1
 STACK 000172-0007FF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -346,687 +346,691 @@ $dist/default/production\tesis.X.production.obj
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":121 15CA text9 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":123 15D4 text9 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":124 15E0 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":125 15E2 text9 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":129 15E2 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":130 15EE text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":131 15F2 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":132 15FC text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":133 1608 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":134 1614 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":135 1620 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":137 1622 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":138 1626 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":139 1630 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":140 1640 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":141 164A text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":142 165A text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":143 1660 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":144 1666 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":145 166E text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":146 1676 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":148 1678 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":149 167C text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":150 1686 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":151 1692 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":107 1694 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":153 16B8 text9 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":156 16BC text9 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":60 16BE text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":66 16BE text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":68 16EA text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":70 1716 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":71 1718 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":72 1728 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":73 172A text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":74 173A text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":75 174A text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":76 174E text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":77 1754 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":79 1758 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":80 1762 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":81 1776 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":82 1786 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":84 1788 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":85 1792 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":86 1796 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":87 179A text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":90 17AA text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":91 17B4 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":93 17BA text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":94 17C0 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":96 17D2 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":97 17DC text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":95 17DE text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":99 17E2 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":100 17E2 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":101 17F2 text35 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":60 17F4 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":66 17F4 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":68 180E text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":70 1828 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":71 182A text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":72 1836 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":73 1838 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":74 1844 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":75 1854 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":76 1858 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":77 185E text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":78 1862 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":79 1862 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":80 186C text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":81 187C text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":82 1888 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":83 188A text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":84 188A text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":85 1892 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":86 1896 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":87 189A text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":90 18AA text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":91 18B4 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":93 18BA text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":94 18C0 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":96 18D2 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":97 18DC text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":95 18DE text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":99 18E2 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":100 18E2 text34 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":101 18F2 text34 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":84 18F4 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":89 1922 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":91 1926 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":92 1940 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":93 195A intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":94 195E intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":95 1962 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":96 1966 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":99 196C intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":100 1972 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":101 1976 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":102 197A intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":106 1980 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":107 1986 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":111 198A intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":112 198E intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":113 1992 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":114 199C intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":115 19A8 intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":117 19AA intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":118 19AC intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":119 19AE intcode_body CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":62 19E8 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":63 19E8 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":64 19F8 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":67 19FC text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":68 1A04 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":69 1A12 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":74 1A18 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":75 1A1C text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":76 1A20 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":77 1A22 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":78 1A24 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":79 1A3C text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":78 1A4C text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":80 1A52 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":81 1A56 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":82 1A5A text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":83 1A5C text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":84 1A5E text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":85 1A60 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":86 1A62 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":87 1A64 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":88 1A68 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":89 1A72 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":91 1A7E text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":92 1A82 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":93 1A86 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":94 1A90 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":96 1A9C text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":97 1AA2 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":98 1AA6 text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":100 1AAA text2 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":3 1AAC text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":5 1AAC text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":7 1ABC text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":9 1ACC text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":10 1ADC text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":11 1AE4 text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":13 1AF4 text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":15 1B04 text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":16 1B14 text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":17 1B1C text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":19 1B2C text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":20 1B3C text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":21 1B42 text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":22 1B52 text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":24 1B5A text15 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":25 1B62 text15 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":62 1B64 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":64 1B64 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":65 1B74 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":67 1B82 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":68 1B84 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":66 1B8C text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":71 1BAA text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":72 1BAC text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":73 1BB8 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":70 1BC0 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":76 1BDE text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":77 1BE0 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":75 1BE8 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":79 1BEC text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":80 1BEE text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":81 1BF0 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":82 1BF4 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":83 1BF8 text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":84 1BFC text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":85 1BFE text42 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":86 1C0A text42 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":16 1C0C text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":18 1C0C text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":21 1C12 text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":24 1C18 text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":27 1C2A text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":29 1C3E text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":32 1C44 text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":33 1C5C text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":35 1C62 text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":36 1C76 text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":40 1C7C text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":41 1C90 text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":43 1C96 text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":44 1CAA text3 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":46 1CB0 text3 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":8 1CB2 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":14 1CB2 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":15 1CB6 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":16 1CCA text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":17 1CD2 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":19 1CD6 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":20 1CEA text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":21 1CF2 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":23 1CF6 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":24 1CFE text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":25 1D06 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":26 1D0A text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":27 1D0C text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":28 1D12 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":26 1D14 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":31 1D18 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":32 1D1E text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":33 1D2A text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":34 1D32 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":36 1D34 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":37 1D3A text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":39 1D3E text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":40 1D44 text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":41 1D4C text33 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":42 1D54 text33 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":122 1D56 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":124 1D56 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":125 1D5A text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":126 1D5E text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":127 1D62 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":128 1D64 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":129 1D6C text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":130 1D70 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":131 1D74 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":132 1D7E text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":133 1D8A text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":134 1D8E text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":141 1D90 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":142 1D96 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":143 1D9A text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":145 1D9E text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":146 1DA4 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":147 1DA8 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":148 1DB2 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":149 1DBE text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":150 1DC2 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":151 1DCC text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":152 1DD0 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":154 1DD6 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":155 1DD8 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":160 1DDE text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":161 1DE2 text0 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":18 1DEE text5 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":21 1DEE text5 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":22 1DF8 text5 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":21 1E34 text5 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":25 1E48 text5 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":26 1E4E text5 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":25 1E76 text5 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":28 1E7E text5 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":25 1E80 text5 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":8 1E82 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":13 1E82 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":14 1E86 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":15 1E9A text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":16 1EA2 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":18 1EA6 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":19 1EBA text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":20 1EC2 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":21 1ECA text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":22 1ECE text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":23 1ED0 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":24 1ED6 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":22 1ED8 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":27 1EDC text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":28 1EE8 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":29 1EF0 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":30 1EF6 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":32 1EFA text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":33 1F00 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":34 1F08 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":35 1F10 text32 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":4 1F12 text44 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":6 1F12 text44 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":7 1F16 text44 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":8 1F42 text44 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":9 1F46 text44 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":10 1F72 text44 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":11 1F7E text44 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":12 1F8A text44 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":13 1FA0 text44 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":102 1FA2 text11 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":106 1FA2 text11 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":108 1FA8 text11 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":109 1FD0 text11 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":110 1FDE text11 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":111 1FF8 text11 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":109 1FFC text11 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":113 201C text11 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":115 2026 text11 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":8 2028 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":14 2028 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":15 2038 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":16 2044 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":17 2048 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":18 204A text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":19 2054 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":17 2056 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":22 205A text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":23 2064 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":24 2078 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":25 2088 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":27 208A text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":28 2094 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":29 2098 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":30 2098 text38 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":31 20A8 text38 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":55 20AA text21 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":57 20AE text21 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":59 20C6 text21 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":60 2118 text21 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":62 2124 text21 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":33 2126 text23 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":35 212A text23 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":37 2142 text23 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":38 2194 text23 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":40 21A0 text23 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":90 21A2 text45 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 21A2 text45 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":93 21AC text45 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 21E0 text45 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":94 2218 text45 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 221A text45 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":90 221C text52 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 221C text52 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":93 2226 text52 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 225A text52 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":94 2292 text52 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 2294 text52 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":57 2296 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":58 2296 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":59 229C text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":60 22AC text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":61 22B2 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":62 22C2 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":63 22C8 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":64 22D6 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":66 22DC text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":67 22E2 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":68 22E8 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":69 22EE text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":70 22F4 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":71 22FA text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":72 2300 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":73 2306 text1 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":90 2308 text10 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":93 2308 text10 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":95 230E text10 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":96 2318 text10 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":97 233A text10 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":95 233E text10 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":99 2366 text10 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":101 2370 text10 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":73 2372 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":75 2374 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":76 2378 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":78 237C text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":79 237E text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":81 2380 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":83 2384 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":84 2386 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":87 2388 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":88 238A text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":90 238C text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":91 2390 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":92 2394 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":93 2394 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":95 2396 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":96 2398 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":98 239A text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":100 239C text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":101 239E text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":103 23A0 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":104 23A4 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":105 23A8 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":106 23A8 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":108 23AA text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":110 23AC text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":111 23B0 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":112 23B4 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":113 23B4 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":115 23B6 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":116 23BA text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":118 23C8 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":119 23CA text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":137 23CC text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":138 23D0 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":139 23D6 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":143 23D8 text14 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":8 23DA text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":13 23DA text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":14 23E6 text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":15 23EA text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":16 23EC text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":17 23F6 text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":15 23F8 text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":20 23FC text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":21 2410 text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":22 2420 text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":23 242A text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":24 242E text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":25 242E text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":26 243E text37 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":35 2440 text36 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":38 2440 text36 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":41 2444 text36 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":42 2446 text36 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":43 2450 text36 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":41 2452 text36 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":45 2476 text36 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":46 249A text36 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":40 249C text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":42 249E text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":43 24A4 text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":44 24AA text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":45 24B0 text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":46 24B6 text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":47 24BC text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":48 24C2 text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":49 24CC text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":50 24D2 text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":51 24D8 text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":52 24DE text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":53 24E4 text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":55 24EA text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":40 24EC text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":42 24EE text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":43 24F4 text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":44 24FA text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":45 2500 text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":46 2506 text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":47 250C text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":48 2512 text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":49 251C text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":50 2522 text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":51 2528 text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":52 252E text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":53 2534 text54 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":55 253A text54 CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3540 253C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3542 253C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3545 253C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3695 253C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3696 2540 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3697 2542 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3698 2542 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3699 2544 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3700 2546 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3703 2548 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3704 254C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3705 254E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3706 254E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3707 2550 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3708 2552 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3711 2554 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3712 2558 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3713 255A cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3714 255A cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3715 255C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3716 255E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3721 2560 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3722 2562 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3723 2564 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3724 2566 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3725 2568 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3726 256A cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3727 256C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3728 2570 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3729 2574 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3730 2574 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3731 2576 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3732 257A cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3733 257C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3734 257E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3740 2580 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3741 2580 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s5h8.":3742 2582 cinit CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":18 2586 text7 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":19 2588 text7 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":20 258C text7 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":21 2592 text7 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":22 25AA text7 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":20 25C2 text7 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":24 25CA text7 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":20 25CC text7 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftsub.c":20 25CE text40 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftsub.c":23 25CE text40 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftsub.c":24 25E0 text40 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftsub.c":25 2608 text40 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":18 260A text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":33 260C text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":35 2610 text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":36 2626 text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":38 262A text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":55 262E text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":56 2638 text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":70 263A text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":71 263C text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":72 2640 text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":80 2642 text18 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c":7 2644 text22 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c":12 2644 text22 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c":15 2660 text22 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c":18 2664 text22 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c":19 267C text22 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":7 267E text25 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":12 267E text25 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":15 269A text25 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":18 269E text25 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":19 26B6 text25 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":113 26B8 text26 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":115 26B8 text26 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":117 26E0 text26 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":118 26F0 text26 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":68 26F2 text16 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":70 26F2 text16 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":71 270A text16 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":72 271E text16 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":70 2722 text16 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":76 2728 text16 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":75 272A text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":77 272C text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":78 2732 text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":79 2738 text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":80 273A text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":81 2742 text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":82 2744 text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":83 274C text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":84 274E text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":85 2754 text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":86 2756 text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":87 275E text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":88 2760 text46 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":75 2762 text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":77 2764 text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":78 276A text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":79 2770 text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":80 2772 text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":81 277A text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":82 277C text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":83 2784 text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":84 2786 text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":85 278C text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":86 278E text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":87 2796 text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":88 2798 text53 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":11 279A text8 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":12 279A text8 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":13 27A2 text8 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":14 27AC text8 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":13 27BA text8 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":16 27C8 text8 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":13 27CA text8 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":6 27CC text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":7 27CE text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":8 27D2 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":9 27D6 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":10 27D6 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":12 27D8 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":13 27DC text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":14 27E0 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":15 27E0 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":17 27E2 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":18 27E6 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":19 27EA text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":20 27EA text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":22 27EC text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":23 27F0 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":24 27F4 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":25 27F4 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":26 27F6 text50 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":6 27F8 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":7 27FA text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":8 27FE text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":9 2802 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":10 2802 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":12 2804 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":13 2808 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":14 280C text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":15 280C text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":17 280E text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":18 2812 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":19 2816 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":20 2816 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":22 2818 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":23 281C text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":24 2820 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":25 2820 text57 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":26 2822 text57 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":15 2824 text30 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":37 2824 text30 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":38 2830 text30 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":39 2838 text30 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":52 2840 text30 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":53 2848 text30 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":15 284A text43 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":17 284A text43 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":18 2856 text43 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":19 2862 text43 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":20 286E text43 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lbtoft.c":27 2870 text24 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lbtoft.c":29 2872 text24 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\common\lbtoft.c":30 2892 text24 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":27 2894 text49 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":28 2896 text49 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":29 2898 text49 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":30 289E text49 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":31 28A0 text49 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":32 28B0 text49 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":33 28B2 text49 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":27 28B4 text56 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":28 28B6 text56 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":29 28B8 text56 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":30 28BE text56 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":31 28C0 text56 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":32 28D0 text56 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":33 28D2 text56 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":42 28D4 text17 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":43 28D6 text17 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":44 28DA text17 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":47 28E0 text17 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":48 28E4 text17 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":49 28E6 text17 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":50 28E8 text17 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":51 28EA text17 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":54 28F0 text17 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":20 28F2 text19 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":21 28F4 text19 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":22 28F8 text19 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":25 28FE text19 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":26 2902 text19 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":27 2904 text19 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":28 2906 text19 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":29 2908 text19 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":32 290E text19 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":15 2910 text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":19 2910 text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":21 2914 text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":23 2918 text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":24 291A text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":25 291C text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":26 291E text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":28 291E text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":29 2920 text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":31 2922 text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":32 2924 text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":34 2926 text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":36 292A text58 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":37 292C text58 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":48 292E text4 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":49 292E text4 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":51 2942 text4 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":13 2958 text12 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":15 295A text12 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":17 295E text12 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":18 2960 text12 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":19 2962 text12 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":22 2964 text12 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":23 2968 text12 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":8 296A text20 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":11 296C text20 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":13 2970 text20 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":15 2972 text20 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":16 2974 text20 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":17 2978 text20 CODE
-"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":19 297A text20 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":5 297C text13 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":8 297E text13 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":10 298A text13 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":12 298C text6 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":14 298E text6 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":15 2994 text6 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":16 2996 text6 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":130 15E4 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":131 15F0 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":132 15F4 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":133 15FE text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":134 160A text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":135 1616 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":136 1622 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":137 1624 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":138 1624 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":139 1626 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":140 162A text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":141 1634 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":142 1644 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":143 164E text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":144 165E text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":145 1664 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":146 166A text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":147 1672 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":148 167A text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":150 167C text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":151 1680 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":152 168A text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":153 1696 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":107 1698 text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":155 16BC text9 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":158 16C0 text9 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":60 16C2 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":66 16C2 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":68 16EE text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":70 171A text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":71 171C text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":72 172C text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":73 172E text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":74 173E text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":75 174E text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":76 1752 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":77 1758 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":79 175C text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":80 1766 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":81 177A text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":82 178A text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":84 178C text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":85 1796 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":86 179A text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":87 179E text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":90 17AE text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":91 17B8 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":93 17BE text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":94 17C4 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":96 17D6 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":97 17E0 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":95 17E2 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":99 17E6 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":100 17E6 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\fldivl.c":101 17F6 text35 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":60 17F8 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":66 17F8 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":68 1812 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":70 182C text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":71 182E text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":72 183A text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":73 183C text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":74 1848 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":75 1858 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":76 185C text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":77 1862 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":78 1866 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":79 1866 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":80 1870 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":81 1880 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":82 188C text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":83 188E text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":84 188E text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":85 1896 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":86 189A text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":87 189E text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":90 18AE text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":91 18B8 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":93 18BE text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":94 18C4 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":96 18D6 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":97 18E0 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":95 18E2 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":99 18E6 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":100 18E6 text34 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdivl.c":101 18F6 text34 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":84 18F8 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":89 1926 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":91 192A intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":92 1944 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":93 195E intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":94 1962 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":95 1966 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":96 196A intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":99 1970 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":100 1976 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":101 197A intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":102 197E intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":106 1984 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":107 198A intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":111 198E intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":112 1992 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":113 1996 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":114 19A0 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":115 19AC intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":117 19AE intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":118 19B0 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":119 19B2 intcode_body CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":62 19EC text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":63 19EC text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":64 19FC text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":67 1A00 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":68 1A08 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":69 1A16 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":74 1A1C text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":75 1A20 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":76 1A24 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":77 1A26 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":78 1A28 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":79 1A40 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":78 1A50 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":80 1A56 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":81 1A5A text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":82 1A5E text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":83 1A60 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":84 1A62 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":85 1A64 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":86 1A66 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":87 1A68 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":88 1A6C text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":89 1A76 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":91 1A82 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":92 1A86 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":93 1A8A text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":94 1A94 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":96 1AA0 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":97 1AA6 text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":98 1AAA text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Funciones_Db.c":100 1AAE text2 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":3 1AB0 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":5 1AB0 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":7 1AC0 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":9 1AD0 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":10 1AE0 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":11 1AE8 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":13 1AF8 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":15 1B08 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":16 1B18 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":17 1B20 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":19 1B30 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":20 1B40 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":21 1B46 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":22 1B56 text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":24 1B5E text15 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\cny70.c":25 1B66 text15 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":62 1B68 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":64 1B68 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":65 1B78 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":67 1B86 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":68 1B88 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":66 1B90 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":71 1BAE text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":72 1BB0 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":73 1BBC text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":70 1BC4 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":76 1BE2 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":77 1BE4 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":75 1BEC text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":79 1BF0 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":80 1BF2 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":81 1BF4 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":82 1BF8 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":83 1BFC text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":84 1C00 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":85 1C02 text42 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c":86 1C0E text42 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":16 1C10 text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":18 1C10 text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":21 1C16 text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":24 1C1C text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":27 1C2E text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":29 1C42 text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":32 1C48 text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":33 1C60 text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":35 1C66 text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":36 1C7A text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":40 1C80 text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":41 1C94 text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":43 1C9A text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":44 1CAE text3 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":46 1CB4 text3 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":8 1CB6 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":14 1CB6 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":15 1CBA text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":16 1CCE text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":17 1CD6 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":19 1CDA text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":20 1CEE text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":21 1CF6 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":23 1CFA text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":24 1D02 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":25 1D0A text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":26 1D0E text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":27 1D10 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":28 1D16 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":26 1D18 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":31 1D1C text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":32 1D22 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":33 1D2E text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":34 1D36 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":36 1D38 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":37 1D3E text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":39 1D42 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":40 1D48 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":41 1D50 text33 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c":42 1D58 text33 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":122 1D5A text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":124 1D5A text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":125 1D5E text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":126 1D62 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":127 1D66 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":128 1D68 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":129 1D70 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":130 1D74 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":131 1D78 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":132 1D82 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":133 1D8E text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":134 1D92 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":141 1D94 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":142 1D9A text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":143 1D9E text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":145 1DA2 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":146 1DA8 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":147 1DAC text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":148 1DB6 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":149 1DC2 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":150 1DC6 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":151 1DD0 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":152 1DD4 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":154 1DDA text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":155 1DDC text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":160 1DE2 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\robot.c":161 1DE6 text0 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":18 1DF2 text5 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":21 1DF2 text5 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":22 1DFC text5 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":21 1E38 text5 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":25 1E4C text5 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":26 1E52 text5 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":25 1E7A text5 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":28 1E82 text5 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":25 1E84 text5 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":8 1E86 text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":13 1E86 text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":14 1E8A text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":15 1E9E text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":16 1EA6 text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":18 1EAA text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":19 1EBE text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":20 1EC6 text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":21 1ECE text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":22 1ED2 text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":23 1ED4 text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":24 1EDA text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":22 1EDC text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":27 1EE0 text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":28 1EEC text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":29 1EF4 text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":30 1EFA text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":32 1EFE text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":33 1F04 text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":34 1F0C text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c":35 1F14 text32 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":4 1F16 text44 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":6 1F16 text44 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":7 1F1A text44 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":8 1F46 text44 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":9 1F4A text44 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":10 1F76 text44 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":11 1F82 text44 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":12 1F8E text44 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c":13 1FA4 text44 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":102 1FA6 text11 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":106 1FA6 text11 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":108 1FAC text11 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":109 1FD4 text11 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":110 1FE2 text11 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":111 1FFC text11 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":109 2000 text11 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":113 2020 text11 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":115 202A text11 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":8 202C text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":14 202C text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":15 203C text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":16 2048 text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":17 204C text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":18 204E text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":19 2058 text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":17 205A text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":22 205E text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":23 2068 text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":24 207C text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":25 208C text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":27 208E text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":28 2098 text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":29 209C text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":30 209C text38 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c":31 20AC text38 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":55 20AE text21 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":57 20B2 text21 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":59 20CA text21 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":60 211C text21 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":62 2128 text21 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":33 212A text23 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":35 212E text23 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":37 2146 text23 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":38 2198 text23 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":40 21A4 text23 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":90 21A6 text45 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 21A6 text45 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":93 21B0 text45 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 21E4 text45 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":94 221C text45 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 221E text45 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":90 2220 text52 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 2220 text52 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":93 222A text52 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 225E text52 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":94 2296 text52 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":92 2298 text52 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":57 229A text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":58 229A text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":59 22A0 text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":60 22B0 text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":61 22B6 text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":62 22C6 text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":63 22CC text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":64 22DA text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":66 22E0 text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":67 22E6 text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":68 22EC text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":69 22F2 text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":70 22F8 text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":71 22FE text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":72 2304 text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":73 230A text1 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":90 230C text10 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":93 230C text10 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":95 2312 text10 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":96 231C text10 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":97 233E text10 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":95 2342 text10 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":99 236A text10 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":101 2374 text10 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":73 2376 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":75 2378 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":76 237C text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":78 2380 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":79 2382 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":81 2384 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":83 2388 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":84 238A text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":87 238C text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":88 238E text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":90 2390 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":91 2394 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":92 2398 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":93 2398 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":95 239A text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":96 239C text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":98 239E text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":100 23A0 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":101 23A2 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":103 23A4 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":104 23A8 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":105 23AC text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":106 23AC text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":108 23AE text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":110 23B0 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":111 23B4 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":112 23B8 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":113 23B8 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":115 23BA text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":116 23BE text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":118 23CC text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":119 23CE text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":137 23D0 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":138 23D4 text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":139 23DA text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c":143 23DC text14 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":8 23DE text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":13 23DE text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":14 23EA text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":15 23EE text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":16 23F0 text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":17 23FA text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":15 23FC text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":20 2400 text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":21 2414 text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":22 2424 text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":23 242E text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":24 2432 text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":25 2432 text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c":26 2442 text37 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":35 2444 text36 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":38 2444 text36 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":41 2448 text36 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":42 244A text36 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":43 2454 text36 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":41 2456 text36 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":45 247A text36 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c":46 249E text36 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":40 24A0 text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":42 24A2 text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":43 24A8 text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":44 24AE text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":45 24B4 text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":46 24BA text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":47 24C0 text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":48 24C6 text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":49 24D0 text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":50 24D6 text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":51 24DC text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":52 24E2 text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":53 24E8 text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":55 24EE text47 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":40 24F0 text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":42 24F2 text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":43 24F8 text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":44 24FE text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":45 2504 text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":46 250A text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":47 2510 text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":48 2516 text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":49 2520 text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":50 2526 text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":51 252C text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":52 2532 text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":53 2538 text54 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":55 253E text54 CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3540 2540 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3542 2540 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3545 2540 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3695 2540 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3696 2544 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3697 2546 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3698 2546 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3699 2548 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3700 254A cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3703 254C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3704 2550 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3705 2552 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3706 2552 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3707 2554 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3708 2556 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3711 2558 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3712 255C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3713 255E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3714 255E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3715 2560 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3716 2562 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3721 2564 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3722 2566 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3723 2568 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3724 256A cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3725 256C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3726 256E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3727 2570 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3728 2574 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3729 2578 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3730 2578 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3731 257A cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3732 257E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3733 2580 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3734 2582 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3740 2584 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3741 2584 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s3tc.":3742 2586 cinit CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":18 258A text7 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":19 258C text7 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":20 2590 text7 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":21 2596 text7 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":22 25AE text7 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":20 25C6 text7 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":24 25CE text7 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":20 25D0 text7 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftsub.c":20 25D2 text40 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftsub.c":23 25D2 text40 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftsub.c":24 25E4 text40 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftsub.c":25 260C text40 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":18 260E text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":33 2610 text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":35 2614 text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":36 262A text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":38 262E text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":55 2632 text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":56 263C text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":70 263E text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":71 2640 text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":72 2644 text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c":80 2646 text18 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c":7 2648 text22 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c":12 2648 text22 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c":15 2664 text22 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c":18 2668 text22 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c":19 2680 text22 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":7 2682 text25 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":12 2682 text25 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":15 269E text25 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":18 26A2 text25 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":19 26BA text25 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":113 26BC text26 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":115 26BC text26 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":117 26E4 text26 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":118 26F4 text26 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":68 26F6 text16 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":70 26F6 text16 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":71 270E text16 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":72 2722 text16 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":70 2726 text16 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":76 272C text16 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":75 272E text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":77 2730 text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":78 2736 text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":79 273C text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":80 273E text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":81 2746 text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":82 2748 text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":83 2750 text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":84 2752 text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":85 2758 text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":86 275A text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":87 2762 text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":88 2764 text46 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":75 2766 text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":77 2768 text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":78 276E text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":79 2774 text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":80 2776 text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":81 277E text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":82 2780 text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":83 2788 text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":84 278A text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":85 2790 text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":86 2792 text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":87 279A text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":88 279C text53 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":11 279E text8 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":12 279E text8 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":13 27A6 text8 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":14 27B0 text8 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":13 27BE text8 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":16 27CC text8 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Retardos.c":13 27CE text8 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":6 27D0 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":7 27D2 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":8 27D6 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":9 27DA text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":10 27DA text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":12 27DC text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":13 27E0 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":14 27E4 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":15 27E4 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":17 27E6 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":18 27EA text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":19 27EE text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":20 27EE text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":22 27F0 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":23 27F4 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":24 27F8 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":25 27F8 text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":26 27FA text50 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":6 27FC text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":7 27FE text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":8 2802 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":9 2806 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":10 2806 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":12 2808 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":13 280C text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":14 2810 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":15 2810 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":17 2812 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":18 2816 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":19 281A text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":20 281A text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":22 281C text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":23 2820 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":24 2824 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":25 2824 text57 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":26 2826 text57 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":15 2828 text30 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":37 2828 text30 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":38 2834 text30 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":39 283C text30 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":52 2844 text30 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c":53 284C text30 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":15 284E text43 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":17 284E text43 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":18 285A text43 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":19 2866 text43 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":20 2872 text43 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lbtoft.c":27 2874 text24 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lbtoft.c":29 2876 text24 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\common\lbtoft.c":30 2896 text24 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":27 2898 text49 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":28 289A text49 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":29 289C text49 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":30 28A2 text49 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":31 28A4 text49 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":32 28B4 text49 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":33 28B6 text49 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":27 28B8 text56 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":28 28BA text56 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":29 28BC text56 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":30 28C2 text56 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":31 28C4 text56 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":32 28D4 text56 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":33 28D6 text56 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":42 28D8 text17 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":43 28DA text17 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":44 28DE text17 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":47 28E4 text17 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":48 28E8 text17 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":49 28EA text17 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":50 28EC text17 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":51 28EE text17 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":54 28F4 text17 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":20 28F6 text19 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":21 28F8 text19 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":22 28FC text19 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":25 2902 text19 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":26 2906 text19 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":27 2908 text19 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":28 290A text19 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":29 290C text19 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\pwm.c":32 2912 text19 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":15 2914 text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":19 2914 text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":21 2918 text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":23 291C text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":24 291E text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":25 2920 text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":26 2922 text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":28 2922 text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":29 2924 text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":31 2926 text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":32 2928 text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":34 292A text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":36 292E text58 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c":37 2930 text58 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":48 2932 text4 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":49 2932 text4 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\Bluetooth.c":51 2946 text4 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":13 295C text12 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":15 295E text12 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":17 2962 text12 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":18 2964 text12 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":19 2966 text12 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":22 2968 text12 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c":23 296C text12 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":8 296E text20 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":11 2970 text20 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":13 2974 text20 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":15 2976 text20 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":16 2978 text20 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":17 297C text20 CODE
+"C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c":19 297E text20 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":5 2980 text13 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":8 2982 text13 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":10 298E text13 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":12 2990 text6 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":14 2992 text6 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":15 2998 text6 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":35 299A text48 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":36 299A text48 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":37 29A0 text48 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":38 29A6 text48 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":35 29A8 text55 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":36 29A8 text55 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":37 29AE text55 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":38 29B4 text55 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":16 299A text6 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\UART1.c":15 299C text6 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":35 299E text48 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":36 299E text48 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":37 29A4 text48 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":38 29AA text48 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":35 29AC text55 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":36 29AC text55 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":37 29B2 text55 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\tesis.X\lcd.c":38 29B8 text55 CODE
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -1050,8 +1054,8 @@ sprintf@f 8A 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.ob
 __size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _FinComandT 37 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 ___lltoft@c 21 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-__end_of___ftneg 2870 0 CODE 0 text43 dist/default/production\tesis.X.production.obj
-__end_of_OpenUSART 23DA 0 CODE 0 text14 dist/default/production\tesis.X.production.obj
+__end_of___ftneg 2874 0 CODE 0 text43 dist/default/production\tesis.X.production.obj
+__end_of_OpenUSART 23DE 0 CODE 0 text14 dist/default/production\tesis.X.production.obj
 _PR2 FCB 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __S0 30000E 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __S1 172 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1060,13 +1064,13 @@ __CFG_FOSC$INTOSCIO_EC 0 0 ABS 0 - dist/default/production\tesis.X.production.ob
 __Hintentry 0 0 ABS 0 intentry dist/default/production\tesis.X.production.obj
 __CFG_PWRT$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __Lintentry 0 0 ABS 0 intentry dist/default/production\tesis.X.production.obj
-__end_of_Lcd_Write_String 221C 0 CODE 0 text45 dist/default/production\tesis.X.production.obj
+__end_of_Lcd_Write_String 2220 0 CODE 0 text45 dist/default/production\tesis.X.production.obj
 _cad 3D 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
-_Lcd_Write_Char 272A 0 CODE 0 text46 dist/default/production\tesis.X.production.obj
+_Lcd_Write_Char 272E 0 CODE 0 text46 dist/default/production\tesis.X.production.obj
 __size_of_SetDCPWM1 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_SetDCPWM2 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ___ftadd@f1 76 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
-__end_of___awdiv 1D56 0 CODE 0 text33 dist/default/production\tesis.X.production.obj
+__end_of___awdiv 1D5A 0 CODE 0 text33 dist/default/production\tesis.X.production.obj
 _BluetoothDato 128 0 BANK1 1 bssBANK1 dist/default/production\tesis.X.production.obj
 OpenPWM2@ccp2mx 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __size_of_putcTxU1 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1080,10 +1084,10 @@ Pause_ms@i 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production
 ___ftsub@f1 82 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 i2Lcd_Write_Char@a 4 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 i2Lcd_Write_Char@y 3 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-_main 1D56 0 CODE 0 text0 dist/default/production\tesis.X.production.obj
-___sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+_main 1D5A 0 CODE 0 text0 dist/default/production\tesis.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 SendBlueToothCommand@command 23 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-start 18 0 CODE 0 init C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+start 18 0 CODE 0 init C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 putSTRINGU1@dato 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __size_of_TMRO_USART 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ?___ftadd 76 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
@@ -1091,10 +1095,10 @@ ___fttol@f1 73 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.
 _EntTrama 35 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 ___ftsub@f2 85 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 ___ftmul@f1 60 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
-i2_Lcd_Clear 29A8 0 CODE 0 text55 dist/default/production\tesis.X.production.obj
+i2_Lcd_Clear 29AC 0 CODE 0 text55 dist/default/production\tesis.X.production.obj
 ___fttol@lval 7D 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 WriteUSART@data 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-i2_Lcd_Cmd 28B4 0 CODE 0 text56 dist/default/production\tesis.X.production.obj
+i2_Lcd_Cmd 28B8 0 CODE 0 text56 dist/default/production\tesis.X.production.obj
 _RCREG FAE 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _TRISA F92 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _RCSTA FAB 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1113,8 +1117,8 @@ __HRAM 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __LRAM 1 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _T2CON FCA 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _PORTE F84 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__end_of_getCNY70Value 1B64 0 CODE 0 text15 dist/default/production\tesis.X.production.obj
-__end_of_Pause_seg 25CE 0 CODE 0 text7 dist/default/production\tesis.X.production.obj
+__end_of_getCNY70Value 1B68 0 CODE 0 text15 dist/default/production\tesis.X.production.obj
+__end_of_Pause_seg 25D2 0 CODE 0 text7 dist/default/production\tesis.X.production.obj
 ___ftmul@f2 63 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 UART1_Init@bdr 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 scale@scl 72 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
@@ -1123,8 +1127,8 @@ __Hconfig 30000E 0 CONFIG 0 config dist/default/production\tesis.X.production.ob
 __Lconfig 300000 0 CONFIG 0 config dist/default/production\tesis.X.production.obj
 ?___ftneg 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __powers_ 7F1C 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
-__end_of_Lcd_Init 2308 0 CODE 0 text1 dist/default/production\tesis.X.production.obj
-___ftpack 1B64 0 CODE 0 text42 dist/default/production\tesis.X.production.obj
+__end_of_Lcd_Init 230C 0 CODE 0 text1 dist/default/production\tesis.X.production.obj
+___ftpack 1B68 0 CODE 0 text42 dist/default/production\tesis.X.production.obj
 ?___llmod 26 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 ?___awmod 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 PWM_DutyCycle2@DC 89 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
@@ -1160,19 +1164,19 @@ _array 114 0 BANK1 1 bssBANK1 dist/default/production\tesis.X.production.obj
 ?_sprintf 88 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 ___ftmul@cntr 6A 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __size_of___ftadd 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__end_of_SendBlueToothCommand 2944 0 CODE 0 text4 dist/default/production\tesis.X.production.obj
-_Lcd_Init 2296 0 CODE 0 text1 dist/default/production\tesis.X.production.obj
+__end_of_SendBlueToothCommand 2948 0 CODE 0 text4 dist/default/production\tesis.X.production.obj
+_Lcd_Init 229A 0 CODE 0 text1 dist/default/production\tesis.X.production.obj
 __tdiv_to_l_@quot 22 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 ___ftge@ff2 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 sprintf@vd 9C 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
-__end_of_Comando_Tablet 16BE 0 CODE 0 text9 dist/default/production\tesis.X.production.obj
-__end_of_Lcd_Write_Char 2762 0 CODE 0 text46 dist/default/production\tesis.X.production.obj
+__end_of_Comando_Tablet 16C2 0 CODE 0 text9 dist/default/production\tesis.X.production.obj
+__end_of_Lcd_Write_Char 2766 0 CODE 0 text46 dist/default/production\tesis.X.production.obj
 ?___fttol 73 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 _PIE1bits F9D 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\tesis.X.production.obj
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\tesis.X.production.obj
-_putcBluetoothInt 1FA2 0 CODE 0 text11 dist/default/production\tesis.X.production.obj
-_Pause_ms 279A 0 CODE 0 text8 dist/default/production\tesis.X.production.obj
+_putcBluetoothInt 1FA6 0 CODE 0 text11 dist/default/production\tesis.X.production.obj
+_Pause_ms 279E 0 CODE 0 text8 dist/default/production\tesis.X.production.obj
 _PIR1bits F9E 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_putSTRINGU1 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ?___ftmul 60 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
@@ -1185,13 +1189,13 @@ i2Lcd_Write_String@a 5 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.p
 _CCPR2L FBB 0 ABS 0 - dist/default/production\tesis.X.production.obj
 i2Lcd_Write_String@i 9 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 ?___lldiv 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-___lbtoft 2870 0 CODE 0 text24 dist/default/production\tesis.X.production.obj
+___lbtoft 2874 0 CODE 0 text24 dist/default/production\tesis.X.production.obj
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\tesis.X.production.obj
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\tesis.X.production.obj
 ?___awdiv 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __Hintret 0 0 ABS 0 intret dist/default/production\tesis.X.production.obj
 __Lintret 0 0 ABS 0 intret dist/default/production\tesis.X.production.obj
-___lltoft 2440 0 CODE 0 text36 dist/default/production\tesis.X.production.obj
+___lltoft 2444 0 CODE 0 text36 dist/default/production\tesis.X.production.obj
 __Hramtop 800 0 RAM 0 ramtop dist/default/production\tesis.X.production.obj
 __Lramtop 800 0 RAM 0 ramtop dist/default/production\tesis.X.production.obj
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\tesis.X.production.obj
@@ -1199,7 +1203,7 @@ __Lstruct 0 0 COMRAM 1 struct dist/default/production\tesis.X.production.obj
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\tesis.X.production.obj
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\tesis.X.production.obj
 __Hmediumconst 8000 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
-_Lcd_Port 27CC 0 CODE 0 text50 dist/default/production\tesis.X.production.obj
+_Lcd_Port 27D0 0 CODE 0 text50 dist/default/production\tesis.X.production.obj
 __Lmediumconst 7ECC 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
 Inicializa_Driveby@i 28 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 _SPBRGH FB0 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1208,31 +1212,29 @@ __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\tesis.X.production.obj
 __pmediumconst 7ECC 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
 __Hintcode 18 0 CODE 0 intcode dist/default/production\tesis.X.production.obj
 __Lintcode 8 0 CODE 0 intcode dist/default/production\tesis.X.production.obj
-_scale$2450 6F 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\tesis.X.production.obj
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\tesis.X.production.obj
 __pintcode 8 0 CODE 0 intcode dist/default/production\tesis.X.production.obj
 __Habs1 0 0 ABS 0 abs1 dist/default/production\tesis.X.production.obj
 __Labs1 0 0 ABS 0 abs1 dist/default/production\tesis.X.production.obj
 _INTCON FF2 0 ABS 0 - dist/default/production\tesis.X.production.obj
-_sprintf$1426 98 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __end_of__powers_ 7F43 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
 __CFG_EBTR0$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _Timer1 3B 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 ___ftmul@f3_as_product 67 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 _DutyCycle CE 0 BANK0 1 bssBANK0 dist/default/production\tesis.X.production.obj
-__end_of_Lcd_Write_Integer 26F2 0 CODE 0 text26 dist/default/production\tesis.X.production.obj
+__end_of_Lcd_Write_Integer 26F6 0 CODE 0 text26 dist/default/production\tesis.X.production.obj
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\tesis.X.production.obj
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\tesis.X.production.obj
 Pause_ms@x 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 ?__tdiv_to_l_ 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-_Pause_seg 2586 0 CODE 0 text7 dist/default/production\tesis.X.production.obj
-__end_of_PWM_DutyCycle1 21A2 0 CODE 0 text23 dist/default/production\tesis.X.production.obj
-__end_of_PWM_DutyCycle2 2126 0 CODE 0 text21 dist/default/production\tesis.X.production.obj
+_Pause_seg 258A 0 CODE 0 text7 dist/default/production\tesis.X.production.obj
+__end_of_PWM_DutyCycle1 21A6 0 CODE 0 text23 dist/default/production\tesis.X.production.obj
+__end_of_PWM_DutyCycle2 212A 0 CODE 0 text21 dist/default/production\tesis.X.production.obj
 __CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 putSTRINGU1@total 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __npowers_ 7EF5 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
-__end_of___ftpack 1C0C 0 CODE 0 text42 dist/default/production\tesis.X.production.obj
+__end_of___ftpack 1C10 0 CODE 0 text42 dist/default/production\tesis.X.production.obj
 ?___ftpack 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __CFG_PBADEN$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __CFG_EBTR2$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1241,31 +1243,33 @@ __div_to_l_@f1 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.produc
 __size_of___ftpack 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __end_of_dpowers 7EF5 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
 __end_of_scale DB8 0 CODE 0 text28 dist/default/production\tesis.X.production.obj
-_Lcd_Write_String 21A2 0 CODE 0 text45 dist/default/production\tesis.X.production.obj
+_Lcd_Write_String 21A6 0 CODE 0 text45 dist/default/production\tesis.X.production.obj
 __size_of___fttol 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__end_of___awmod 1F12 0 CODE 0 text32 dist/default/production\tesis.X.production.obj
+_sprintf$2493 95 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
+__end_of___awmod 1F16 0 CODE 0 text32 dist/default/production\tesis.X.production.obj
 ___ftadd@sign 7F 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __Hdata 0 0 ABS 0 data dist/default/production\tesis.X.production.obj
 _cleanBfer 3E 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 __Ldata 0 0 ABS 0 data dist/default/production\tesis.X.production.obj
-_Lcd_Clear 299A 0 CODE 0 text48 dist/default/production\tesis.X.production.obj
-i2_Lcd_Write_Char 2762 0 CODE 0 text53 dist/default/production\tesis.X.production.obj
+_Lcd_Clear 299E 0 CODE 0 text48 dist/default/production\tesis.X.production.obj
+i2_Lcd_Write_Char 2766 0 CODE 0 text53 dist/default/production\tesis.X.production.obj
 __CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ?_scale 6C 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
-___ftge 1F12 0 CODE 0 text44 dist/default/production\tesis.X.production.obj
+___ftge 1F16 0 CODE 0 text44 dist/default/production\tesis.X.production.obj
 Lcd_Write_Char@y 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 _ComanTFlag 32 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
-stackhi 7FF 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+stackhi 7FF 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 sprintf@sp 88 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 _fround DB8 0 CODE 0 text29 dist/default/production\tesis.X.production.obj
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\tesis.X.production.obj
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\tesis.X.production.obj
 __CFG_CPUDIV$OSC1_PLL2 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
+_scale$2492 6F 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 ___awmod@sign 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __Htemp 0 0 COMRAM 1 temp dist/default/production\tesis.X.production.obj
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\tesis.X.production.obj
-stacklo 172 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+stacklo 172 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 __Hrbit 0 0 COMRAM 1 rbit dist/default/production\tesis.X.production.obj
 __Lrbit 0 0 COMRAM 1 rbit dist/default/production\tesis.X.production.obj
 _packet 46 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
@@ -1274,30 +1278,30 @@ __Linit 18 0 CODE 0 init dist/default/production\tesis.X.production.obj
 _lenght 42 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 __Hintcodelo 18 0 CODE 0 intcodelo dist/default/production\tesis.X.production.obj
 __Lintcodelo 18 0 CODE 0 intcodelo dist/default/production\tesis.X.production.obj
-___wmul 2824 0 CODE 0 text30 dist/default/production\tesis.X.production.obj
+___wmul 2828 0 CODE 0 text30 dist/default/production\tesis.X.production.obj
 __Hrbss 0 0 COMRAM 1 rbss dist/default/production\tesis.X.production.obj
-__end_of_main 1DEE 0 CODE 0 text0 dist/default/production\tesis.X.production.obj
+__end_of_main 1DF2 0 CODE 0 text0 dist/default/production\tesis.X.production.obj
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\tesis.X.production.obj
-__end_of_Lcd_Cmd 28B4 0 CODE 0 text49 dist/default/production\tesis.X.production.obj
-_clrBufferUSART 26F2 0 CODE 0 text16 dist/default/production\tesis.X.production.obj
+__end_of_Lcd_Cmd 28B8 0 CODE 0 text49 dist/default/production\tesis.X.production.obj
+_clrBufferUSART 26F6 0 CODE 0 text16 dist/default/production\tesis.X.production.obj
 __Htext 0 0 ABS 0 text dist/default/production\tesis.X.production.obj
 __Ltext 0 0 ABS 0 text dist/default/production\tesis.X.production.obj
 __CFG_CCP2MX$ON 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__div_to_l_ 16BE 0 CODE 0 text35 dist/default/production\tesis.X.production.obj
+__div_to_l_ 16C2 0 CODE 0 text35 dist/default/production\tesis.X.production.obj
 ___wmul@multiplier 27 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\tesis.X.production.obj
 __LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\tesis.X.production.obj
 __pdataBANK0 EC 0 BANK0 1 dataBANK0 dist/default/production\tesis.X.production.obj
 __size_of___ftneg 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-_PWM_DutyCycle1 2126 0 CODE 0 text23 dist/default/production\tesis.X.production.obj
+_PWM_DutyCycle1 212A 0 CODE 0 text23 dist/default/production\tesis.X.production.obj
 ___ftmul@sign 6B 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
-end_of_initialization 2580 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
+end_of_initialization 2584 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
 OpenUSART@spbrg 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 ___awdiv@sign 24 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __size_of__div_to_l_ 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_Lcd_Clear 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ___wmul@multiplicand 29 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-__end_ofi2_Lcd_Write_Char 279A 0 CODE 0 text53 dist/default/production\tesis.X.production.obj
+__end_ofi2_Lcd_Write_Char 279E 0 CODE 0 text53 dist/default/production\tesis.X.production.obj
 __size_of_SendBlueToothCommand 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __CFG_VREGEN$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _num_med_medium 45 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
@@ -1312,7 +1316,7 @@ __size_of_PWM_init2 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _RCSTAbits FAB 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _TRISBbits F93 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __end_of___ftadd 12DE 0 CODE 0 text41 dist/default/production\tesis.X.production.obj
-__end_of___lltoft 249C 0 CODE 0 text36 dist/default/production\tesis.X.production.obj
+__end_of___lltoft 24A0 0 CODE 0 text36 dist/default/production\tesis.X.production.obj
 _TRISCbits F94 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _PORTAbits F80 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _PORTBbits F81 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1320,13 +1324,13 @@ _TXSTAbits FAC 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _PORTDbits F83 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _T2CONbits FCA 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _PORTEbits F84 0 ABS 0 - dist/default/production\tesis.X.production.obj
-_Inicializa_Driveby 19E8 0 CODE 0 text2 dist/default/production\tesis.X.production.obj
+_Inicializa_Driveby 19EC 0 CODE 0 text2 dist/default/production\tesis.X.production.obj
 Pause_seg@x 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 ?___lbtoft 21 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-_SetDCPWM1 267E 0 CODE 0 text25 dist/default/production\tesis.X.production.obj
-__end_of_putcBluetoothString 2372 0 CODE 0 text10 dist/default/production\tesis.X.production.obj
+_SetDCPWM1 2682 0 CODE 0 text25 dist/default/production\tesis.X.production.obj
+__end_of_putcBluetoothString 2376 0 CODE 0 text10 dist/default/production\tesis.X.production.obj
 ?___lltoft 21 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-_SetDCPWM2 2644 0 CODE 0 text22 dist/default/production\tesis.X.production.obj
+_SetDCPWM2 2648 0 CODE 0 text22 dist/default/production\tesis.X.production.obj
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\tesis.X.production.obj
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\tesis.X.production.obj
 _CCP1CON FBD 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1337,17 +1341,17 @@ __Hifardata 0 0 CODE 0 ifardata dist/default/production\tesis.X.production.obj
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\tesis.X.production.obj
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\tesis.X.production.obj
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\tesis.X.production.obj
-_Lcd_Set_Cursor 249C 0 CODE 0 text47 dist/default/production\tesis.X.production.obj
+_Lcd_Set_Cursor 24A0 0 CODE 0 text47 dist/default/production\tesis.X.production.obj
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\tesis.X.production.obj
 __Lbank1 0 0 ABS 0 bank1 dist/default/production\tesis.X.production.obj
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\tesis.X.production.obj
 __Lbank2 0 0 ABS 0 bank2 dist/default/production\tesis.X.production.obj
-__end_ofi2_Lcd_Port 2824 0 CODE 0 text57 dist/default/production\tesis.X.production.obj
+__end_ofi2_Lcd_Port 2828 0 CODE 0 text57 dist/default/production\tesis.X.production.obj
 __Hbank3 0 0 ABS 0 bank3 dist/default/production\tesis.X.production.obj
 __Lbank3 0 0 ABS 0 bank3 dist/default/production\tesis.X.production.obj
 ___ftmul@exp 66 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
-__end_of_PWM_init1 2910 0 CODE 0 text19 dist/default/production\tesis.X.production.obj
-__end_of_PWM_init2 28F2 0 CODE 0 text17 dist/default/production\tesis.X.production.obj
+__end_of_PWM_init1 2914 0 CODE 0 text19 dist/default/production\tesis.X.production.obj
+__end_of_PWM_init2 28F6 0 CODE 0 text17 dist/default/production\tesis.X.production.obj
 __Hbank4 0 0 ABS 0 bank4 dist/default/production\tesis.X.production.obj
 __Lbank4 0 0 ABS 0 bank4 dist/default/production\tesis.X.production.obj
 __Hbank5 0 0 ABS 0 bank5 dist/default/production\tesis.X.production.obj
@@ -1365,33 +1369,33 @@ __Ltext0 0 0 ABS 0 text0 dist/default/production\tesis.X.production.obj
 _SBUSART 3A 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 __Htext1 0 0 ABS 0 text1 dist/default/production\tesis.X.production.obj
 __Ltext1 0 0 ABS 0 text1 dist/default/production\tesis.X.production.obj
-__ptext0 1D56 0 CODE 0 text0 dist/default/production\tesis.X.production.obj
+__ptext0 1D5A 0 CODE 0 text0 dist/default/production\tesis.X.production.obj
 __Htext2 0 0 ABS 0 text2 dist/default/production\tesis.X.production.obj
 __Ltext2 0 0 ABS 0 text2 dist/default/production\tesis.X.production.obj
-__ptext1 2296 0 CODE 0 text1 dist/default/production\tesis.X.production.obj
+__ptext1 229A 0 CODE 0 text1 dist/default/production\tesis.X.production.obj
 __Htext3 0 0 ABS 0 text3 dist/default/production\tesis.X.production.obj
 __Ltext3 0 0 ABS 0 text3 dist/default/production\tesis.X.production.obj
-__ptext2 19E8 0 CODE 0 text2 dist/default/production\tesis.X.production.obj
+__ptext2 19EC 0 CODE 0 text2 dist/default/production\tesis.X.production.obj
 __Htext4 0 0 ABS 0 text4 dist/default/production\tesis.X.production.obj
 __Ltext4 0 0 ABS 0 text4 dist/default/production\tesis.X.production.obj
-__ptext3 1C0C 0 CODE 0 text3 dist/default/production\tesis.X.production.obj
-__end_of_putcBluetoothInt 2028 0 CODE 0 text11 dist/default/production\tesis.X.production.obj
+__ptext3 1C10 0 CODE 0 text3 dist/default/production\tesis.X.production.obj
+__end_of_putcBluetoothInt 202C 0 CODE 0 text11 dist/default/production\tesis.X.production.obj
 __Htext5 0 0 ABS 0 text5 dist/default/production\tesis.X.production.obj
 __Ltext5 0 0 ABS 0 text5 dist/default/production\tesis.X.production.obj
 ?_getCNY70Value 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-__ptext4 292E 0 CODE 0 text4 dist/default/production\tesis.X.production.obj
+__ptext4 2932 0 CODE 0 text4 dist/default/production\tesis.X.production.obj
 __Htext6 0 0 ABS 0 text6 dist/default/production\tesis.X.production.obj
 __Ltext6 0 0 ABS 0 text6 dist/default/production\tesis.X.production.obj
-__ptext5 1DEE 0 CODE 0 text5 dist/default/production\tesis.X.production.obj
+__ptext5 1DF2 0 CODE 0 text5 dist/default/production\tesis.X.production.obj
 __Htext7 0 0 ABS 0 text7 dist/default/production\tesis.X.production.obj
 __Ltext7 0 0 ABS 0 text7 dist/default/production\tesis.X.production.obj
-__ptext6 298C 0 CODE 0 text6 dist/default/production\tesis.X.production.obj
+__ptext6 2990 0 CODE 0 text6 dist/default/production\tesis.X.production.obj
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\tesis.X.production.obj
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\tesis.X.production.obj
 OpenUSART@config 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __Htext8 0 0 ABS 0 text8 dist/default/production\tesis.X.production.obj
 __Ltext8 0 0 ABS 0 text8 dist/default/production\tesis.X.production.obj
-__ptext7 2586 0 CODE 0 text7 dist/default/production\tesis.X.production.obj
+__ptext7 258A 0 CODE 0 text7 dist/default/production\tesis.X.production.obj
 __pbssCOMRAM 30 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 Lcd_Set_Cursor@a 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 _ComandoTablet 34 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
@@ -1399,57 +1403,60 @@ __Htext9 0 0 ABS 0 text9 dist/default/production\tesis.X.production.obj
 __HcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\tesis.X.production.obj
 __Ltext9 0 0 ABS 0 text9 dist/default/production\tesis.X.production.obj
 __LcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\tesis.X.production.obj
-__ptext8 279A 0 CODE 0 text8 dist/default/production\tesis.X.production.obj
+__ptext8 279E 0 CODE 0 text8 dist/default/production\tesis.X.production.obj
 __ptext9 1580 0 CODE 0 text9 dist/default/production\tesis.X.production.obj
 __pcstackBANK1 15A 0 BANK1 1 cstackBANK1 dist/default/production\tesis.X.production.obj
 __end_of__npowers_ 7F1C 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
-__end_ofi2_Lcd_Cmd 28D4 0 CODE 0 text56 dist/default/production\tesis.X.production.obj
+__end_ofi2_Lcd_Cmd 28D8 0 CODE 0 text56 dist/default/production\tesis.X.production.obj
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\tesis.X.production.obj
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\tesis.X.production.obj
-_Lcd_Write_Integer 26B8 0 CODE 0 text26 dist/default/production\tesis.X.production.obj
-__end_of_UART1_Init 298C 0 CODE 0 text13 dist/default/production\tesis.X.production.obj
-__end_ofi2_Lcd_Clear 29B6 0 CODE 0 text55 dist/default/production\tesis.X.production.obj
+_Lcd_Write_Integer 26BC 0 CODE 0 text26 dist/default/production\tesis.X.production.obj
+__end_of_UART1_Init 2990 0 CODE 0 text13 dist/default/production\tesis.X.production.obj
+__end_ofi2_Lcd_Clear 29BA 0 CODE 0 text55 dist/default/production\tesis.X.production.obj
 _TMRO_USART 8 0 CODE 0 intcode dist/default/production\tesis.X.production.obj
 SendBlueToothCommand@total 25 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-__end_of_putcTxU1 299A 0 CODE 0 text6 dist/default/production\tesis.X.production.obj
-__end_of__initialization 2580 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
+__end_of_putcTxU1 299E 0 CODE 0 text6 dist/default/production\tesis.X.production.obj
+__end_of__initialization 2584 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
 Lcd_Write_String@a 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 OpenPWM1@period 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 Lcd_Write_String@i 21 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
+_fround$2490 72 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __CFG_USBDIV$2 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 OpenPWM2@period 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 PWM_DutyCycle1@DutyCycle 86 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __size_of_UART1_Init 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__end_of___lbtoft 2894 0 CODE 0 text24 dist/default/production\tesis.X.production.obj
-_WriteUSART 2958 0 CODE 0 text12 dist/default/production\tesis.X.production.obj
+__end_of___lbtoft 2898 0 CODE 0 text24 dist/default/production\tesis.X.production.obj
+_WriteUSART 295C 0 CODE 0 text12 dist/default/production\tesis.X.production.obj
 __tdiv_to_l_@f1 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-_SendBlueToothCommand 292E 0 CODE 0 text4 dist/default/production\tesis.X.production.obj
-__end_of__div_to_l_ 17F4 0 CODE 0 text35 dist/default/production\tesis.X.production.obj
-_Lcd_Cmd 2894 0 CODE 0 text49 dist/default/production\tesis.X.production.obj
+_SendBlueToothCommand 2932 0 CODE 0 text4 dist/default/production\tesis.X.production.obj
+__end_of__div_to_l_ 17F8 0 CODE 0 text35 dist/default/production\tesis.X.production.obj
+_Lcd_Cmd 2898 0 CODE 0 text49 dist/default/production\tesis.X.production.obj
 __size_of_scale 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_getCNY70Value 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ___ftadd 105E 0 CODE 0 text41 dist/default/production\tesis.X.production.obj
 _USART_Status 3C 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
+_fround$2491 6F 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __size_of_fround 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 Lcd_Set_Cursor@temp 20 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 ReadUSART@data 1 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-_putSTRINGU1 1DEE 0 CODE 0 text5 dist/default/production\tesis.X.production.obj
+_putSTRINGU1 1DF2 0 CODE 0 text5 dist/default/production\tesis.X.production.obj
 __Hidata 0 0 CODE 0 idata dist/default/production\tesis.X.production.obj
 __Lidata 0 0 CODE 0 idata dist/default/production\tesis.X.production.obj
 __Hrdata 0 0 COMRAM 1 rdata dist/default/production\tesis.X.production.obj
 __Lrdata 0 0 COMRAM 1 rdata dist/default/production\tesis.X.production.obj
+_sprintf$1468 98 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __Hidloc 200008 0 IDLOC 0 idloc dist/default/production\tesis.X.production.obj
 __Lidloc 200000 0 IDLOC 0 idloc dist/default/production\tesis.X.production.obj
 _Med_lsb D0 0 BANK0 1 bssBANK0 dist/default/production\tesis.X.production.obj
 _Med_msb D2 0 BANK0 1 bssBANK0 dist/default/production\tesis.X.production.obj
 __Hstack 0 0 STACK 2 stack dist/default/production\tesis.X.production.obj
 __Lstack 0 0 STACK 2 stack dist/default/production\tesis.X.production.obj
-___ftneg 284A 0 CODE 0 text43 dist/default/production\tesis.X.production.obj
+___ftneg 284E 0 CODE 0 text43 dist/default/production\tesis.X.production.obj
 putcTxU1@character 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-int_func 18F4 0 CODE 0 intcode_body dist/default/production\tesis.X.production.obj
-___llmod 23DA 0 CODE 0 text37 dist/default/production\tesis.X.production.obj
-__end_of___lldiv 20AA 0 CODE 0 text38 dist/default/production\tesis.X.production.obj
-___awmod 1E82 0 CODE 0 text32 dist/default/production\tesis.X.production.obj
+int_func 18F8 0 CODE 0 intcode_body dist/default/production\tesis.X.production.obj
+___llmod 23DE 0 CODE 0 text37 dist/default/production\tesis.X.production.obj
+__end_of___lldiv 20AE 0 CODE 0 text38 dist/default/production\tesis.X.production.obj
+___awmod 1E86 0 CODE 0 text32 dist/default/production\tesis.X.production.obj
 __Hparam 0 0 ABS 0 rparam dist/default/production\tesis.X.production.obj
 __Lparam 0 0 ABS 0 rparam dist/default/production\tesis.X.production.obj
 __Hspace_0 30000E 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1457,7 +1464,7 @@ __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\tesis.X.productio
 ?_fround 6C 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __Lspace_0 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\tesis.X.production.obj
-___ftsub 25CE 0 CODE 0 text40 dist/default/production\tesis.X.production.obj
+___ftsub 25D2 0 CODE 0 text40 dist/default/production\tesis.X.production.obj
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 ___ftpack@sign 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 _Comando 33 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
@@ -1466,7 +1473,7 @@ _sprintf 1C 0 CODE 0 text27 dist/default/production\tesis.X.production.obj
 __Hspace_1 172 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __Lspace_1 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ___ftadd@exp1 81 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
-_BT_Init 1C0C 0 CODE 0 text3 dist/default/production\tesis.X.production.obj
+_BT_Init 1C10 0 CODE 0 text3 dist/default/production\tesis.X.production.obj
 __Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\tesis.X.production.obj
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\tesis.X.production.obj
 __Hspace_2 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1478,54 +1485,53 @@ __Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\tesis.X.production.obj
 __Hcinit 0 0 ABS 0 cinit dist/default/production\tesis.X.production.obj
 ___ftmul 12DE 0 CODE 0 text31 dist/default/production\tesis.X.production.obj
 __Lcinit 0 0 ABS 0 cinit dist/default/production\tesis.X.production.obj
-___lldiv 2028 0 CODE 0 text38 dist/default/production\tesis.X.production.obj
-__pcinit 253C 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
+___lldiv 202C 0 CODE 0 text38 dist/default/production\tesis.X.production.obj
+__pcinit 2540 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
 __CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-___awdiv 1CB2 0 CODE 0 text33 dist/default/production\tesis.X.production.obj
+___awdiv 1CB6 0 CODE 0 text33 dist/default/production\tesis.X.production.obj
 __size_of_Lcd_Write_String 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__ramtop 800 0 RAM 0 ramtop C:\Users\MCC\AppData\Local\Temp\s5h8.obj
-__mediumconst 7ECC 0 MEDIUMCONST 0 mediumconst C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\MCC\AppData\Local\Temp\s3tc.obj
+__mediumconst 7ECC 0 MEDIUMCONST 0 mediumconst C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 _dpowers 7ECD 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
-__end_of_Lcd_Set_Cursor 24EC 0 CODE 0 text47 dist/default/production\tesis.X.production.obj
+__end_of_Lcd_Set_Cursor 24F0 0 CODE 0 text47 dist/default/production\tesis.X.production.obj
 __Hconst 0 0 CODE 0 const dist/default/production\tesis.X.production.obj
 __Lconst 0 0 CODE 0 const dist/default/production\tesis.X.production.obj
 _countup FE 0 BANK0 1 dataBANK0 dist/default/production\tesis.X.production.obj
 __size_of_Lcd_Set_Cursor 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ?__div_to_l_ 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __size_of_OpenUSART 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__tdiv_to_l_ 17F4 0 CODE 0 text34 dist/default/production\tesis.X.production.obj
+__tdiv_to_l_ 17F8 0 CODE 0 text34 dist/default/production\tesis.X.production.obj
 __div_to_l_@exp1 28 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 _FinComandB 36 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 Comando_Tablet@sensed 170 0 BANK1 1 cstackBANK1 dist/default/production\tesis.X.production.obj
-_UART1_Init 297C 0 CODE 0 text13 dist/default/production\tesis.X.production.obj
+_UART1_Init 2980 0 CODE 0 text13 dist/default/production\tesis.X.production.obj
 ___fttol@exp1 81 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\tesis.X.production.obj
 __size_of_Comando_Tablet 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\tesis.X.production.obj
-__end_of_clrBufferUSART 272A 0 CODE 0 text16 dist/default/production\tesis.X.production.obj
-__pidataBANK0 2944 0 CODE 0 idataBANK0 dist/default/production\tesis.X.production.obj
+__end_of_clrBufferUSART 272E 0 CODE 0 text16 dist/default/production\tesis.X.production.obj
+__pidataBANK0 2948 0 CODE 0 idataBANK0 dist/default/production\tesis.X.production.obj
 __size_of_OpenPWM1 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_OpenPWM2 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__end_of_TMRO_USART 19E8 0 CODE 0 intcode_body dist/default/production\tesis.X.production.obj
+__end_of_TMRO_USART 19EC 0 CODE 0 intcode_body dist/default/production\tesis.X.production.obj
 __end_of_sprintf 940 0 CODE 0 text27 dist/default/production\tesis.X.production.obj
 __CFG_DEBUG$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __CFG_WRT0$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__end_of_Lcd_Clear 29A8 0 CODE 0 text48 dist/default/production\tesis.X.production.obj
+__end_of_Lcd_Clear 29AC 0 CODE 0 text48 dist/default/production\tesis.X.production.obj
 ___ftpack@arg 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-sprintf@vd_1428 A0 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 Lcd_Set_Cursor@z 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __CFG_WRT1$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-_PWM_DutyCycle2 20AA 0 CODE 0 text21 dist/default/production\tesis.X.production.obj
+_PWM_DutyCycle2 20AE 0 CODE 0 text21 dist/default/production\tesis.X.production.obj
 SetDCPWM1@dutycycle 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 ___ftadd@exp2 80 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\tesis.X.production.obj
 __LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\tesis.X.production.obj
-__end_of_WriteUSART 296A 0 CODE 0 text12 dist/default/production\tesis.X.production.obj
+__end_of_WriteUSART 296E 0 CODE 0 text12 dist/default/production\tesis.X.production.obj
 __CFG_WRT2$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 SetDCPWM2@dutycycle 19 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __pbssBANK0 CE 0 BANK0 1 bssBANK0 dist/default/production\tesis.X.production.obj
-__end_ofi2_Lcd_Set_Cursor 253C 0 CODE 0 text54 dist/default/production\tesis.X.production.obj
+__end_ofi2_Lcd_Set_Cursor 2540 0 CODE 0 text54 dist/default/production\tesis.X.production.obj
 __CFG_WRT3$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 PWM_DutyCycle2@DutyCycle 86 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
@@ -1538,48 +1544,48 @@ __Htext10 0 0 ABS 0 text10 dist/default/production\tesis.X.production.obj
 __Ltext10 0 0 ABS 0 text10 dist/default/production\tesis.X.production.obj
 __Htext20 0 0 ABS 0 text20 dist/default/production\tesis.X.production.obj
 __Ltext20 0 0 ABS 0 text20 dist/default/production\tesis.X.production.obj
-__ptext10 2308 0 CODE 0 text10 dist/default/production\tesis.X.production.obj
+__ptext10 230C 0 CODE 0 text10 dist/default/production\tesis.X.production.obj
 __Htext30 0 0 ABS 0 text30 dist/default/production\tesis.X.production.obj
 __Htext11 0 0 ABS 0 text11 dist/default/production\tesis.X.production.obj
 __Ltext30 0 0 ABS 0 text30 dist/default/production\tesis.X.production.obj
 __Ltext11 0 0 ABS 0 text11 dist/default/production\tesis.X.production.obj
-__ptext20 296A 0 CODE 0 text20 dist/default/production\tesis.X.production.obj
+__ptext20 296E 0 CODE 0 text20 dist/default/production\tesis.X.production.obj
 sprintf@exp B2 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __Htext40 0 0 ABS 0 text40 dist/default/production\tesis.X.production.obj
 __Htext21 0 0 ABS 0 text21 dist/default/production\tesis.X.production.obj
 __Ltext40 0 0 ABS 0 text40 dist/default/production\tesis.X.production.obj
 __Ltext21 0 0 ABS 0 text21 dist/default/production\tesis.X.production.obj
-__ptext11 1FA2 0 CODE 0 text11 dist/default/production\tesis.X.production.obj
-__ptext30 2824 0 CODE 0 text30 dist/default/production\tesis.X.production.obj
+__ptext11 1FA6 0 CODE 0 text11 dist/default/production\tesis.X.production.obj
+__ptext30 2828 0 CODE 0 text30 dist/default/production\tesis.X.production.obj
 __Htext50 0 0 ABS 0 text50 dist/default/production\tesis.X.production.obj
 __Htext31 0 0 ABS 0 text31 dist/default/production\tesis.X.production.obj
 __Htext12 0 0 ABS 0 text12 dist/default/production\tesis.X.production.obj
 __Ltext50 0 0 ABS 0 text50 dist/default/production\tesis.X.production.obj
 __Ltext31 0 0 ABS 0 text31 dist/default/production\tesis.X.production.obj
 __Ltext12 0 0 ABS 0 text12 dist/default/production\tesis.X.production.obj
-__ptext21 20AA 0 CODE 0 text21 dist/default/production\tesis.X.production.obj
-__ptext40 25CE 0 CODE 0 text40 dist/default/production\tesis.X.production.obj
+__ptext21 20AE 0 CODE 0 text21 dist/default/production\tesis.X.production.obj
+__ptext40 25D2 0 CODE 0 text40 dist/default/production\tesis.X.production.obj
 __Htext41 0 0 ABS 0 text41 dist/default/production\tesis.X.production.obj
 __Htext22 0 0 ABS 0 text22 dist/default/production\tesis.X.production.obj
 __Ltext41 0 0 ABS 0 text41 dist/default/production\tesis.X.production.obj
 __Ltext22 0 0 ABS 0 text22 dist/default/production\tesis.X.production.obj
-__ptext12 2958 0 CODE 0 text12 dist/default/production\tesis.X.production.obj
+__ptext12 295C 0 CODE 0 text12 dist/default/production\tesis.X.production.obj
 __ptext31 12DE 0 CODE 0 text31 dist/default/production\tesis.X.production.obj
-__ptext50 27CC 0 CODE 0 text50 dist/default/production\tesis.X.production.obj
+__ptext50 27D0 0 CODE 0 text50 dist/default/production\tesis.X.production.obj
 __Htext32 0 0 ABS 0 text32 dist/default/production\tesis.X.production.obj
 __Htext13 0 0 ABS 0 text13 dist/default/production\tesis.X.production.obj
 __Ltext32 0 0 ABS 0 text32 dist/default/production\tesis.X.production.obj
 __Ltext13 0 0 ABS 0 text13 dist/default/production\tesis.X.production.obj
-_PWM_init1 28F2 0 CODE 0 text19 dist/default/production\tesis.X.production.obj
-__ptext22 2644 0 CODE 0 text22 dist/default/production\tesis.X.production.obj
+_PWM_init1 28F6 0 CODE 0 text19 dist/default/production\tesis.X.production.obj
+__ptext22 2648 0 CODE 0 text22 dist/default/production\tesis.X.production.obj
 __ptext41 105E 0 CODE 0 text41 dist/default/production\tesis.X.production.obj
-_OpenPWM1 296A 0 CODE 0 text20 dist/default/production\tesis.X.production.obj
+_OpenPWM1 296E 0 CODE 0 text20 dist/default/production\tesis.X.production.obj
 __Htext42 0 0 ABS 0 text42 dist/default/production\tesis.X.production.obj
 __Htext23 0 0 ABS 0 text23 dist/default/production\tesis.X.production.obj
 __Ltext42 0 0 ABS 0 text42 dist/default/production\tesis.X.production.obj
 __Ltext23 0 0 ABS 0 text23 dist/default/production\tesis.X.production.obj
-__ptext13 297C 0 CODE 0 text13 dist/default/production\tesis.X.production.obj
-__ptext32 1E82 0 CODE 0 text32 dist/default/production\tesis.X.production.obj
+__ptext13 2980 0 CODE 0 text13 dist/default/production\tesis.X.production.obj
+__ptext32 1E86 0 CODE 0 text32 dist/default/production\tesis.X.production.obj
 __Htext52 0 0 ABS 0 text52 dist/default/production\tesis.X.production.obj
 __Htext33 0 0 ABS 0 text33 dist/default/production\tesis.X.production.obj
 __Htext14 0 0 ABS 0 text14 dist/default/production\tesis.X.production.obj
@@ -1587,62 +1593,62 @@ __Ltext52 0 0 ABS 0 text52 dist/default/production\tesis.X.production.obj
 __Ltext33 0 0 ABS 0 text33 dist/default/production\tesis.X.production.obj
 __Ltext14 0 0 ABS 0 text14 dist/default/production\tesis.X.production.obj
 _ADCON1bits FC1 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__ptext23 2126 0 CODE 0 text23 dist/default/production\tesis.X.production.obj
-__ptext42 1B64 0 CODE 0 text42 dist/default/production\tesis.X.production.obj
+__ptext23 212A 0 CODE 0 text23 dist/default/production\tesis.X.production.obj
+__ptext42 1B68 0 CODE 0 text42 dist/default/production\tesis.X.production.obj
 sprintf@prec AB 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __size_of___awdiv 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-_OpenPWM2 260A 0 CODE 0 text18 dist/default/production\tesis.X.production.obj
+_OpenPWM2 260E 0 CODE 0 text18 dist/default/production\tesis.X.production.obj
 __Htext43 0 0 ABS 0 text43 dist/default/production\tesis.X.production.obj
 __Htext24 0 0 ABS 0 text24 dist/default/production\tesis.X.production.obj
 __Ltext43 0 0 ABS 0 text43 dist/default/production\tesis.X.production.obj
 __Ltext24 0 0 ABS 0 text24 dist/default/production\tesis.X.production.obj
-__ptext14 2372 0 CODE 0 text14 dist/default/production\tesis.X.production.obj
-__ptext33 1CB2 0 CODE 0 text33 dist/default/production\tesis.X.production.obj
-__ptext52 221C 0 CODE 0 text52 dist/default/production\tesis.X.production.obj
+__ptext14 2376 0 CODE 0 text14 dist/default/production\tesis.X.production.obj
+__ptext33 1CB6 0 CODE 0 text33 dist/default/production\tesis.X.production.obj
+__ptext52 2220 0 CODE 0 text52 dist/default/production\tesis.X.production.obj
 __Htext53 0 0 ABS 0 text53 dist/default/production\tesis.X.production.obj
 __Htext34 0 0 ABS 0 text34 dist/default/production\tesis.X.production.obj
 __Htext15 0 0 ABS 0 text15 dist/default/production\tesis.X.production.obj
 __Ltext53 0 0 ABS 0 text53 dist/default/production\tesis.X.production.obj
 __Ltext34 0 0 ABS 0 text34 dist/default/production\tesis.X.production.obj
 __Ltext15 0 0 ABS 0 text15 dist/default/production\tesis.X.production.obj
-_PWM_init2 28D4 0 CODE 0 text17 dist/default/production\tesis.X.production.obj
-__ptext24 2870 0 CODE 0 text24 dist/default/production\tesis.X.production.obj
-__ptext43 284A 0 CODE 0 text43 dist/default/production\tesis.X.production.obj
+_PWM_init2 28D8 0 CODE 0 text17 dist/default/production\tesis.X.production.obj
+__ptext24 2874 0 CODE 0 text24 dist/default/production\tesis.X.production.obj
+__ptext43 284E 0 CODE 0 text43 dist/default/production\tesis.X.production.obj
 _num_med_low 44 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 _contador2 40 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 __Htext44 0 0 ABS 0 text44 dist/default/production\tesis.X.production.obj
 __Htext25 0 0 ABS 0 text25 dist/default/production\tesis.X.production.obj
-__end_of__tdiv_to_l_ 18F4 0 CODE 0 text34 dist/default/production\tesis.X.production.obj
+__end_of__tdiv_to_l_ 18F8 0 CODE 0 text34 dist/default/production\tesis.X.production.obj
 __Ltext44 0 0 ABS 0 text44 dist/default/production\tesis.X.production.obj
 __Ltext25 0 0 ABS 0 text25 dist/default/production\tesis.X.production.obj
-_getCNY70Value 1AAC 0 CODE 0 text15 dist/default/production\tesis.X.production.obj
-__ptext15 1AAC 0 CODE 0 text15 dist/default/production\tesis.X.production.obj
-__ptext34 17F4 0 CODE 0 text34 dist/default/production\tesis.X.production.obj
-__ptext53 2762 0 CODE 0 text53 dist/default/production\tesis.X.production.obj
-___inthi_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+_getCNY70Value 1AB0 0 CODE 0 text15 dist/default/production\tesis.X.production.obj
+__ptext15 1AB0 0 CODE 0 text15 dist/default/production\tesis.X.production.obj
+__ptext34 17F8 0 CODE 0 text34 dist/default/production\tesis.X.production.obj
+__ptext53 2766 0 CODE 0 text53 dist/default/production\tesis.X.production.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 __Htext54 0 0 ABS 0 text54 dist/default/production\tesis.X.production.obj
 __Htext35 0 0 ABS 0 text35 dist/default/production\tesis.X.production.obj
 __Htext16 0 0 ABS 0 text16 dist/default/production\tesis.X.production.obj
 __Ltext54 0 0 ABS 0 text54 dist/default/production\tesis.X.production.obj
 __Ltext35 0 0 ABS 0 text35 dist/default/production\tesis.X.production.obj
 __Ltext16 0 0 ABS 0 text16 dist/default/production\tesis.X.production.obj
-__ptext25 267E 0 CODE 0 text25 dist/default/production\tesis.X.production.obj
-__ptext44 1F12 0 CODE 0 text44 dist/default/production\tesis.X.production.obj
+__ptext25 2682 0 CODE 0 text25 dist/default/production\tesis.X.production.obj
+__ptext44 1F16 0 CODE 0 text44 dist/default/production\tesis.X.production.obj
 __Htext45 0 0 ABS 0 text45 dist/default/production\tesis.X.production.obj
 __Htext26 0 0 ABS 0 text26 dist/default/production\tesis.X.production.obj
 __Ltext45 0 0 ABS 0 text45 dist/default/production\tesis.X.production.obj
 __Ltext26 0 0 ABS 0 text26 dist/default/production\tesis.X.production.obj
-__ptext16 26F2 0 CODE 0 text16 dist/default/production\tesis.X.production.obj
-__ptext35 16BE 0 CODE 0 text35 dist/default/production\tesis.X.production.obj
-__ptext54 24EC 0 CODE 0 text54 dist/default/production\tesis.X.production.obj
+__ptext16 26F6 0 CODE 0 text16 dist/default/production\tesis.X.production.obj
+__ptext35 16C2 0 CODE 0 text35 dist/default/production\tesis.X.production.obj
+__ptext54 24F0 0 CODE 0 text54 dist/default/production\tesis.X.production.obj
 __Htext55 0 0 ABS 0 text55 dist/default/production\tesis.X.production.obj
 __Htext36 0 0 ABS 0 text36 dist/default/production\tesis.X.production.obj
 __Htext17 0 0 ABS 0 text17 dist/default/production\tesis.X.production.obj
 __Ltext55 0 0 ABS 0 text55 dist/default/production\tesis.X.production.obj
 __Ltext36 0 0 ABS 0 text36 dist/default/production\tesis.X.production.obj
 __Ltext17 0 0 ABS 0 text17 dist/default/production\tesis.X.production.obj
-__ptext26 26B8 0 CODE 0 text26 dist/default/production\tesis.X.production.obj
-__ptext45 21A2 0 CODE 0 text45 dist/default/production\tesis.X.production.obj
+__ptext26 26BC 0 CODE 0 text26 dist/default/production\tesis.X.production.obj
+__ptext45 21A6 0 CODE 0 text45 dist/default/production\tesis.X.production.obj
 Lcd_Write_Integer@a B8 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 Lcd_Write_Integer@s BA 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __Htext46 0 0 ABS 0 text46 dist/default/production\tesis.X.production.obj
@@ -1650,10 +1656,9 @@ __Htext27 0 0 ABS 0 text27 dist/default/production\tesis.X.production.obj
 __Ltext46 0 0 ABS 0 text46 dist/default/production\tesis.X.production.obj
 __Ltext27 0 0 ABS 0 text27 dist/default/production\tesis.X.production.obj
 ___llmod@divisor 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-_fround$2448 72 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
-__ptext17 28D4 0 CODE 0 text17 dist/default/production\tesis.X.production.obj
-__ptext36 2440 0 CODE 0 text36 dist/default/production\tesis.X.production.obj
-__ptext55 29A8 0 CODE 0 text55 dist/default/production\tesis.X.production.obj
+__ptext17 28D8 0 CODE 0 text17 dist/default/production\tesis.X.production.obj
+__ptext36 2444 0 CODE 0 text36 dist/default/production\tesis.X.production.obj
+__ptext55 29AC 0 CODE 0 text55 dist/default/production\tesis.X.production.obj
 ___awmod@divisor 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __Htext56 0 0 ABS 0 text56 dist/default/production\tesis.X.production.obj
 __Htext37 0 0 ABS 0 text37 dist/default/production\tesis.X.production.obj
@@ -1663,14 +1668,14 @@ __Ltext37 0 0 ABS 0 text37 dist/default/production\tesis.X.production.obj
 __Ltext18 0 0 ABS 0 text18 dist/default/production\tesis.X.production.obj
 _Timer2Config 47 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 __ptext27 1C 0 CODE 0 text27 dist/default/production\tesis.X.production.obj
-__ptext46 272A 0 CODE 0 text46 dist/default/production\tesis.X.production.obj
+__ptext46 272E 0 CODE 0 text46 dist/default/production\tesis.X.production.obj
 __Htext47 0 0 ABS 0 text47 dist/default/production\tesis.X.production.obj
 __Htext28 0 0 ABS 0 text28 dist/default/production\tesis.X.production.obj
 __Ltext47 0 0 ABS 0 text47 dist/default/production\tesis.X.production.obj
 __Ltext28 0 0 ABS 0 text28 dist/default/production\tesis.X.production.obj
-__ptext18 260A 0 CODE 0 text18 dist/default/production\tesis.X.production.obj
-__ptext37 23DA 0 CODE 0 text37 dist/default/production\tesis.X.production.obj
-__ptext56 28B4 0 CODE 0 text56 dist/default/production\tesis.X.production.obj
+__ptext18 260E 0 CODE 0 text18 dist/default/production\tesis.X.production.obj
+__ptext37 23DE 0 CODE 0 text37 dist/default/production\tesis.X.production.obj
+__ptext56 28B8 0 CODE 0 text56 dist/default/production\tesis.X.production.obj
 _InicioComando 38 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.obj
 __Htext57 0 0 ABS 0 text57 dist/default/production\tesis.X.production.obj
 __Htext38 0 0 ABS 0 text38 dist/default/production\tesis.X.production.obj
@@ -1680,35 +1685,36 @@ __Ltext38 0 0 ABS 0 text38 dist/default/production\tesis.X.production.obj
 __Ltext19 0 0 ABS 0 text19 dist/default/production\tesis.X.production.obj
 __size_ofi2_Lcd_Cmd 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __ptext28 940 0 CODE 0 text28 dist/default/production\tesis.X.production.obj
-__ptext47 249C 0 CODE 0 text47 dist/default/production\tesis.X.production.obj
+__ptext47 24A0 0 CODE 0 text47 dist/default/production\tesis.X.production.obj
 ___fttol@sign1 7C 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __Htext48 0 0 ABS 0 text48 dist/default/production\tesis.X.production.obj
 __Htext29 0 0 ABS 0 text29 dist/default/production\tesis.X.production.obj
 __Ltext48 0 0 ABS 0 text48 dist/default/production\tesis.X.production.obj
 __Ltext29 0 0 ABS 0 text29 dist/default/production\tesis.X.production.obj
-__ptext19 28F2 0 CODE 0 text19 dist/default/production\tesis.X.production.obj
-__ptext38 2028 0 CODE 0 text38 dist/default/production\tesis.X.production.obj
-__ptext57 27F8 0 CODE 0 text57 dist/default/production\tesis.X.production.obj
+__ptext19 28F6 0 CODE 0 text19 dist/default/production\tesis.X.production.obj
+__ptext38 202C 0 CODE 0 text38 dist/default/production\tesis.X.production.obj
+__ptext57 27FC 0 CODE 0 text57 dist/default/production\tesis.X.production.obj
 __CFG_BORV$3 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-___intlo_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 __Htext58 0 0 ABS 0 text58 dist/default/production\tesis.X.production.obj
 __Htext39 0 0 ABS 0 text39 dist/default/production\tesis.X.production.obj
 __Ltext58 0 0 ABS 0 text58 dist/default/production\tesis.X.production.obj
 __Ltext39 0 0 ABS 0 text39 dist/default/production\tesis.X.production.obj
 __ptext29 DB8 0 CODE 0 text29 dist/default/production\tesis.X.production.obj
-__ptext48 299A 0 CODE 0 text48 dist/default/production\tesis.X.production.obj
+__ptext48 299E 0 CODE 0 text48 dist/default/production\tesis.X.production.obj
 __Htext49 0 0 ABS 0 text49 dist/default/production\tesis.X.production.obj
 __Ltext49 0 0 ABS 0 text49 dist/default/production\tesis.X.production.obj
 __ptext39 1436 0 CODE 0 text39 dist/default/production\tesis.X.production.obj
-__ptext58 2910 0 CODE 0 text58 dist/default/production\tesis.X.production.obj
-_ReadUSART 2910 0 CODE 0 text58 dist/default/production\tesis.X.production.obj
+__ptext58 2914 0 CODE 0 text58 dist/default/production\tesis.X.production.obj
+_ReadUSART 2914 0 CODE 0 text58 dist/default/production\tesis.X.production.obj
 _OSCCONbits FD3 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__ptext49 2894 0 CODE 0 text49 dist/default/production\tesis.X.production.obj
-_OpenUSART 2372 0 CODE 0 text14 dist/default/production\tesis.X.production.obj
+__ptext49 2898 0 CODE 0 text49 dist/default/production\tesis.X.production.obj
+_OpenUSART 2376 0 CODE 0 text14 dist/default/production\tesis.X.production.obj
 __Hend_init 1C 0 CODE 0 end_init dist/default/production\tesis.X.production.obj
 __Lend_init 18 0 CODE 0 end_init dist/default/production\tesis.X.production.obj
-__end_ofi2_Lcd_Write_String 2296 0 CODE 0 text52 dist/default/production\tesis.X.production.obj
-__end_of_Inicializa_Driveby 1AAC 0 CODE 0 text2 dist/default/production\tesis.X.production.obj
+__end_ofi2_Lcd_Write_String 229A 0 CODE 0 text52 dist/default/production\tesis.X.production.obj
+__end_of_Inicializa_Driveby 1AB0 0 CODE 0 text2 dist/default/production\tesis.X.production.obj
+sprintf@vd_1470 A0 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __size_ofi2_Lcd_Port 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 Lcd_Write_Char@a 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __size_of_Lcd_Init 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1718,19 +1724,18 @@ ___ftpack@exp 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.product
 __size_of___lldiv 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 ___awdiv@divisor 21 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 putSTRINGU1@cont 22 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-_fround$2449 6F 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
-_putcBluetoothString 2308 0 CODE 0 text10 dist/default/production\tesis.X.production.obj
-_putcTxU1 298C 0 CODE 0 text6 dist/default/production\tesis.X.production.obj
-__end_of_ReadUSART 292E 0 CODE 0 text58 dist/default/production\tesis.X.production.obj
-i2_Lcd_Port 27F8 0 CODE 0 text57 dist/default/production\tesis.X.production.obj
-i2_Lcd_Set_Cursor 24EC 0 CODE 0 text54 dist/default/production\tesis.X.production.obj
+_putcBluetoothString 230C 0 CODE 0 text10 dist/default/production\tesis.X.production.obj
+_putcTxU1 2990 0 CODE 0 text6 dist/default/production\tesis.X.production.obj
+__end_of_ReadUSART 2932 0 CODE 0 text58 dist/default/production\tesis.X.production.obj
+i2_Lcd_Port 27FC 0 CODE 0 text57 dist/default/production\tesis.X.production.obj
+i2_Lcd_Set_Cursor 24F0 0 CODE 0 text54 dist/default/production\tesis.X.production.obj
 __end_of___ftmul 1436 0 CODE 0 text31 dist/default/production\tesis.X.production.obj
-__end_of_OpenPWM1 297C 0 CODE 0 text20 dist/default/production\tesis.X.production.obj
-__end_of_OpenPWM2 2644 0 CODE 0 text18 dist/default/production\tesis.X.production.obj
-__end_of_BT_Init 1CB2 0 CODE 0 text3 dist/default/production\tesis.X.production.obj
-__end_of___llmod 2440 0 CODE 0 text37 dist/default/production\tesis.X.production.obj
+__end_of_OpenPWM1 2980 0 CODE 0 text20 dist/default/production\tesis.X.production.obj
+__end_of_OpenPWM2 2648 0 CODE 0 text18 dist/default/production\tesis.X.production.obj
+__end_of_BT_Init 1CB6 0 CODE 0 text3 dist/default/production\tesis.X.production.obj
+__end_of___llmod 2444 0 CODE 0 text37 dist/default/production\tesis.X.production.obj
 __CFG_CP0$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 __tdiv_to_l_@cntr 26 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 BT_Init@F5669 EC 0 BANK0 1 dataBANK0 dist/default/production\tesis.X.production.obj
 SetDCPWM1@DCycle 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
@@ -1743,11 +1748,11 @@ __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\tesis.X.production.obj
 SetDCPWM2@DCycle 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __CFG_CP2$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __CFG_CP3$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__end_of_putSTRINGU1 1E82 0 CODE 0 text5 dist/default/production\tesis.X.production.obj
+__end_of_putSTRINGU1 1E86 0 CODE 0 text5 dist/default/production\tesis.X.production.obj
 __stringdata 7F43 0 MEDIUMCONST 0 mediumconst dist/default/production\tesis.X.production.obj
 __size_ofi2_Lcd_Write_String 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 i2Lcd_Cmd@a 3 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-__accesstop 60 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+__accesstop 60 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 __tdiv_to_l_@exp1 27 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __div_to_l_@cntr 27 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\tesis.X.production.obj
@@ -1756,34 +1761,34 @@ i2Lcd_Set_Cursor@a 5 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.pro
 i2Lcd_Set_Cursor@b 4 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 i2Lcd_Set_Cursor@y 7 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 i2Lcd_Set_Cursor@z 6 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-__pintcode_body 18F4 0 CODE 0 intcode_body dist/default/production\tesis.X.production.obj
-intlevel0 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s5h8.obj
-intlevel1 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+__pintcode_body 18F8 0 CODE 0 intcode_body dist/default/production\tesis.X.production.obj
+intlevel0 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s3tc.obj
+intlevel1 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 __CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of__tdiv_to_l_ 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-intlevel2 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+intlevel2 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 ___lltoft@exp 29 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 _Comando_Tablet 1580 0 CODE 0 text9 dist/default/production\tesis.X.production.obj
-intlevel3 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s5h8.obj
+intlevel3 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s3tc.obj
 __CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_PWM_DutyCycle1 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 Lcd_Write_Char@temp 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-__end_of_Lcd_Port 27F8 0 CODE 0 text50 dist/default/production\tesis.X.production.obj
+__end_of_Lcd_Port 27FC 0 CODE 0 text50 dist/default/production\tesis.X.production.obj
 __size_of_PWM_DutyCycle2 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __tdiv_to_l_@f2 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 putSTRINGU1@last 21 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-i2_Lcd_Write_String 221C 0 CODE 0 text52 dist/default/production\tesis.X.production.obj
+i2_Lcd_Write_String 2220 0 CODE 0 text52 dist/default/production\tesis.X.production.obj
 __size_of_Lcd_Port 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __CFG_WRTD$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__end_of_SetDCPWM1 26B8 0 CODE 0 text25 dist/default/production\tesis.X.production.obj
-__end_of_SetDCPWM2 267E 0 CODE 0 text22 dist/default/production\tesis.X.production.obj
+__end_of_SetDCPWM1 26BC 0 CODE 0 text25 dist/default/production\tesis.X.production.obj
+__end_of_SetDCPWM2 2682 0 CODE 0 text22 dist/default/production\tesis.X.production.obj
 __size_of_Lcd_Write_Char 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __CFG_CPB$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __div_to_l_@quot 23 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 i2Lcd_Set_Cursor@temp 8 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
-__end_of___wmul 284A 0 CODE 0 text30 dist/default/production\tesis.X.production.obj
+__end_of___wmul 284E 0 CODE 0 text30 dist/default/production\tesis.X.production.obj
 __CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-start_initialization 253C 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
+start_initialization 2540 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
 putcBluetoothInt@a B8 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 putcBluetoothInt@i 16E 0 BANK1 1 cstackBANK1 dist/default/production\tesis.X.production.obj
 putcBluetoothInt@s 15A 0 BANK1 1 cstackBANK1 dist/default/production\tesis.X.production.obj
@@ -1793,7 +1798,6 @@ ___awdiv@quotient 25 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.pro
 BT_Init@nameBT 60 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __size_of___ftge 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_putcBluetoothInt 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-_sprintf$2451 95 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 __CFG_IESO$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_Inicializa_Driveby 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_clrBufferUSART 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1803,9 +1807,9 @@ _RXComandoTB 39 0 COMRAM 1 bssCOMRAM dist/default/production\tesis.X.production.
 __size_of_sprintf 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 i2Lcd_Port@a 1 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __size_of___awmod 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__end_of___ftsub 260A 0 CODE 0 text40 dist/default/production\tesis.X.production.obj
-__initialization 253C 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
-__end_of___ftge 1FA2 0 CODE 0 text44 dist/default/production\tesis.X.production.obj
+__end_of___ftsub 260E 0 CODE 0 text40 dist/default/production\tesis.X.production.obj
+__initialization 2540 0 CODE 0 cinit dist/default/production\tesis.X.production.obj
+__end_of___ftge 1FA6 0 CODE 0 text44 dist/default/production\tesis.X.production.obj
 Lcd_Cmd@a 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 PWM_DutyCycle1@DC 89 0 BANK0 1 cstackBANK0 dist/default/production\tesis.X.production.obj
 ___llmod@dividend 26 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
@@ -1822,7 +1826,7 @@ ___awmod@counter 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.prod
 ___wmul@product 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.production.obj
 __size_of_Lcd_Write_Integer 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_BT_Init 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
-__end_of_Pause_ms 27CC 0 CODE 0 text8 dist/default/production\tesis.X.production.obj
+__end_of_Pause_ms 27D0 0 CODE 0 text8 dist/default/production\tesis.X.production.obj
 __size_ofi2_Lcd_Write_Char 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __CFG_WDT$OFF 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
 __size_of_Pause_ms 0 0 ABS 0 - dist/default/production\tesis.X.production.obj
@@ -1859,7 +1863,7 @@ ___awdiv@dividend 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\tesis.X.pro
 # All other numeric quantities are in decimal.
 %SEGMENTS
 reset_vec 0 0 0 4 1
-intcode 0 8 8 29AE 1
+intcode 0 8 8 29B2 1
 mediumconst 0 7ECC 7ECC 134 1
 config 0 300000 300000 E 1
 idloc 0 200000 200000 8 1
