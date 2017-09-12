@@ -4824,6 +4824,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Funciones_Db.h: 46: void Teclado(void);
 [; ;Funciones_Db.h: 47: void DelayCommands();
 [; ;Funciones_Db.h: 48: void BT_ModoVisible(void);
+[; ;Funciones_Db.h: 51: void external_interrupt_init(void);
 "4 Retardos.c
 [v _Pause_us `(v ~T0 @X0 1 ef1`ui ]
 {

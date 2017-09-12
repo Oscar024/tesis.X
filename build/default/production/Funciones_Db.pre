@@ -6541,6 +6541,9 @@ void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
 
+
+void external_interrupt_init(void);
+
 # 24 "lcd.h"
 void Lcd_Port(char a);
 void Lcd_Cmd(char a);
@@ -6633,6 +6636,7 @@ TRISBbits.TRISB1 = 1;
 TRISBbits.TRISB2 = 1;
 TRISBbits.TRISB3 = 1;
 TRISBbits.TRISB4 = 1;
+external_interrupt_init();
 Lcd_Clear();
 Lcd_Set_Cursor(2, 1);
 Lcd_Write_String("INICIO");
@@ -6645,9 +6649,27 @@ Lcd_Write_String("BT INICIALIZADO");
 Pause_seg(7);
 cad = 0;
 clrBufferUSART();
+
+
+PWM_init1(0xff);
+PWM_init2(0xff);
 return;
 }
 
+void external_interrupt_init(void)
+{
+
+TRISBbits.TRISB0 = 1;
+INTCONbits.INT0E = 1;
+INTCON2bits.INTEDG0 = 0;
+INTCONbits.INT0F = 0;
+
+TRISBbits.TRISB1 = 1;
+INTCON3bits.INT1E = 1;
+INTCON2bits.INTEDG1 = 0;
+INTCON3bits.INT1F = 0;
+return;
+}
 
 
 void Comando_Tablet() {
@@ -6690,8 +6712,8 @@ Lcd_Set_Cursor(1, 1);
 Lcd_Write_Integer(BluetoothDato[3]);
 Lcd_Set_Cursor(2, 1);
 Lcd_Write_Integer(BluetoothDato[4]);
-PWM_init1(0xff);
-PWM_init2(0xff);
+
+
 PWM_DutyCycle1(BluetoothDato[3]);
 PWM_DutyCycle2(BluetoothDato[4]);
 break;

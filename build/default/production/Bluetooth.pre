@@ -6541,6 +6541,9 @@ void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
 
+
+void external_interrupt_init(void);
+
 # 24 "lcd.h"
 void Lcd_Port(char a);
 void Lcd_Cmd(char a);

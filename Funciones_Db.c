@@ -84,6 +84,7 @@ void Inicializa_Driveby(void) {
     TRISBbits.TRISB2 = 1;
     TRISBbits.TRISB3 = 1;
     TRISBbits.TRISB4 = 1;
+    external_interrupt_init();
     Lcd_Clear();
     Lcd_Set_Cursor(2, 1);
     Lcd_Write_String("INICIO");
@@ -96,9 +97,27 @@ void Inicializa_Driveby(void) {
     Pause_seg(7);
     cad = 0;
     clrBufferUSART();
+    
+    
+     PWM_init1(0xff);
+     PWM_init2(0xff);
     return;
 }
 
+void external_interrupt_init(void)
+{
+    // Interrupt for rb0
+    TRISBbits.TRISB0 = 1; //set RB0 as Input
+    INTCONbits.INT0E = 1; //enable Interrupt 0 (RB0 as interrupt)
+    INTCON2bits.INTEDG0 = 0; //cause interrupt at falling edge
+    INTCONbits.INT0F = 0; //reset interrupt flag
+    //Interrupt for Rb1
+    TRISBbits.TRISB1 = 1; //set RB0 as Input
+    INTCON3bits.INT1E = 1; //enable Interrupt 0 (RB0 as interrupt)
+    INTCON2bits.INTEDG1 = 0; //cause interrupt at falling edge
+    INTCON3bits.INT1F = 0; //reset interrupt flag
+    return;    
+}
 
 
 void Comando_Tablet() {
@@ -141,8 +160,8 @@ void Comando_Tablet() {
       Lcd_Write_Integer(BluetoothDato[3]);
        Lcd_Set_Cursor(2, 1);
       Lcd_Write_Integer(BluetoothDato[4]);
-      PWM_init1(0xff);
-      PWM_init2(0xff);
+//      PWM_init1(0xff);
+//      PWM_init2(0xff);
       PWM_DutyCycle1(BluetoothDato[3]);
       PWM_DutyCycle2(BluetoothDato[4]);
       break;  

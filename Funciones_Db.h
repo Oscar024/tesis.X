@@ -47,5 +47,8 @@ void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
 
+
+void external_interrupt_init(void);
+
 #endif	/* FUNCIONES_H */
 

@@ -5033,6 +5033,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Funciones_Db.h: 46: void Teclado(void);
 [; ;Funciones_Db.h: 47: void DelayCommands();
 [; ;Funciones_Db.h: 48: void BT_ModoVisible(void);
+[; ;Funciones_Db.h: 51: void external_interrupt_init(void);
 [; ;lcd.h: 24: void Lcd_Port(char a);
 [; ;lcd.h: 25: void Lcd_Cmd(char a);
 [; ;lcd.h: 26: void Lcd_Clear(void);
@@ -5063,8 +5064,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Bluetooth.c: 21: Pause_seg(1);
 "21
 [e ( _Pause_seg (1 -> -> 1 `i `uc ]
-[v F5669 `uc ~T0 @X0 -> 18 `i s ]
-[i F5669
+[v F5671 `uc ~T0 @X0 -> 18 `i s ]
+[i F5671
 :U ..
 -> 65 `c
 -> 84 `c
@@ -5091,7 +5092,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Bluetooth.c: 23: "AT+NAME=robot\r\n\0"
 [; ;Bluetooth.c: 24: };
 "24
-[e = _nameBT F5669 ]
+[e = _nameBT F5671 ]
 [; ;Bluetooth.c: 27: SendBlueToothCommand("AT+ROLE=0\r\n", 11);
 "27
 [e ( _SendBlueToothCommand (2 , :s 1C -> -> 11 `i `ui ]

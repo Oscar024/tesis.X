@@ -6321,6 +6321,9 @@ void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
 
+
+void external_interrupt_init(void);
+
 # 4 "Retardos.c"
 void Pause_us(unsigned int x){
 unsigned int i=0;

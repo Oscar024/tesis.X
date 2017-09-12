@@ -106,16 +106,38 @@ void interrupt TMRO_USART(void) {
         else if (EntTrama == 1)
             cad++;
 
+    }    
+    //Rb0 interrupt
+    else if(INTCONbits.INT0F == 1){
+        Lcd_Clear();
+        Lcd_Set_Cursor(1,1);
+        Lcd_Write_String("Interruption RB0");
+//        PWM_init1(0xff);
+//        PWM_init2(0xff);
+        PWM_DutyCycle1(100);
+        PWM_DutyCycle2(0);
     }
-    
+    //Rb1 interrupt
+    else if(INTCON3bits.INT1F == 1){
+        Lcd_Clear();
+        Lcd_Set_Cursor(1,1);
+        Lcd_Write_String("Interruption RB1");
+//        PWM_init1(0xff);
+//        PWM_init2(0xff);
+        PWM_DutyCycle1(0);
+        PWM_DutyCycle2(100);
+    }
     else if(PIR1bits.TMR2IF){
         Lcd_Clear();
         Lcd_Set_Cursor(1,1);
         Lcd_Write_String("Interruption TMR2");
          PIE1bits.TMR2IE = 0;
     }
+    INTCON3bits.INT1F = 0;    
+    INTCONbits.INT0F = 0;
     PIR1bits.TMR2IF=0;
     PIR1bits.RCIF=0;
+    
 }
 
 //Github
