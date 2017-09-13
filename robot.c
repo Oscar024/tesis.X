@@ -127,16 +127,28 @@ void interrupt TMRO_USART(void) {
         PWM_DutyCycle1(0);
         PWM_DutyCycle2(100);
     }
+    else if(INTCON3bits.INT2F == 1){
+        Lcd_Clear();
+        Lcd_Set_Cursor(1,1);
+        Lcd_Write_String("Interruption RB2");
+//        PWM_init1(0xff);
+//        PWM_init2(0xff);
+        PWM_DutyCycle1(100);
+        PWM_DutyCycle2(100);
+    }
     else if(PIR1bits.TMR2IF){
         Lcd_Clear();
         Lcd_Set_Cursor(1,1);
         Lcd_Write_String("Interruption TMR2");
          PIE1bits.TMR2IE = 0;
     }
+    INTCON3bits.INT2F = 0;  
     INTCON3bits.INT1F = 0;    
     INTCONbits.INT0F = 0;
     PIR1bits.TMR2IF=0;
     PIR1bits.RCIF=0;
+    
+    return;
     
 }
 

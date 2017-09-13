@@ -5503,8 +5503,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e $U 610  ]
 "130
 [e :U 609 ]
-[; ;robot.c: 130: else if(PIR1bits.TMR2IF){
-[e $ ! != -> . . _PIR1bits 0 1 `i -> -> -> 0 `i `Vuc `i 611  ]
+[; ;robot.c: 130: else if(INTCON3bits.INT2F == 1){
+[e $ ! == -> . . _INTCON3bits 1 1 `i -> 1 `i 611  ]
 {
 [; ;robot.c: 131: Lcd_Clear();
 "131
@@ -5512,158 +5512,190 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;robot.c: 132: Lcd_Set_Cursor(1,1);
 "132
 [e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;robot.c: 133: Lcd_Write_String("Interruption TMR2");
+[; ;robot.c: 133: Lcd_Write_String("Interruption RB2");
 "133
 [e ( _Lcd_Write_String (1 -> :s 3C `*uc ]
-[; ;robot.c: 134: PIE1bits.TMR2IE = 0;
-"134
-[e = . . _PIE1bits 0 1 -> -> 0 `i `uc ]
-"135
-}
-[e :U 611 ]
+[; ;robot.c: 136: PWM_DutyCycle1(100);
 "136
+[e ( _PWM_DutyCycle1 (1 -> -> 100 `i `uc ]
+[; ;robot.c: 137: PWM_DutyCycle2(100);
+"137
+[e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
+"138
+}
+[; ;robot.c: 138: }
+[e $U 612  ]
+"139
+[e :U 611 ]
+[; ;robot.c: 139: else if(PIR1bits.TMR2IF){
+[e $ ! != -> . . _PIR1bits 0 1 `i -> -> -> 0 `i `Vuc `i 613  ]
+{
+[; ;robot.c: 140: Lcd_Clear();
+"140
+[e ( _Lcd_Clear ..  ]
+[; ;robot.c: 141: Lcd_Set_Cursor(1,1);
+"141
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;robot.c: 142: Lcd_Write_String("Interruption TMR2");
+"142
+[e ( _Lcd_Write_String (1 -> :s 4C `*uc ]
+[; ;robot.c: 143: PIE1bits.TMR2IE = 0;
+"143
+[e = . . _PIE1bits 0 1 -> -> 0 `i `uc ]
+"144
+}
+[e :U 613 ]
+"145
+[e :U 612 ]
 [e :U 610 ]
 [e :U 608 ]
 [e :U 606 ]
-[; ;robot.c: 135: }
-[; ;robot.c: 136: INTCON3bits.INT1F = 0;
+[; ;robot.c: 144: }
+[; ;robot.c: 145: INTCON3bits.INT2F = 0;
+[e = . . _INTCON3bits 1 1 -> -> 0 `i `uc ]
+[; ;robot.c: 146: INTCON3bits.INT1F = 0;
+"146
 [e = . . _INTCON3bits 1 0 -> -> 0 `i `uc ]
-[; ;robot.c: 137: INTCONbits.INT0F = 0;
-"137
+[; ;robot.c: 147: INTCONbits.INT0F = 0;
+"147
 [e = . . _INTCONbits 3 1 -> -> 0 `i `uc ]
-[; ;robot.c: 138: PIR1bits.TMR2IF=0;
-"138
+[; ;robot.c: 148: PIR1bits.TMR2IF=0;
+"148
 [e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
-[; ;robot.c: 139: PIR1bits.RCIF=0;
-"139
+[; ;robot.c: 149: PIR1bits.RCIF=0;
+"149
 [e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
-[; ;robot.c: 141: }
-"141
+[; ;robot.c: 151: return;
+"151
+[e $UE 598  ]
+[; ;robot.c: 153: }
+"153
 [e :UE 598 ]
 }
-"144
+"156
 [v _main `(i ~T0 @X0 1 ef ]
-"145
+"157
 {
-[; ;robot.c: 144: int main()
-[; ;robot.c: 145: {
+[; ;robot.c: 156: int main()
+[; ;robot.c: 157: {
 [e :U _main ]
 [f ]
-[; ;robot.c: 146: INTCON =0X00;
-"146
+[; ;robot.c: 158: INTCON =0X00;
+"158
 [e = _INTCON -> -> 0 `i `uc ]
-[; ;robot.c: 147: TRISD = 0x00;
-"147
+[; ;robot.c: 159: TRISD = 0x00;
+"159
 [e = _TRISD -> -> 0 `i `uc ]
-[; ;robot.c: 148: TRISE = 0x00;
-"148
-[e = _TRISE -> -> 0 `i `uc ]
-[; ;robot.c: 149: PORTEbits.RE1=0;
-"149
-[e = . . _PORTEbits 0 1 -> -> 0 `i `uc ]
-[; ;robot.c: 150: ADCON1bits.PCFG=0b1111;
-"150
-[e = . . _ADCON1bits 0 0 -> -> 15 `i `uc ]
-[; ;robot.c: 151: Lcd_Init();
-"151
-[e ( _Lcd_Init ..  ]
-[; ;robot.c: 152: Lcd_Clear();
-"152
-[e ( _Lcd_Clear ..  ]
-[; ;robot.c: 153: Lcd_Set_Cursor(1,1);
-"153
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;robot.c: 154: Lcd_Write_String("Inicio");
-"154
-[e ( _Lcd_Write_String (1 -> :s 4C `*uc ]
-[; ;robot.c: 155: Inicializa_Driveby();
-"155
-[e ( _Inicializa_Driveby ..  ]
-[; ;robot.c: 156: PORTAbits.RA2 = 1;
-"156
-[e = . . _PORTAbits 0 2 -> -> 1 `i `uc ]
-[; ;robot.c: 159: while(1)
-"159
-[e :U 614 ]
-[; ;robot.c: 160: {
+[; ;robot.c: 160: TRISE = 0x00;
 "160
-{
-[; ;robot.c: 163: if (cleanBfer == 1) {
+[e = _TRISE -> -> 0 `i `uc ]
+[; ;robot.c: 161: PORTEbits.RE1=0;
+"161
+[e = . . _PORTEbits 0 1 -> -> 0 `i `uc ]
+[; ;robot.c: 162: ADCON1bits.PCFG=0b1111;
+"162
+[e = . . _ADCON1bits 0 0 -> -> 15 `i `uc ]
+[; ;robot.c: 163: Lcd_Init();
 "163
-[e $ ! == -> _cleanBfer `i -> 1 `i 616  ]
-{
-[; ;robot.c: 164: clrBufferUSART();
+[e ( _Lcd_Init ..  ]
+[; ;robot.c: 164: Lcd_Clear();
 "164
-[e ( _clrBufferUSART ..  ]
-[; ;robot.c: 165: cleanBfer = 0;
-"165
-[e = _cleanBfer -> -> 0 `i `uc ]
-"166
-}
-[e :U 616 ]
-[; ;robot.c: 166: }
-[; ;robot.c: 167: if (FinComandT == 1) {
-"167
-[e $ ! == -> _FinComandT `i -> 1 `i 617  ]
-{
-[; ;robot.c: 168: Lcd_Clear();
-"168
 [e ( _Lcd_Clear ..  ]
-[; ;robot.c: 169: Lcd_Set_Cursor(2,1);
-"169
-[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-[; ;robot.c: 170: Lcd_Write_String("CMD TABLET");
-"170
+[; ;robot.c: 165: Lcd_Set_Cursor(1,1);
+"165
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;robot.c: 166: Lcd_Write_String("Inicio");
+"166
 [e ( _Lcd_Write_String (1 -> :s 5C `*uc ]
-[; ;robot.c: 171: FinComandT = 0;
+[; ;robot.c: 167: Inicializa_Driveby();
+"167
+[e ( _Inicializa_Driveby ..  ]
+[; ;robot.c: 168: PORTAbits.RA2 = 1;
+"168
+[e = . . _PORTAbits 0 2 -> -> 1 `i `uc ]
+[; ;robot.c: 171: while(1)
 "171
-[e = _FinComandT -> -> 0 `i `uc ]
-[; ;robot.c: 172: RCSTA&=0b01001111,TXSTAbits.TXEN=0,PIE1&=0b11001111;
+[e :U 616 ]
+[; ;robot.c: 172: {
 "172
-[e ; ; =& _RCSTA -> -> 79 `i `uc = . . _TXSTAbits 0 5 -> -> 0 `i `uc =& _PIE1 -> -> 207 `i `uc ]
-[; ;robot.c: 173: Comando_Tablet();
-"173
-[e ( _Comando_Tablet ..  ]
-[; ;robot.c: 174: UART1_Init(51);
-"174
-[e ( _UART1_Init (1 -> -> 51 `i `uc ]
-"176
-}
-[; ;robot.c: 176: }
-[e $U 618  ]
-"177
-[e :U 617 ]
-[; ;robot.c: 177: else if (FinComandB == 1) {
-[e $ ! == -> _FinComandB `i -> 1 `i 619  ]
 {
-[; ;robot.c: 182: FinComandB = 0;
-"182
-[e = _FinComandB -> -> 0 `i `uc ]
-[; ;robot.c: 183: RCSTA&=0b01001111,TXSTAbits.TXEN=0,PIE1&=0b11001111;
-"183
-[e ; ; =& _RCSTA -> -> 79 `i `uc = . . _TXSTAbits 0 5 -> -> 0 `i `uc =& _PIE1 -> -> 207 `i `uc ]
-"187
+[; ;robot.c: 175: if (cleanBfer == 1) {
+"175
+[e $ ! == -> _cleanBfer `i -> 1 `i 618  ]
+{
+[; ;robot.c: 176: clrBufferUSART();
+"176
+[e ( _clrBufferUSART ..  ]
+[; ;robot.c: 177: cleanBfer = 0;
+"177
+[e = _cleanBfer -> -> 0 `i `uc ]
+"178
 }
-[e :U 619 ]
-"190
 [e :U 618 ]
+[; ;robot.c: 178: }
+[; ;robot.c: 179: if (FinComandT == 1) {
+"179
+[e $ ! == -> _FinComandT `i -> 1 `i 619  ]
+{
+[; ;robot.c: 180: Lcd_Clear();
+"180
+[e ( _Lcd_Clear ..  ]
+[; ;robot.c: 181: Lcd_Set_Cursor(2,1);
+"181
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+[; ;robot.c: 182: Lcd_Write_String("CMD TABLET");
+"182
+[e ( _Lcd_Write_String (1 -> :s 6C `*uc ]
+[; ;robot.c: 183: FinComandT = 0;
+"183
+[e = _FinComandT -> -> 0 `i `uc ]
+[; ;robot.c: 184: RCSTA&=0b01001111,TXSTAbits.TXEN=0,PIE1&=0b11001111;
+"184
+[e ; ; =& _RCSTA -> -> 79 `i `uc = . . _TXSTAbits 0 5 -> -> 0 `i `uc =& _PIE1 -> -> 207 `i `uc ]
+[; ;robot.c: 185: Comando_Tablet();
+"185
+[e ( _Comando_Tablet ..  ]
+[; ;robot.c: 186: UART1_Init(51);
+"186
+[e ( _UART1_Init (1 -> -> 51 `i `uc ]
+"188
 }
-[e :U 613 ]
-"159
-[e $U 614  ]
+[; ;robot.c: 188: }
+[e $U 620  ]
+"189
+[e :U 619 ]
+[; ;robot.c: 189: else if (FinComandB == 1) {
+[e $ ! == -> _FinComandB `i -> 1 `i 621  ]
+{
+[; ;robot.c: 194: FinComandB = 0;
+"194
+[e = _FinComandB -> -> 0 `i `uc ]
+[; ;robot.c: 195: RCSTA&=0b01001111,TXSTAbits.TXEN=0,PIE1&=0b11001111;
+"195
+[e ; ; =& _RCSTA -> -> 79 `i `uc = . . _TXSTAbits 0 5 -> -> 0 `i `uc =& _PIE1 -> -> 207 `i `uc ]
+"199
+}
+[e :U 621 ]
+"202
+[e :U 620 ]
+}
 [e :U 615 ]
-[; ;robot.c: 187: }
-[; ;robot.c: 190: }
-[; ;robot.c: 191: return 0;
-"191
+"171
+[e $U 616  ]
+[e :U 617 ]
+[; ;robot.c: 199: }
+[; ;robot.c: 202: }
+[; ;robot.c: 203: return 0;
+"203
 [e ) -> 0 `i ]
-[e $UE 612  ]
-[; ;robot.c: 192: }
-"192
-[e :UE 612 ]
+[e $UE 614  ]
+[; ;robot.c: 204: }
+"204
+[e :UE 614 ]
 }
-[a 4C 73 110 105 99 105 111 0 ]
-[a 5C 67 77 68 32 84 65 66 76 69 84 0 ]
-[a 3C 73 110 116 101 114 114 117 112 116 105 111 110 32 84 77 82 50 0 ]
+[a 5C 73 110 105 99 105 111 0 ]
+[a 6C 67 77 68 32 84 65 66 76 69 84 0 ]
+[a 4C 73 110 116 101 114 114 117 112 116 105 111 110 32 84 77 82 50 0 ]
+[a 3C 73 110 116 101 114 114 117 112 116 105 111 110 32 82 66 50 0 ]
 [a 2C 73 110 116 101 114 114 117 112 116 105 111 110 32 82 66 49 0 ]
 [a 1C 73 110 116 101 114 114 117 112 116 105 111 110 32 82 66 48 0 ]

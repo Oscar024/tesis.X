@@ -5429,149 +5429,161 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Funciones_Db.c: 118: INTCON3bits.INT1F = 0;
 "118
 [e = . . _INTCON3bits 1 0 -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 119: return;
-"119
-[e $UE 604  ]
-[; ;Funciones_Db.c: 120: }
+[; ;Funciones_Db.c: 120: TRISBbits.TRISB2 = 1;
 "120
+[e = . . _TRISBbits 0 2 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 121: INTCON3bits.INT2E = 1;
+"121
+[e = . . _INTCON3bits 1 4 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 122: INTCON2bits.INTEDG2 = 0;
+"122
+[e = . . _INTCON2bits 1 4 -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 123: INTCON3bits.INT2F = 0;
+"123
+[e = . . _INTCON3bits 1 1 -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 124: return;
+"124
+[e $UE 604  ]
+[; ;Funciones_Db.c: 125: }
+"125
 [e :UE 604 ]
 }
-"123
+"128
 [v _Comando_Tablet `(v ~T0 @X0 1 ef ]
 {
-[; ;Funciones_Db.c: 123: void Comando_Tablet() {
+[; ;Funciones_Db.c: 128: void Comando_Tablet() {
 [e :U _Comando_Tablet ]
 [f ]
-"125
+"130
 [v _sensed `i ~T0 @X0 1 a ]
-[; ;Funciones_Db.c: 125: int sensed=0;
+[; ;Funciones_Db.c: 130: int sensed=0;
 [e = _sensed -> 0 `i ]
-[; ;Funciones_Db.c: 126: switch (BluetoothDato[1]) {
-"126
+[; ;Funciones_Db.c: 131: switch (BluetoothDato[1]) {
+"131
 [e $U 607  ]
 {
-[; ;Funciones_Db.c: 127: case 1:
-"127
-[e :U 608 ]
-[; ;Funciones_Db.c: 128: Lcd_Clear();
-"128
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 129: Lcd_Set_Cursor(1, 1);
-"129
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 130: Lcd_Write_String("1");
-"130
-[e ( _Lcd_Write_String (1 -> :s 7C `*uc ]
-[; ;Funciones_Db.c: 131: break;
-"131
-[e $U 606  ]
-[; ;Funciones_Db.c: 132: case 2:
+[; ;Funciones_Db.c: 132: case 1:
 "132
-[e :U 609 ]
+[e :U 608 ]
 [; ;Funciones_Db.c: 133: Lcd_Clear();
 "133
 [e ( _Lcd_Clear ..  ]
 [; ;Funciones_Db.c: 134: Lcd_Set_Cursor(1, 1);
 "134
 [e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 135: Lcd_Write_String("2");
+[; ;Funciones_Db.c: 135: Lcd_Write_String("1");
 "135
-[e ( _Lcd_Write_String (1 -> :s 8C `*uc ]
+[e ( _Lcd_Write_String (1 -> :s 7C `*uc ]
 [; ;Funciones_Db.c: 136: break;
 "136
 [e $U 606  ]
-[; ;Funciones_Db.c: 138: case 3:
+[; ;Funciones_Db.c: 137: case 2:
+"137
+[e :U 609 ]
+[; ;Funciones_Db.c: 138: Lcd_Clear();
 "138
-[e :U 610 ]
-[; ;Funciones_Db.c: 139: Lcd_Clear();
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 139: Lcd_Set_Cursor(1, 1);
 "139
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 140: Lcd_Set_Cursor(1, 1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 140: Lcd_Write_String("2");
 "140
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 142: Lcd_Write_String("3");
-"142
-[e ( _Lcd_Write_String (1 -> :s 9C `*uc ]
-[; ;Funciones_Db.c: 143: break;
+[e ( _Lcd_Write_String (1 -> :s 8C `*uc ]
+[; ;Funciones_Db.c: 141: break;
+"141
+[e $U 606  ]
+[; ;Funciones_Db.c: 143: case 3:
 "143
-[e $U 606  ]
-[; ;Funciones_Db.c: 144: case 4:
+[e :U 610 ]
+[; ;Funciones_Db.c: 144: Lcd_Clear();
 "144
-[e :U 611 ]
-[; ;Funciones_Db.c: 148: PORTAbits.RA1 = ~ PORTAbits.RA1;
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 145: Lcd_Set_Cursor(1, 1);
+"145
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 147: Lcd_Write_String("3");
+"147
+[e ( _Lcd_Write_String (1 -> :s 9C `*uc ]
+[; ;Funciones_Db.c: 148: break;
 "148
-[e = . . _PORTAbits 0 1 -> ~ -> . . _PORTAbits 0 1 `i `uc ]
-[; ;Funciones_Db.c: 149: sensed = getCNY70Value();
+[e $U 606  ]
+[; ;Funciones_Db.c: 149: case 4:
 "149
-[e = _sensed ( _getCNY70Value ..  ]
-[; ;Funciones_Db.c: 150: Lcd_Clear();
-"150
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 151: Lcd_Set_Cursor(1,1);
-"151
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 152: Lcd_Write_Integer(sensed);
-"152
-[e ( _Lcd_Write_Integer (1 _sensed ]
-[; ;Funciones_Db.c: 153: putcBluetoothInt(sensed);
+[e :U 611 ]
+[; ;Funciones_Db.c: 153: PORTAbits.RA1 = ~ PORTAbits.RA1;
 "153
-[e ( _putcBluetoothInt (1 _sensed ]
-[; ;Funciones_Db.c: 154: putcBluetoothString("\n");
+[e = . . _PORTAbits 0 1 -> ~ -> . . _PORTAbits 0 1 `i `uc ]
+[; ;Funciones_Db.c: 154: sensed = getCNY70Value();
 "154
-[e ( _putcBluetoothString (1 -> :s 10C `*uc ]
-[; ;Funciones_Db.c: 155: break;
+[e = _sensed ( _getCNY70Value ..  ]
+[; ;Funciones_Db.c: 155: Lcd_Clear();
 "155
-[e $U 606  ]
-[; ;Funciones_Db.c: 156: case 5:
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 156: Lcd_Set_Cursor(1,1);
 "156
-[e :U 612 ]
-[; ;Funciones_Db.c: 157: PORTAbits.RA0 = ~ PORTAbits.RA0;
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 157: Lcd_Write_Integer(sensed);
 "157
-[e = . . _PORTAbits 0 0 -> ~ -> . . _PORTAbits 0 0 `i `uc ]
-[; ;Funciones_Db.c: 158: Lcd_Clear();
+[e ( _Lcd_Write_Integer (1 _sensed ]
+[; ;Funciones_Db.c: 158: putcBluetoothInt(sensed);
 "158
-[e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 159: Lcd_Set_Cursor(1, 1);
+[e ( _putcBluetoothInt (1 _sensed ]
+[; ;Funciones_Db.c: 159: putcBluetoothString("\n");
 "159
-[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 160: Lcd_Write_Integer(BluetoothDato[3]);
+[e ( _putcBluetoothString (1 -> :s 10C `*uc ]
+[; ;Funciones_Db.c: 160: break;
 "160
-[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
-[; ;Funciones_Db.c: 161: Lcd_Set_Cursor(2, 1);
-"161
-[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 162: Lcd_Write_Integer(BluetoothDato[4]);
-"162
-[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
-[; ;Funciones_Db.c: 165: PWM_DutyCycle1(BluetoothDato[3]);
-"165
-[e ( _PWM_DutyCycle1 (1 *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
-[; ;Funciones_Db.c: 166: PWM_DutyCycle2(BluetoothDato[4]);
-"166
-[e ( _PWM_DutyCycle2 (1 *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
-[; ;Funciones_Db.c: 167: break;
-"167
 [e $U 606  ]
-[; ;Funciones_Db.c: 168: default:
-"168
-[e :U 613 ]
-[; ;Funciones_Db.c: 169: Lcd_Clear();
-"169
+[; ;Funciones_Db.c: 161: case 5:
+"161
+[e :U 612 ]
+[; ;Funciones_Db.c: 162: PORTAbits.RA0 = ~ PORTAbits.RA0;
+"162
+[e = . . _PORTAbits 0 0 -> ~ -> . . _PORTAbits 0 0 `i `uc ]
+[; ;Funciones_Db.c: 163: Lcd_Clear();
+"163
 [e ( _Lcd_Clear ..  ]
-[; ;Funciones_Db.c: 170: Lcd_Set_Cursor(1, 1);
-"170
+[; ;Funciones_Db.c: 164: Lcd_Set_Cursor(1, 1);
+"164
 [e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 171: Lcd_Write_String("Default");
+[; ;Funciones_Db.c: 165: Lcd_Write_Integer(BluetoothDato[3]);
+"165
+[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
+[; ;Funciones_Db.c: 166: Lcd_Set_Cursor(2, 1);
+"166
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 167: Lcd_Write_Integer(BluetoothDato[4]);
+"167
+[e ( _Lcd_Write_Integer (1 -> *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux `i ]
+[; ;Funciones_Db.c: 170: PWM_DutyCycle1(BluetoothDato[3]);
+"170
+[e ( _PWM_DutyCycle1 (1 *U + &U _BluetoothDato * -> -> -> 3 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
+[; ;Funciones_Db.c: 171: PWM_DutyCycle2(BluetoothDato[4]);
 "171
-[e ( _Lcd_Write_String (1 -> :s 11C `*uc ]
+[e ( _PWM_DutyCycle2 (1 *U + &U _BluetoothDato * -> -> -> 4 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux ]
 [; ;Funciones_Db.c: 172: break;
 "172
 [e $U 606  ]
+[; ;Funciones_Db.c: 173: default:
 "173
-}
-[; ;Funciones_Db.c: 173: }
+[e :U 613 ]
+[; ;Funciones_Db.c: 174: Lcd_Clear();
+"174
+[e ( _Lcd_Clear ..  ]
+[; ;Funciones_Db.c: 175: Lcd_Set_Cursor(1, 1);
+"175
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 176: Lcd_Write_String("Default");
+"176
+[e ( _Lcd_Write_String (1 -> :s 11C `*uc ]
+[; ;Funciones_Db.c: 177: break;
+"177
 [e $U 606  ]
-"126
+"178
+}
+[; ;Funciones_Db.c: 178: }
+[e $U 606  ]
+"131
 [e :U 607 ]
 [e [\ *U + &U _BluetoothDato * -> -> -> 1 `i `ui `ux -> -> # *U &U _BluetoothDato `ui `ux , $ -> -> 1 `i `uc 608
  , $ -> -> 2 `i `uc 609
@@ -5579,16 +5591,16 @@ Version 3.2 HI-TECH Software Intermediate Code
  , $ -> -> 4 `i `uc 611
  , $ -> -> 5 `i `uc 612
  613 ]
-"173
+"178
 [e :U 606 ]
-[; ;Funciones_Db.c: 174: clrBufferUSART();
-"174
+[; ;Funciones_Db.c: 179: clrBufferUSART();
+"179
 [e ( _clrBufferUSART ..  ]
-[; ;Funciones_Db.c: 175: return;
-"175
+[; ;Funciones_Db.c: 180: return;
+"180
 [e $UE 605  ]
-[; ;Funciones_Db.c: 177: }
-"177
+[; ;Funciones_Db.c: 182: }
+"182
 [e :UE 605 ]
 }
 [a 11C 68 101 102 97 117 108 116 0 ]
