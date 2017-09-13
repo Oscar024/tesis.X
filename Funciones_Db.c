@@ -113,12 +113,12 @@ void external_interrupt_init(void)
     INTCONbits.INT0F = 0; //reset interrupt flag
     //Interrupt for Rb1
     TRISBbits.TRISB1 = 1; //set RB1 as Input
-    INTCON3bits.INT1E = 1; //enable Interrupt 0 (RB0 as interrupt)
+    INTCON3bits.INT1E = 1; //enable Interrupt 0 (RB1 as interrupt)
     INTCON2bits.INTEDG1 = 0; //cause interrupt at falling edge
     INTCON3bits.INT1F = 0; //reset interrupt flag
     //Interrupt for Rb2
-    TRISBbits.TRISB2 = 1; //set RB1 as Input
-    INTCON3bits.INT2E = 1; //enable Interrupt 0 (RB0 as interrupt)
+    TRISBbits.TRISB2 = 1; //set RB2 as Input
+    INTCON3bits.INT2E = 1; //enable Interrupt 0 (RB2 as interrupt)
     INTCON2bits.INTEDG2 = 0; //cause interrupt at falling edge
     INTCON3bits.INT2F = 0; //reset interrupt flag
     return;    
