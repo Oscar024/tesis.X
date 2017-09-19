@@ -8,8 +8,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/l.obj" afterPath="$PROJECT_DIR$/l.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Funciones_Db.c" afterPath="$PROJECT_DIR$/Funciones_Db.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Funciones_Db.h" afterPath="$PROJECT_DIR$/Funciones_Db.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Bluetooth.p1" afterPath="$PROJECT_DIR$/build/default/production/Bluetooth.p1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Bluetooth.pre" afterPath="$PROJECT_DIR$/build/default/production/Bluetooth.pre" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.p1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Funciones_Db.pre" afterPath="$PROJECT_DIR$/build/default/production/Funciones_Db.pre" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Retardos.p1" afterPath="$PROJECT_DIR$/build/default/production/Retardos.p1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/Retardos.pre" afterPath="$PROJECT_DIR$/build/default/production/Retardos.pre" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/robot.p1" afterPath="$PROJECT_DIR$/build/default/production/robot.p1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/default/production/robot.pre" afterPath="$PROJECT_DIR$/build/default/production/robot.pre" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.cmf" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.cmf" />
@@ -20,6 +25,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sdb" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sym" afterPath="$PROJECT_DIR$/dist/default/production/tesis.X.production.sym" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/funclist" afterPath="$PROJECT_DIR$/funclist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/Makefile-genesis.properties" afterPath="$PROJECT_DIR$/nbproject/Makefile-genesis.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot.c" afterPath="$PROJECT_DIR$/robot.c" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/robot.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="576">
-              <caret line="110" column="9" lean-forward="false" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+              <caret line="179" column="18" lean-forward="false" selection-start-line="179" selection-start-column="18" selection-end-line="179" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -78,7 +85,7 @@
       <file leaf-file-name="Funciones_Db.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Funciones_Db.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2703">
+            <state relative-caret-position="2788">
               <caret line="164" column="42" lean-forward="false" selection-start-line="164" selection-start-column="42" selection-end-line="164" selection-end-column="42" />
               <folding />
             </state>
@@ -253,7 +260,9 @@
       <workItem from="1504740352422" duration="548000" />
       <workItem from="1504836565139" duration="2449000" />
       <workItem from="1505251289825" duration="154000" />
-      <workItem from="1505332271621" duration="29000" />
+      <workItem from="1505332271621" duration="1991000" />
+      <workItem from="1505785873192" duration="59000" />
+      <workItem from="1505785945445" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1495747684911</created>
@@ -360,11 +369,25 @@
       <option name="project" value="LOCAL" />
       <updated>1505251315807</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="cambios">
+      <created>1505332313109</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1505332313109</updated>
+    </task>
+    <task id="LOCAL-00017" summary="cambios">
+      <created>1505332433568</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1505332433568</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6443000" />
+    <option name="totallyTimeSpent" value="8466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,6 +435,86 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/robot.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSin.fis">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cny70.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Funciones_Db.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Funciones_Db.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="164" column="42" lean-forward="false" selection-start-line="164" selection-start-column="42" selection-end-line="164" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSin.fis">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cny70.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Funciones_Db.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Funciones_Db.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="164" column="42" lean-forward="false" selection-start-line="164" selection-start-column="42" selection-end-line="164" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/robot.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -660,7 +763,7 @@
     <entry file="file://$PROJECT_DIR$/robot.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
-          <caret line="110" column="9" lean-forward="false" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+          <caret line="179" column="18" lean-forward="false" selection-start-line="179" selection-start-column="18" selection-end-line="179" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -691,7 +794,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Funciones_Db.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
+        <state relative-caret-position="2788">
           <caret line="164" column="42" lean-forward="false" selection-start-line="164" selection-start-column="42" selection-end-line="164" selection-end-column="42" />
           <folding />
         </state>

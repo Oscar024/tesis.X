@@ -71,8 +71,8 @@ void Inicializa_Driveby(void) {
 //            __delay_ms(40);
     //        ODCON2bits.U2OD = 1; // Activa Open Drain en USART2
     //        TRISGbits.TRISG1 = 0; // USART2 TX
-    TRISA = 0;
-    PORTA = 0;
+    TRISA = TRISB = TRISC = TRISD = TRISE = 0;
+    PORTA =  PORTB =  PORTC =  PORTD = PORTE = 0;
     TRISCbits.TRISC7 = 1;
     TRISCbits.TRISC6 = 0;
     for (i = 1; i <= 50; i++)
@@ -182,3 +182,30 @@ void Comando_Tablet() {
 }
 
 
+void motor_forward(void)
+{
+    //PWM1
+    R2 = 1; 
+    G1 = 0; 
+    G4 = 1;
+    //PWM2
+    R1=1;
+    G6= 0;
+    G8 = 1;
+    
+    return;    
+}
+
+void motor_Backforward(void)
+{
+    //PWM1
+    R2 = 0; 
+    G4 = 0;  
+    G1 = 1;    
+    //PWM2    
+    R1 = 0;
+    G8 = 0;
+    G6 = 1;
+    
+    return;
+}

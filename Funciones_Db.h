@@ -34,6 +34,30 @@
 #define LED_VERDE PORTAbits.RA1
 #define LED_ROJO PORTAbits.RA2
 
+
+
+
+//#define G1 PORTCbits.RC0
+//#define PWM2 PORTCbits.RC1
+//#define PWM1 PORTCbits.RC2
+//#define G4 PORTDbits.RD0  //no
+//#define G6 PORTDbits.RD1  //no 
+//#define G8 PORTBbits.RB5  //no
+//#define R2 PORTBbits.RB6
+//#define R1 PORTBbits.RB7
+
+#define G1 PORTCbits.RC0
+#define PWM2 PORTCbits.RC1
+#define PWM1 PORTCbits.RC2
+#define G4 PORTEbits.RE0  
+#define G6 PORTEbits.RE1  
+#define G8 PORTEbits.RE2  
+#define R2 PORTBbits.RB6
+#define R1 PORTBbits.RB7
+
+
+
+
 void PantallaPrin(void);
 void PONGBT(void);
 void clrBufferDato(void);
@@ -46,7 +70,8 @@ char Tecla(void);
 void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
-
+void motor_forward(void);
+void motor_Backforward(void);
 
 void external_interrupt_init(void);
 
