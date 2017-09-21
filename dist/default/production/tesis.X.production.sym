@@ -53,7 +53,7 @@ ___fttol@f1 8A 0 BANK0 1
 _EntTrama 4F 0 COMRAM 1
 ___ftsub@f2 9C 0 BANK0 1
 ___ftmul@f1 74 0 BANK0 1
-i2_Lcd_Clear 3564 0 CODE 0
+i2_Lcd_Clear 3556 0 CODE 0
 ___fttol@lval 94 0 BANK0 1
 WriteUSART@data 60 0 BANK0 1
 i2_Lcd_Cmd 3474 0 CODE 0
@@ -78,8 +78,8 @@ __LRAM 1 0 ABS 0
 _T2CON FCA 0 ABS 0
 _PORTE F84 0 ABS 0
 __end_of_getCNY70Value 259A 0 CODE 0
+__end_of_motor_Backforward 356E 0 CODE 0
 __end_of_Pause_seg 2FC8 0 CODE 0
-_motor_forward 3548 0 CODE 0
 ___ftmul@f2 77 0 BANK0 1
 UART1_Init@bdr 66 0 BANK0 1
 scale@scl 89 0 BANK0 1
@@ -132,7 +132,6 @@ _Lcd_Init 2D3E 0 CODE 0
 __tdiv_to_l_@quot 69 0 BANK0 1
 ___ftge@ff2 63 0 BANK0 1
 sprintf@vd B3 0 BANK0 1
-__size_of_motor_forward 0 0 ABS 0
 __end_of_Comando_Tablet 1C60 0 CODE 0
 __end_of_Lcd_Write_Char 3134 0 CODE 0
 ?___fttol 8A 0 BANK0 1
@@ -148,7 +147,6 @@ _contador 56 0 COMRAM 1
 sprintf@ap BB 0 BANK0 1
 __Hintsave_regs 0 0 BIGRAM 1
 __Lintsave_regs 0 0 BIGRAM 1
-_sprintf$1953 AF 0 BANK0 1
 _CCPR1L FBE 0 ABS 0
 i2Lcd_Write_String@a 5 0 COMRAM 1
 _CCPR2L FBB 0 ABS 0
@@ -216,7 +214,7 @@ ___ftadd@sign 96 0 BANK0 1
 __Hdata 0 0 ABS 0
 _cleanBfer ED 0 BANK0 1
 __Ldata 0 0 ABS 0
-_Lcd_Clear 3556 0 CODE 0
+_Lcd_Clear 3548 0 CODE 0
 i2_Lcd_Write_Char 32AA 0 CODE 0
 __CFG_EBTR3$OFF 0 0 ABS 0
 ?_scale 83 0 BANK0 1
@@ -251,7 +249,6 @@ __end_of_main 271E 0 CODE 0
 __Lrbss 0 0 COMRAM 1
 __end_of_Lcd_Cmd 3450 0 CODE 0
 _clrBufferUSART 3178 0 CODE 0
-_scale$2982 86 0 BANK0 1
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
 __CFG_CCP2MX$ON 0 0 ABS 0
@@ -264,7 +261,6 @@ end_of_initialization 2F5E 0 CODE 0
 OpenUSART@spbrg 60 0 BANK0 1
 ___awdiv@sign 6B 0 BANK0 1
 __size_of__div_to_l_ 0 0 ABS 0
-_sprintf$2983 AC 0 BANK0 1
 i2___fttol@f1 1C 0 COMRAM 1
 i2PWM_DutyCycle2@DC 32 0 COMRAM 1
 __size_of_Lcd_Clear 0 0 ABS 0
@@ -303,6 +299,7 @@ _PORTEbits F84 0 ABS 0
 _Inicializa_Driveby 1DAA 0 CODE 0
 Pause_seg@x 65 0 BANK0 1
 ?___lbtoft 68 0 BANK0 1
+_scale$2886 86 0 BANK0 1
 _SetDCPWM1 3060 0 CODE 0
 __end_of_putcBluetoothString 2A48 0 CODE 0
 ?___lltoft 68 0 BANK0 1
@@ -316,6 +313,7 @@ clrBufferUSART@i 60 0 BANK0 1
 __size_of___lltoft 0 0 ABS 0
 __Hifardata 0 0 CODE 0
 __Lifardata 0 0 CODE 0
+__size_of_motor_Backforward 0 0 ABS 0
 __Hbank0 0 0 ABS 0
 __Lbank0 0 0 ABS 0
 _Lcd_Set_Cursor 2DB6 0 CODE 0
@@ -353,7 +351,7 @@ __ptext0 265E 0 CODE 0
 _INTCON2bits FF1 0 ABS 0
 __Htext2 0 0 ABS 0
 __Ltext2 0 0 ABS 0
-__ptext1 3548 0 CODE 0
+__ptext1 3564 0 CODE 0
 _INTCON3bits FF0 0 ABS 0
 __Htext3 0 0 ABS 0
 __Ltext3 0 0 ABS 0
@@ -396,7 +394,7 @@ __end_of_external_interrupt_init 34CC 0 CODE 0
 __end_of_UART1_Init 34FC 0 CODE 0
 i2___ftpack 27DC 0 CODE 0
 i2SetDCPWM2@dutycycle 1 0 COMRAM 1
-__end_ofi2_Lcd_Clear 3572 0 CODE 0
+__end_ofi2_Lcd_Clear 3564 0 CODE 0
 _TMRO_USART 8 0 CODE 0
 BT_Init@F5675 16E 0 BANK1 1
 SendBlueToothCommand@total 6C 0 BANK0 1
@@ -407,6 +405,7 @@ OpenPWM1@period 60 0 BANK0 1
 Lcd_Write_String@i 68 0 BANK0 1
 __CFG_USBDIV$2 0 0 ABS 0
 OpenPWM2@period 61 0 BANK0 1
+_sprintf$1857 AF 0 BANK0 1
 PWM_DutyCycle1@DutyCycle 9D 0 BANK0 1
 __size_of_UART1_Init 0 0 ABS 0
 __end_of___lbtoft 3380 0 CODE 0
@@ -419,7 +418,6 @@ _Lcd_Cmd 342A 0 CODE 0
 __size_ofi2___lbtoft 0 0 ABS 0
 __size_of_scale 0 0 ABS 0
 ?i2___lbtoft 9 0 COMRAM 1
-_fround$2980 89 0 BANK0 1
 __size_of_getCNY70Value 0 0 ABS 0
 i2PWM_DutyCycle2@DutyCycle 2F 0 COMRAM 1
 i2_SetDCPWM1 3270 0 CODE 0
@@ -437,6 +435,7 @@ __Hidloc 200008 0 IDLOC 0
 __Lidloc 200000 0 IDLOC 0
 _Med_lsb 42 0 COMRAM 1
 _Med_msb 44 0 COMRAM 1
+_motor_Backforward 3564 0 CODE 0
 __Hstack 0 0 STACK 2
 __Lstack 0 0 STACK 2
 ___ftneg 3380 0 CODE 0
@@ -452,11 +451,9 @@ __HcstackCOMRAM 0 0 ABS 0
 ?_fround 83 0 BANK0 1
 __Lspace_0 0 0 ABS 0
 __LcstackCOMRAM 0 0 ABS 0
-sprintf@vd_1955 B7 0 BANK0 1
 ___ftsub 31FA 0 CODE 0
 __pcstackCOMRAM 1 0 COMRAM 1
 ___ftpack@sign 64 0 BANK0 1
-_fround$2981 86 0 BANK0 1
 _Comando 4D 0 COMRAM 1
 _comando 15A 0 BANK1 1
 _sprintf 1C 0 CODE 0
@@ -513,7 +510,8 @@ __size_ofi2_SetDCPWM2 0 0 ABS 0
 i2PWM_DutyCycle1@DC 32 0 COMRAM 1
 __CFG_DEBUG$OFF 0 0 ABS 0
 __CFG_WRT0$OFF 0 0 ABS 0
-__end_of_Lcd_Clear 3564 0 CODE 0
+_sprintf$2887 AC 0 BANK0 1
+__end_of_Lcd_Clear 3556 0 CODE 0
 ___ftpack@arg 60 0 BANK0 1
 i2SetDCPWM2@DCycle 5 0 COMRAM 1
 Lcd_Set_Cursor@z 65 0 BANK0 1
@@ -536,6 +534,7 @@ sprintf@flag BD 0 BANK0 1
 __size_of___lbtoft 0 0 ABS 0
 __HbssBANK1 0 0 ABS 0
 __LbssBANK1 0 0 ABS 0
+_fround$2884 89 0 BANK0 1
 __pbssBANK1 100 0 BANK1 1
 __Htext10 0 0 ABS 0
 __Ltext10 0 0 ABS 0
@@ -570,7 +569,7 @@ __Ltext41 0 0 ABS 0
 __Ltext22 0 0 ABS 0
 __ptext12 3536 0 CODE 0
 __ptext31 F16 0 CODE 0
-__ptext50 3556 0 CODE 0
+__ptext50 3548 0 CODE 0
 __Htext51 0 0 ABS 0
 __Htext32 0 0 ABS 0
 __Htext13 0 0 ABS 0
@@ -676,6 +675,7 @@ __Ltext65 0 0 ABS 0
 __Ltext46 0 0 ABS 0
 __Ltext27 0 0 ABS 0
 ___llmod@divisor 71 0 BANK0 1
+_fround$2885 86 0 BANK0 1
 __ptext17 2A48 0 CODE 0
 __ptext36 1688 0 CODE 0
 __ptext55 3236 0 CODE 0
@@ -689,7 +689,7 @@ __Ltext18 0 0 ABS 0
 _Timer2Config EE 0 BANK0 1
 __ptext27 3060 0 CODE 0
 __ptext46 225E 0 CODE 0
-__ptext65 3564 0 CODE 0
+__ptext65 3556 0 CODE 0
 ?i2___ftmul D 0 COMRAM 1
 __Htext66 0 0 ABS 0
 __Htext47 0 0 ABS 0
@@ -746,7 +746,6 @@ __ptext68 3494 0 CODE 0
 _INTCONbits FF2 0 ABS 0
 __ptext59 1FC4 0 CODE 0
 _OpenUSART 2ACE 0 CODE 0
-__end_of_motor_forward 3556 0 CODE 0
 __Hend_init 1C 0 CODE 0
 __Lend_init 18 0 CODE 0
 __end_ofi2_Lcd_Write_String 2D3E 0 CODE 0
@@ -762,7 +761,7 @@ __size_of___lldiv 0 0 ABS 0
 ___awdiv@divisor 68 0 BANK0 1
 __HidataCOMRAM 0 0 ABS 0
 __LidataCOMRAM 0 0 ABS 0
-__pidataCOMRAM 3572 0 CODE 0
+__pidataCOMRAM 356E 0 CODE 0
 putSTRINGU1@cont 69 0 BANK0 1
 _putcBluetoothString 29C0 0 CODE 0
 _putcTxU1 3536 0 CODE 0
@@ -820,6 +819,7 @@ __size_of_PWM_DutyCycle1 0 0 ABS 0
 Lcd_Write_Char@temp 61 0 BANK0 1
 __end_of_Lcd_Port 334E 0 CODE 0
 __size_of_PWM_DutyCycle2 0 0 ABS 0
+sprintf@vd_1859 B7 0 BANK0 1
 __tdiv_to_l_@f2 63 0 BANK0 1
 putSTRINGU1@last 68 0 BANK0 1
 i2_Lcd_Write_String 2CC4 0 CODE 0
@@ -892,7 +892,7 @@ ___lldiv@dividend 60 0 BANK0 1
 ___awdiv@dividend 66 0 BANK0 1
 %segments
 reset_vec 0 3 CODE 0 0
-intcode 8 3573 CODE 8 0
+intcode 8 356F CODE 8 0
 mediumconst 7E9C 7FFF MEDIUMCONST 7E9C 0
 config 300000 30000D CONFIG 300000 0
 idloc 200000 200007 IDLOC 200000 0
@@ -902,7 +902,7 @@ bssBANK1 100 17F BANK1 100 1
 %locals
 dist/default/production\tesis.X.production.obj
 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
-C:\Users\MCC\AppData\Local\Temp\s62s.
+C:\Users\MCC\AppData\Local\Temp\s6vc.
 3625 2F00 0 CODE 0
 3627 2F00 0 CODE 0
 3630 2F00 0 CODE 0
@@ -984,14 +984,12 @@ robot.c
 201 2712 0 CODE 0
 202 2718 0 CODE 0
 Funciones_Db.c
-185 3548 0 CODE 0
-188 3548 0 CODE 0
-189 354A 0 CODE 0
-190 354C 0 CODE 0
-192 354E 0 CODE 0
-193 3550 0 CODE 0
-194 3552 0 CODE 0
-197 3554 0 CODE 0
+195 3564 0 CODE 0
+197 3564 0 CODE 0
+198 3566 0 CODE 0
+199 3568 0 CODE 0
+200 356A 0 CODE 0
+203 356C 0 CODE 0
 lcd.c
 57 2D3E 0 CODE 0
 58 2D3E 0 CODE 0
@@ -1766,10 +1764,10 @@ lcd.c
 53 2E22 0 CODE 0
 55 2E2A 0 CODE 0
 lcd.c
-35 3556 0 CODE 0
-36 3556 0 CODE 0
-37 355C 0 CODE 0
-38 3562 0 CODE 0
+35 3548 0 CODE 0
+36 3548 0 CODE 0
+37 354E 0 CODE 0
+38 3554 0 CODE 0
 lcd.c
 27 342A 0 CODE 0
 28 342E 0 CODE 0
@@ -1983,10 +1981,10 @@ lcd.c
 53 3010 0 CODE 0
 55 3016 0 CODE 0
 lcd.c
-35 3564 0 CODE 0
-36 3564 0 CODE 0
-37 356A 0 CODE 0
-38 3570 0 CODE 0
+35 3556 0 CODE 0
+36 3556 0 CODE 0
+37 355C 0 CODE 0
+38 3562 0 CODE 0
 lcd.c
 27 3474 0 CODE 0
 28 3476 0 CODE 0

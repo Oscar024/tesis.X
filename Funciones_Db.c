@@ -184,28 +184,20 @@ void Comando_Tablet() {
 
 void motor_forward(void)
 {
-    //PWM1
-    R2 = 1; 
-    G1 = 0; 
-    G4 = 1;
-    //PWM2
-    R1=1;
-    G6= 0;
-    G8 = 1;
+    INPUT1 = 1;
+    INPUT2 = 0;
+    INPUT3 = 1;
+    INPUT4 = 0;
     
     return;    
 }
 
 void motor_Backforward(void)
 {
-    //PWM1
-    R2 = 0; 
-    G4 = 0;  
-    G1 = 1;    
-    //PWM2    
-    R1 = 0;
-    G8 = 0;
-    G6 = 1;
+    INPUT1 = 0;
+    INPUT2 = 1;
+    INPUT3 = 0;
+    INPUT4 = 1;
     
     return;
 }

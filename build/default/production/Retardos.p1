@@ -4812,21 +4812,21 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;pic18.h: 147: extern __nonreentrant void _delay(unsigned long);
 [; ;pic18.h: 149: extern __nonreentrant void _delaywdt(unsigned long);
 [; ;pic18.h: 151: extern __nonreentrant void _delay3(unsigned char);
-[; ;Funciones_Db.h: 61: void PantallaPrin(void);
-[; ;Funciones_Db.h: 62: void PONGBT(void);
-[; ;Funciones_Db.h: 63: void clrBufferDato(void);
-[; ;Funciones_Db.h: 64: void ConecBatteria(int Off_On_BAt);
-[; ;Funciones_Db.h: 65: void EstadoBluetooth(void);
-[; ;Funciones_Db.h: 66: void Comando_Tablet(void);
-[; ;Funciones_Db.h: 67: void Inicializa_Driveby(void);
-[; ;Funciones_Db.h: 68: void Mandar_Tablet(void);
-[; ;Funciones_Db.h: 69: char Tecla(void);
-[; ;Funciones_Db.h: 70: void Teclado(void);
-[; ;Funciones_Db.h: 71: void DelayCommands();
-[; ;Funciones_Db.h: 72: void BT_ModoVisible(void);
-[; ;Funciones_Db.h: 73: void motor_forward(void);
-[; ;Funciones_Db.h: 74: void motor_Backforward(void);
-[; ;Funciones_Db.h: 76: void external_interrupt_init(void);
+[; ;Funciones_Db.h: 59: void PantallaPrin(void);
+[; ;Funciones_Db.h: 60: void PONGBT(void);
+[; ;Funciones_Db.h: 61: void clrBufferDato(void);
+[; ;Funciones_Db.h: 62: void ConecBatteria(int Off_On_BAt);
+[; ;Funciones_Db.h: 63: void EstadoBluetooth(void);
+[; ;Funciones_Db.h: 64: void Comando_Tablet(void);
+[; ;Funciones_Db.h: 65: void Inicializa_Driveby(void);
+[; ;Funciones_Db.h: 66: void Mandar_Tablet(void);
+[; ;Funciones_Db.h: 67: char Tecla(void);
+[; ;Funciones_Db.h: 68: void Teclado(void);
+[; ;Funciones_Db.h: 69: void DelayCommands();
+[; ;Funciones_Db.h: 70: void BT_ModoVisible(void);
+[; ;Funciones_Db.h: 72: void motor_forward(void);
+[; ;Funciones_Db.h: 73: void motor_Backforward(void);
+[; ;Funciones_Db.h: 75: void external_interrupt_init(void);
 "4 Retardos.c
 [v _Pause_us `(v ~T0 @X0 1 ef1`ui ]
 {

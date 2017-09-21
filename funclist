@@ -4,6 +4,7 @@ _Lcd_Write_String: CODE, 10536 0 152
 ___awdiv: CODE, 8360 0 226
 i2___lbtoft: CODE, 13392 0 36
 _getCNY70Value: CODE, 9428 0 198
+_motor_Backforward: CODE, 13668 0 10
 _Pause_seg: CODE, 12132 0 100
 _Lcd_Init: CODE, 11582 0 120
 i2_PWM_DutyCycle1: CODE, 11926 0 106
@@ -39,7 +40,7 @@ i2_Lcd_Cmd: CODE, 13428 0 32
 i2___ftpack: CODE, 10204 0 168
 _external_interrupt_init: CODE, 13490 0 26
 _UART1_Init: CODE, 13542 0 22
-i2_Lcd_Clear: CODE, 13668 0 14
+i2_Lcd_Clear: CODE, 13654 0 14
 _putcTxU1: CODE, 13622 0 18
 __initialization: CODE, 12032 0 94
 ___lbtoft: CODE, 13134 0 50
@@ -49,11 +50,10 @@ _Lcd_Set_Cursor: CODE, 11702 0 118
 _clrBufferUSART: CODE, 12664 0 68
 _TMRO_USART: CODE, 8 0 6552
 _sprintf: CODE, 28 0 2430
-_Lcd_Clear: CODE, 13654 0 14
+_Lcd_Clear: CODE, 13640 0 14
 _WriteUSART: CODE, 13584 0 20
 i2_Lcd_Set_Cursor: CODE, 12232 0 80
 __tdiv_to_l_: CODE, 5768 0 406
-_motor_forward: CODE, 13640 0 14
 i2_Lcd_Write_String: CODE, 11460 0 122
 _Inicializa_Driveby: CODE, 7594 0 272
 _fround: CODE, 3862 0 788
@@ -72,4 +72,4 @@ ___fttol: CODE, 7264 0 330
 ___ftsub: CODE, 12794 0 60
 ___ftge: CODE, 8798 0 212
 _Pause_ms: CODE, 12456 0 70
-Total: 20150
+Total: 20146

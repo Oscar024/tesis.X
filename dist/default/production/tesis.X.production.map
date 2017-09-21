@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v1.33\dat\en_msgs.txt -cs \
   -h+dist/default/production\tesis.X.production.sym \
   --cmf=dist/default/production\tesis.X.production.cmf -z -Q18F4550 \
-  -oC:\Users\MCC\AppData\Local\Temp\s62s.6 \
+  -oC:\Users\MCC\AppData\Local\Temp\s6vc.6 \
   -Mdist/default/production/tesis.X.production.map -E1 -ver=XC8 \
   -ASTACK=0180h-07ffh -pstack=STACK -ACODE=00h-07FFFh -ACONST=00h-07FFFh \
   -ASMALLCONST=0800h-08FFhx120 -AMEDIUMCONST=0800h-07FFFh -ACOMRAM=01h-05Fh \
@@ -22,7 +22,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE \
-  C:\Users\MCC\AppData\Local\Temp\s62s.obj \
+  C:\Users\MCC\AppData\Local\Temp\s6vc.obj \
   dist/default/production\tesis.X.production.obj 
 
 Object code version is 3.11
@@ -35,7 +35,7 @@ Call graph: (short form)
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\MCC\AppData\Local\Temp\s62s.obj
+C:\Users\MCC\AppData\Local\Temp\s6vc.obj
                 end_init                             18       18        4        4       0
                 reset_vec                             0        0        4        0       0
                 idloc                            200000   200000        8   200000       0
@@ -46,7 +46,7 @@ dist/default/production\tesis.X.production.obj
                 text68                             3494     3494       1E        4       0
                 text67                             33B2     33B2       2C        4       0
                 text66                             3474     3474       20        4       0
-                text65                             3564     3564        E        4       0
+                text65                             3556     3556        E        4       0
                 text64                             2FC8     2FC8       50        4       0
                 text63                             32AA     32AA       38        4       0
                 text62                             2CC4     2CC4       7A        4       0
@@ -61,7 +61,7 @@ dist/default/production\tesis.X.production.obj
                 intcode_body                       181E     181E      182        4       0
                 text52                             3318     3318       36        4       0
                 text51                             342A     342A       26        4       0
-                text50                             3556     3556        E        4       0
+                text50                             3548     3548        E        4       0
                 text49                             2DB6     2DB6       76        4       0
                 text48                             30EE     30EE       46        4       0
                 text47                             2928     2928       98        4       0
@@ -110,7 +110,7 @@ dist/default/production\tesis.X.production.obj
                 text4                              34B2     34B2       1A        4       0
                 text3                              1DAA     1DAA      110        4       0
                 text2                              2D3E     2D3E       78        4       0
-                text1                              3548     3548        E        4       0
+                text1                              3564     3564        A        4       0
                 text0                              265E     265E       C0        4       0
                 cstackCOMRAM                          1        1       41        1       1
                 cstackBANK0                          60       60       89       60       1
@@ -121,7 +121,7 @@ dist/default/production\tesis.X.production.obj
                 bssCOMRAM                            42       42       1C        1       1
                 cinit                              2F00     2F00       64        4       0
                 idataBANK1                         3524     3524       12        4       0
-                idataCOMRAM                        3572     3572        2        4       0
+                idataCOMRAM                        356E     356E        2        4       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   STACK          
@@ -133,7 +133,7 @@ TOTAL           Name                               Link     Load   Length     Sp
                 text68                             3494     3494       1E         0
                 text67                             33B2     33B2       2C         0
                 text66                             3474     3474       20         0
-                text65                             3564     3564        E         0
+                text65                             3556     3556        E         0
                 text64                             2FC8     2FC8       50         0
                 text63                             32AA     32AA       38         0
                 text62                             2CC4     2CC4       7A         0
@@ -148,7 +148,7 @@ TOTAL           Name                               Link     Load   Length     Sp
                 intcode_body                       181E     181E      182         0
                 text52                             3318     3318       36         0
                 text51                             342A     342A       26         0
-                text50                             3556     3556        E         0
+                text50                             3548     3548        E         0
                 text49                             2DB6     2DB6       76         0
                 text48                             30EE     30EE       46         0
                 text47                             2928     2928       98         0
@@ -197,11 +197,11 @@ TOTAL           Name                               Link     Load   Length     Sp
                 text4                              34B2     34B2       1A         0
                 text3                              1DAA     1DAA      110         0
                 text2                              2D3E     2D3E       78         0
-                text1                              3548     3548        E         0
+                text1                              3564     3564        A         0
                 text0                              265E     265E       C0         0
                 cinit                              2F00     2F00       64         0
                 idataBANK1                         3524     3524       12         0
-                idataCOMRAM                        3572     3572        2         0
+                idataCOMRAM                        356E     356E        2         0
 
         CLASS   CONST          
 
@@ -259,7 +259,7 @@ SEGMENTS        Name                           Load    Length   Top    Selector 
 
                 reset_vec                      000000  000004  000004         0       0  CODE    
                 cstackCOMRAM                   000001  00005F  000060         1       1  COMRAM  
-                intcode                        000008  00356C  003574         4       0  CODE    
+                intcode                        000008  003568  003570         4       0  CODE    
                 cstackBANK0                    000060  00008F  0000EF        60       1  BANK0   
                 bssBANK1                       000100  000080  000180       100       1  BANK1   
                 mediumconst                    007E9C  000164  008000      3F4E       0  MEDIUMCO
@@ -281,15 +281,15 @@ UNUSED ADDRESS RANGES
         BIGRAM           0000EF-0000FF               11
                          000180-0007FF              680
         CODE             000004-000007                4
-                         003574-007E9B             4928
+                         003570-007E9B             492C
         CONST            000004-000007                4
-                         003574-007E9B             4928
+                         003570-007E9B             492C
         EEDATA           F00000-F000FF              100
-        MEDIUMCONST      003574-007E9B             4928
+        MEDIUMCONST      003570-007E9B             492C
         RAM              0000EF-0000FF               11
                          000180-0007FF              100
         SFR              000F60-000FFF               A0
-        SMALLCONST       003574-007E9B              100
+        SMALLCONST       003570-007E9B              100
         STACK            000180-0007FF              680
 
                                   Symbol Table
@@ -384,7 +384,7 @@ _INTCON3bits                      (abs)        000FF0
 _INTCONbits                       (abs)        000FF2
 _Inicializa_Driveby               text3        001DAA
 _InicioComando                    bssCOMRAM    000050
-_Lcd_Clear                        text50       003556
+_Lcd_Clear                        text50       003548
 _Lcd_Cmd                          text51       00342A
 _Lcd_Init                         text2        002D3E
 _Lcd_Port                         text52       003318
@@ -835,7 +835,7 @@ __div_to_l_@quot                  cstackBANK0  00006A
 __end_of_BT_Init                  text9        0024D4
 __end_of_Comando_Tablet           text15       001C60
 __end_of_Inicializa_Driveby       text3        001EBA
-__end_of_Lcd_Clear                text50       003564
+__end_of_Lcd_Clear                text50       003556
 __end_of_Lcd_Cmd                  text51       003450
 __end_of_Lcd_Init                 text2        002DB6
 __end_of_Lcd_Port                 text52       00334E
@@ -885,14 +885,14 @@ __end_of_external_interrupt_init  text4        0034CC
 __end_of_fround                   text31       00122A
 __end_of_getCNY70Value            text21       00259A
 __end_of_main                     text0        00271E
-__end_of_motor_forward            text1        003556
+__end_of_motor_Backforward        text1        00356E
 __end_of_putSTRINGU1              text11       0027DC
 __end_of_putcBluetoothInt         text17       002ACE
 __end_of_putcBluetoothString      text16       002A48
 __end_of_putcTxU1                 text12       003548
 __end_of_scale                    text30       000F16
 __end_of_sprintf                  text29       00099A
-__end_ofi2_Lcd_Clear              text65       003572
+__end_ofi2_Lcd_Clear              text65       003564
 __end_ofi2_Lcd_Cmd                text66       003494
 __end_ofi2_Lcd_Port               text67       0033DE
 __end_ofi2_Lcd_Set_Cursor         text64       003018
@@ -918,13 +918,13 @@ __pcstackCOMRAM                   cstackCOMRAM 000001
 __pdataBANK1                      dataBANK1    00016E
 __pdataCOMRAM                     dataCOMRAM   00005E
 __pidataBANK1                     idataBANK1   003524
-__pidataCOMRAM                    idataCOMRAM  003572
+__pidataCOMRAM                    idataCOMRAM  00356E
 __pintcode                        intcode      000008
 __pintcode_body                   intcode_body 00181E
 __pmediumconst                    mediumconst  007E9C
 __powers_                         mediumconst  007EEC
 __ptext0                          text0        00265E
-__ptext1                          text1        003548
+__ptext1                          text1        003564
 __ptext10                         text10       0034CC
 __ptext11                         text11       00271E
 __ptext12                         text12       003536
@@ -969,7 +969,7 @@ __ptext47                         text47       002928
 __ptext48                         text48       0030EE
 __ptext49                         text49       002DB6
 __ptext5                          text5        0033DE
-__ptext50                         text50       003556
+__ptext50                         text50       003548
 __ptext51                         text51       00342A
 __ptext52                         text52       003318
 __ptext54                         text54       002E2C
@@ -984,7 +984,7 @@ __ptext61                         text61       003270
 __ptext62                         text62       002CC4
 __ptext63                         text63       0032AA
 __ptext64                         text64       002FC8
-__ptext65                         text65       003564
+__ptext65                         text65       003556
 __ptext66                         text66       003474
 __ptext67                         text67       0033B2
 __ptext68                         text68       003494
@@ -1040,7 +1040,7 @@ __size_of_external_interrupt_init (abs)        000000
 __size_of_fround                  (abs)        000000
 __size_of_getCNY70Value           (abs)        000000
 __size_of_main                    (abs)        000000
-__size_of_motor_forward           (abs)        000000
+__size_of_motor_Backforward       (abs)        000000
 __size_of_putSTRINGU1             (abs)        000000
 __size_of_putcBluetoothInt        (abs)        000000
 __size_of_putcBluetoothString     (abs)        000000
@@ -1080,14 +1080,14 @@ _countup                          dataCOMRAM   00005E
 _dpowers                          mediumconst  007E9D
 _external_interrupt_init          text4        0034B2
 _fround                           text31       000F16
-_fround$2980                      cstackBANK0  000089
-_fround$2981                      cstackBANK0  000086
+_fround$2884                      cstackBANK0  000089
+_fround$2885                      cstackBANK0  000086
 _getCNY70Value                    text21       0024D4
 _i                                bssCOMRAM    000048
 _j                                bssCOMRAM    000058
 _lenght                           bssCOMRAM    000059
 _main                             text0        00265E
-_motor_forward                    text1        003548
+_motor_Backforward                text1        003564
 _num_med_hi                       bssCOMRAM    00005A
 _num_med_low                      bssCOMRAM    00005B
 _num_med_medium                   bssCOMRAM    00005C
@@ -1097,10 +1097,10 @@ _putcBluetoothInt                 text17       002A48
 _putcBluetoothString              text16       0029C0
 _putcTxU1                         text12       003536
 _scale                            text30       00099A
-_scale$2982                       cstackBANK0  000086
+_scale$2886                       cstackBANK0  000086
 _sprintf                          text29       00001C
-_sprintf$1953                     cstackBANK0  0000AF
-_sprintf$2983                     cstackBANK0  0000AC
+_sprintf$1857                     cstackBANK0  0000AF
+_sprintf$2887                     cstackBANK0  0000AC
 clrBufferUSART@i                  cstackBANK0  000060
 end_of_initialization             cinit        002F5E
 fround@prec                       cstackBANK0  00008C
@@ -1126,7 +1126,7 @@ i2SetDCPWM1@DCycle                cstackCOMRAM 000005
 i2SetDCPWM1@dutycycle             cstackCOMRAM 000001
 i2SetDCPWM2@DCycle                cstackCOMRAM 000005
 i2SetDCPWM2@dutycycle             cstackCOMRAM 000001
-i2_Lcd_Clear                      text65       003564
+i2_Lcd_Clear                      text65       003556
 i2_Lcd_Cmd                        text66       003474
 i2_Lcd_Port                       text67       0033B2
 i2_Lcd_Set_Cursor                 text64       002FC8
@@ -1181,7 +1181,7 @@ sprintf@integ                     cstackBANK0  0000BF
 sprintf@prec                      cstackBANK0  0000C2
 sprintf@sp                        cstackBANK0  00009F
 sprintf@vd                        cstackBANK0  0000B3
-sprintf@vd_1955                   cstackBANK0  0000B7
+sprintf@vd_1859                   cstackBANK0  0000B7
 stackhi                           (abs)        0007FF
 stacklo                           (abs)        000180
 start                             init         000018
@@ -1198,7 +1198,7 @@ FUNCTION INFORMATION:
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
-                  2  417[COMRAM] int 
+                  2  415[COMRAM] int 
  Registers used:
 		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, prodl, prodh, cstack
  Tracked objects:
@@ -1223,15 +1223,15 @@ Total ram usage:        0 bytes
 		_PWM_DutyCycle2
 		_UART1_Init
 		_clrBufferUSART
-		_motor_forward
+		_motor_Backforward
  This function is called by:
 		Startup code after reset
  This function uses a non-reentrant model
 
 
- *************** function _motor_forward *****************
+ *************** function _motor_Backforward *****************
  Defined at:
-		line 185 in file "Funciones_Db.c"
+		line 195 in file "Funciones_Db.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -3553,12 +3553,12 @@ C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c
 C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c estimated size: 126
 
 Funciones_Db.c
+		_motor_Backforw		CODE           	3564	0000	10
 		_Comando_Tablet		CODE           	1B04	0000	348
 		_external_inter		CODE           	34B2	0000	26
-		_motor_forward 		CODE           	3548	0000	14
 		_Inicializa_Dri		CODE           	1DAA	0000	272
 
-Funciones_Db.c estimated size: 660
+Funciones_Db.c estimated size: 656
 
 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c
 		_OpenUSART     		CODE           	2ACE	0000	128
@@ -3586,7 +3586,7 @@ shared
 		__npowers_     		MEDIUMCONST    	7EC5	0000	39
 		i2_Lcd_Cmd     		CODE           	3474	0000	32
 		i2___ftpack    		CODE           	27DC	0000	168
-		i2_Lcd_Clear   		CODE           	3564	0000	14
+		i2_Lcd_Clear   		CODE           	3556	0000	14
 		__initializatio		CODE           	2F00	0000	94
 		i2_Lcd_Set_Curs		CODE           	2FC8	0000	80
 		i2_Lcd_Write_St		CODE           	2CC4	0000	122
@@ -3630,7 +3630,7 @@ lcd.c
 		_Lcd_Write_Inte		CODE           	31BC	0000	62
 		_Lcd_Cmd       		CODE           	342A	0000	38
 		_Lcd_Set_Cursor		CODE           	2DB6	0000	118
-		_Lcd_Clear     		CODE           	3556	0000	14
+		_Lcd_Clear     		CODE           	3548	0000	14
 		_Lcd_Port      		CODE           	3318	0000	54
 
 lcd.c estimated size: 628

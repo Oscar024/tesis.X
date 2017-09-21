@@ -181,7 +181,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _ADCON1bits `VS443 ~T0 @X0 0 e@4033 ]
 "28 lcd.h
 [v _Lcd_Init `(v ~T0 @X0 0 ef ]
-"67 Funciones_Db.h
+"65 Funciones_Db.h
 [v _Inicializa_Driveby `(v ~T0 @X0 0 ef ]
 "2575 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [s S193 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -253,14 +253,14 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _TXSTAbits `VS367 ~T0 @X0 0 e@4012 ]
 "4943
 [v _PIE1 `Vuc ~T0 @X0 0 e@3997 ]
-"66 Funciones_Db.h
+"64 Funciones_Db.h
 [v _Comando_Tablet `(v ~T0 @X0 0 ef ]
 "39 UART1.h
 [v _UART1_Init `(v ~T0 @X0 0 ef1`uc ]
 "67 robot.c
 [v _FinComandB `uc ~T0 @X0 0 e ]
 "73 Funciones_Db.h
-[v _motor_forward `(v ~T0 @X0 0 ef ]
+[v _motor_Backforward `(v ~T0 @X0 0 ef ]
 [; ;htc.h: 21: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 24: extern void __builtin_software_breakpoint(void);
 [; ;pic18f4550.h: 47: extern volatile unsigned char SPPDATA @ 0xF62;
@@ -5174,21 +5174,21 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;string.h: 64: extern char * strichr(const char *, int);
 [; ;string.h: 65: extern char * strrchr(const char *, int);
 [; ;string.h: 66: extern char * strrichr(const char *, int);
-[; ;Funciones_Db.h: 61: void PantallaPrin(void);
-[; ;Funciones_Db.h: 62: void PONGBT(void);
-[; ;Funciones_Db.h: 63: void clrBufferDato(void);
-[; ;Funciones_Db.h: 64: void ConecBatteria(int Off_On_BAt);
-[; ;Funciones_Db.h: 65: void EstadoBluetooth(void);
-[; ;Funciones_Db.h: 66: void Comando_Tablet(void);
-[; ;Funciones_Db.h: 67: void Inicializa_Driveby(void);
-[; ;Funciones_Db.h: 68: void Mandar_Tablet(void);
-[; ;Funciones_Db.h: 69: char Tecla(void);
-[; ;Funciones_Db.h: 70: void Teclado(void);
-[; ;Funciones_Db.h: 71: void DelayCommands();
-[; ;Funciones_Db.h: 72: void BT_ModoVisible(void);
-[; ;Funciones_Db.h: 73: void motor_forward(void);
-[; ;Funciones_Db.h: 74: void motor_Backforward(void);
-[; ;Funciones_Db.h: 76: void external_interrupt_init(void);
+[; ;Funciones_Db.h: 59: void PantallaPrin(void);
+[; ;Funciones_Db.h: 60: void PONGBT(void);
+[; ;Funciones_Db.h: 61: void clrBufferDato(void);
+[; ;Funciones_Db.h: 62: void ConecBatteria(int Off_On_BAt);
+[; ;Funciones_Db.h: 63: void EstadoBluetooth(void);
+[; ;Funciones_Db.h: 64: void Comando_Tablet(void);
+[; ;Funciones_Db.h: 65: void Inicializa_Driveby(void);
+[; ;Funciones_Db.h: 66: void Mandar_Tablet(void);
+[; ;Funciones_Db.h: 67: char Tecla(void);
+[; ;Funciones_Db.h: 68: void Teclado(void);
+[; ;Funciones_Db.h: 69: void DelayCommands();
+[; ;Funciones_Db.h: 70: void BT_ModoVisible(void);
+[; ;Funciones_Db.h: 72: void motor_forward(void);
+[; ;Funciones_Db.h: 73: void motor_Backforward(void);
+[; ;Funciones_Db.h: 75: void external_interrupt_init(void);
 [; ;Retardos.h: 7: void Pause_us(unsigned int x);
 [; ;Retardos.h: 8: void Pause_ms(unsigned int x);
 [; ;Retardos.h: 9: void Pause_seg(unsigned char x);
@@ -5683,14 +5683,14 @@ Version 3.2 HI-TECH Software Intermediate Code
 "200
 [e :U 620 ]
 [; ;robot.c: 199: }
-[; ;robot.c: 200: PWM_DutyCycle1(100);
-[e ( _PWM_DutyCycle1 (1 -> -> 100 `i `uc ]
-[; ;robot.c: 201: PWM_DutyCycle2(100);
+[; ;robot.c: 200: PWM_DutyCycle1(50);
+[e ( _PWM_DutyCycle1 (1 -> -> 50 `i `uc ]
+[; ;robot.c: 201: PWM_DutyCycle2(50);
 "201
-[e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
-[; ;robot.c: 202: motor_forward();
+[e ( _PWM_DutyCycle2 (1 -> -> 50 `i `uc ]
+[; ;robot.c: 202: motor_Backforward();
 "202
-[e ( _motor_forward ..  ]
+[e ( _motor_Backforward ..  ]
 "204
 }
 [e :U 615 ]

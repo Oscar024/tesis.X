@@ -197,9 +197,9 @@ int main()
 //            BT_ModoVisible();
 //            EstadoBluetooth();
         }
-        PWM_DutyCycle1(100);
-        PWM_DutyCycle2(100);
-        motor_forward();
+        PWM_DutyCycle1(50);
+        PWM_DutyCycle2(50);
+        motor_Backforward();
 
   }
   return 0;

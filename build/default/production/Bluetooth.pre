@@ -6527,7 +6527,7 @@ extern char * strichr(const char *, int);
 extern char * strrchr(const char *, int);
 extern char * strrichr(const char *, int);
 
-# 61 "Funciones_Db.h"
+# 59 "Funciones_Db.h"
 void PantallaPrin(void);
 void PONGBT(void);
 void clrBufferDato(void);
@@ -6540,6 +6540,7 @@ char Tecla(void);
 void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
+
 void motor_forward(void);
 void motor_Backforward(void);
 

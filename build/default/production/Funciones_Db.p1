@@ -77,7 +77,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S297 . . . ]
 "4203
 [v _TRISBbits `VS297 ~T0 @X0 0 e@3987 ]
-"76 Funciones_Db.h
+"75 Funciones_Db.h
 [v _external_interrupt_init `(v ~T0 @X0 0 ef ]
 "26 lcd.h
 [v _Lcd_Clear `(v ~T0 @X0 0 ef ]
@@ -172,20 +172,20 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _PWM_DutyCycle1 `(v ~T0 @X0 0 ef1`uc ]
 "44
 [v _PWM_DutyCycle2 `(v ~T0 @X0 0 ef1`uc ]
-"2731 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
-[s S201 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S201 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
-"2741
-[s S202 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S202 . INT0 INT1 INT2 . PGM PGC PGD ]
-"2750
-[s S203 :3 `uc 1 :1 `uc 1 ]
-[n S203 . . CCP2_PA2 ]
-"2730
-[u S200 `S201 1 `S202 1 `S203 1 ]
-[n S200 . . . . ]
-"2755
-[v _PORTBbits `VS200 ~T0 @X0 0 e@3969 ]
+"2993 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
+[s S213 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S213 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"3003
+[s S214 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S214 . SPP0 SPP1 SPP2 SPP3 SPP4 SPP5 SPP6 SPP7 ]
+"3013
+[s S215 :7 `uc 1 :1 `uc 1 ]
+[n S215 . . SS2 ]
+"2992
+[u S212 `S213 1 `S214 1 `S215 1 ]
+[n S212 . . . . ]
+"3018
+[v _PORTDbits `VS212 ~T0 @X0 0 e@3971 ]
 "2840
 [s S205 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S205 . RC0 RC1 RC2 . RC4 RC5 RC6 RC7 ]
@@ -212,80 +212,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S204 . . . . . . . . ]
 "2883
 [v _PORTCbits `VS204 ~T0 @X0 0 e@3970 ]
-"3113
-[s S217 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
-[n S217 . RE0 RE1 RE2 RE3 . RDPU ]
-"3121
-[s S218 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S218 . CK1SPP CK2SPP OESPP ]
-"3126
-[s S219 :2 `uc 1 :1 `uc 1 ]
-[n S219 . . CCP10 ]
-"3130
-[s S220 :7 `uc 1 :1 `uc 1 ]
-[n S220 . . CCP2E ]
-"3134
-[s S221 :6 `uc 1 :1 `uc 1 ]
-[n S221 . . CCP6E ]
-"3138
-[s S222 :5 `uc 1 :1 `uc 1 ]
-[n S222 . . CCP7E ]
-"3142
-[s S223 :4 `uc 1 :1 `uc 1 ]
-[n S223 . . CCP8E ]
-"3146
-[s S224 :3 `uc 1 :1 `uc 1 ]
-[n S224 . . CCP9E ]
-"3150
-[s S225 :2 `uc 1 :1 `uc 1 ]
-[n S225 . . CS ]
-"3154
-[s S226 :7 `uc 1 :1 `uc 1 ]
-[n S226 . . PA2E ]
-"3158
-[s S227 :6 `uc 1 :1 `uc 1 ]
-[n S227 . . PB1E ]
-"3162
-[s S228 :2 `uc 1 :1 `uc 1 ]
-[n S228 . . PB2 ]
-"3166
-[s S229 :4 `uc 1 :1 `uc 1 ]
-[n S229 . . PB3E ]
-"3170
-[s S230 :5 `uc 1 :1 `uc 1 ]
-[n S230 . . PC1E ]
-"3174
-[s S231 :1 `uc 1 :1 `uc 1 ]
-[n S231 . . PC2 ]
-"3178
-[s S232 :3 `uc 1 :1 `uc 1 ]
-[n S232 . . PC3E ]
-"3182
-[s S233 :1 `uc 1 ]
-[n S233 . PD2 ]
-"3185
-[s S234 :1 `uc 1 ]
-[n S234 . RDE ]
-"3188
-[s S235 :4 `uc 1 :1 `uc 1 ]
-[n S235 . . RE4 ]
-"3192
-[s S236 :5 `uc 1 :1 `uc 1 ]
-[n S236 . . RE5 ]
-"3196
-[s S237 :6 `uc 1 :1 `uc 1 ]
-[n S237 . . RE6 ]
-"3200
-[s S238 :7 `uc 1 :1 `uc 1 ]
-[n S238 . . RE7 ]
-"3204
-[s S239 :1 `uc 1 :1 `uc 1 ]
-[n S239 . . WRE ]
-"3112
-[u S216 `S217 1 `S218 1 `S219 1 `S220 1 `S221 1 `S222 1 `S223 1 `S224 1 `S225 1 `S226 1 `S227 1 `S228 1 `S229 1 `S230 1 `S231 1 `S232 1 `S233 1 `S234 1 `S235 1 `S236 1 `S237 1 `S238 1 `S239 1 ]
-[n S216 . . . . . . . . . . . . . . . . . . . . . . . . ]
-"3209
-[v _PORTEbits `VS216 ~T0 @X0 0 e@3972 ]
 [; ;htc.h: 21: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 24: extern void __builtin_software_breakpoint(void);
 [; ;pic18f4550.h: 47: extern volatile unsigned char SPPDATA @ 0xF62;
@@ -5242,21 +5168,21 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;string.h: 64: extern char * strichr(const char *, int);
 [; ;string.h: 65: extern char * strrchr(const char *, int);
 [; ;string.h: 66: extern char * strrichr(const char *, int);
-[; ;Funciones_Db.h: 61: void PantallaPrin(void);
-[; ;Funciones_Db.h: 62: void PONGBT(void);
-[; ;Funciones_Db.h: 63: void clrBufferDato(void);
-[; ;Funciones_Db.h: 64: void ConecBatteria(int Off_On_BAt);
-[; ;Funciones_Db.h: 65: void EstadoBluetooth(void);
-[; ;Funciones_Db.h: 66: void Comando_Tablet(void);
-[; ;Funciones_Db.h: 67: void Inicializa_Driveby(void);
-[; ;Funciones_Db.h: 68: void Mandar_Tablet(void);
-[; ;Funciones_Db.h: 69: char Tecla(void);
-[; ;Funciones_Db.h: 70: void Teclado(void);
-[; ;Funciones_Db.h: 71: void DelayCommands();
-[; ;Funciones_Db.h: 72: void BT_ModoVisible(void);
-[; ;Funciones_Db.h: 73: void motor_forward(void);
-[; ;Funciones_Db.h: 74: void motor_Backforward(void);
-[; ;Funciones_Db.h: 76: void external_interrupt_init(void);
+[; ;Funciones_Db.h: 59: void PantallaPrin(void);
+[; ;Funciones_Db.h: 60: void PONGBT(void);
+[; ;Funciones_Db.h: 61: void clrBufferDato(void);
+[; ;Funciones_Db.h: 62: void ConecBatteria(int Off_On_BAt);
+[; ;Funciones_Db.h: 63: void EstadoBluetooth(void);
+[; ;Funciones_Db.h: 64: void Comando_Tablet(void);
+[; ;Funciones_Db.h: 65: void Inicializa_Driveby(void);
+[; ;Funciones_Db.h: 66: void Mandar_Tablet(void);
+[; ;Funciones_Db.h: 67: char Tecla(void);
+[; ;Funciones_Db.h: 68: void Teclado(void);
+[; ;Funciones_Db.h: 69: void DelayCommands();
+[; ;Funciones_Db.h: 70: void BT_ModoVisible(void);
+[; ;Funciones_Db.h: 72: void motor_forward(void);
+[; ;Funciones_Db.h: 73: void motor_Backforward(void);
+[; ;Funciones_Db.h: 75: void external_interrupt_init(void);
 [; ;lcd.h: 24: void Lcd_Port(char a);
 [; ;lcd.h: 25: void Lcd_Cmd(char a);
 [; ;lcd.h: 26: void Lcd_Clear(void);
@@ -5733,62 +5659,50 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Funciones_Db.c: 186: {
 [e :U _motor_forward ]
 [f ]
-[; ;Funciones_Db.c: 188: PORTBbits.RB6 = 1;
+[; ;Funciones_Db.c: 187: PORTDbits.RD7 = 1;
+"187
+[e = . . _PORTDbits 0 7 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 188: PORTDbits.RD4 = 0;
 "188
-[e = . . _PORTBbits 0 6 -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 189: PORTCbits.RC0 = 0;
+[e = . . _PORTDbits 0 4 -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 189: PORTDbits.RD3 = 1;
 "189
-[e = . . _PORTCbits 0 0 -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 190: PORTEbits.RE0 = 1;
+[e = . . _PORTDbits 0 3 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 190: PORTCbits.RC4 = 0;
 "190
-[e = . . _PORTEbits 0 0 -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 192: PORTBbits.RB7=1;
+[e = . . _PORTCbits 0 4 -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 192: return;
 "192
-[e = . . _PORTBbits 0 7 -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 193: PORTEbits.RE1= 0;
-"193
-[e = . . _PORTEbits 0 1 -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 194: PORTEbits.RE2 = 1;
-"194
-[e = . . _PORTEbits 0 2 -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 196: return;
-"196
 [e $UE 614  ]
-[; ;Funciones_Db.c: 197: }
-"197
+[; ;Funciones_Db.c: 193: }
+"193
 [e :UE 614 ]
 }
-"199
+"195
 [v _motor_Backforward `(v ~T0 @X0 1 ef ]
-"200
+"196
 {
-[; ;Funciones_Db.c: 199: void motor_Backforward(void)
-[; ;Funciones_Db.c: 200: {
+[; ;Funciones_Db.c: 195: void motor_Backforward(void)
+[; ;Funciones_Db.c: 196: {
 [e :U _motor_Backforward ]
 [f ]
-[; ;Funciones_Db.c: 202: PORTBbits.RB6 = 0;
+[; ;Funciones_Db.c: 197: PORTDbits.RD7 = 0;
+"197
+[e = . . _PORTDbits 0 7 -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 198: PORTDbits.RD4 = 1;
+"198
+[e = . . _PORTDbits 0 4 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 199: PORTDbits.RD3 = 0;
+"199
+[e = . . _PORTDbits 0 3 -> -> 0 `i `uc ]
+[; ;Funciones_Db.c: 200: PORTCbits.RC4 = 1;
+"200
+[e = . . _PORTCbits 0 4 -> -> 1 `i `uc ]
+[; ;Funciones_Db.c: 202: return;
 "202
-[e = . . _PORTBbits 0 6 -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 203: PORTEbits.RE0 = 0;
-"203
-[e = . . _PORTEbits 0 0 -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 204: PORTCbits.RC0 = 1;
-"204
-[e = . . _PORTCbits 0 0 -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 206: PORTBbits.RB7 = 0;
-"206
-[e = . . _PORTBbits 0 7 -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 207: PORTEbits.RE2 = 0;
-"207
-[e = . . _PORTEbits 0 2 -> -> 0 `i `uc ]
-[; ;Funciones_Db.c: 208: PORTEbits.RE1 = 1;
-"208
-[e = . . _PORTEbits 0 1 -> -> 1 `i `uc ]
-[; ;Funciones_Db.c: 210: return;
-"210
 [e $UE 615  ]
-[; ;Funciones_Db.c: 211: }
-"211
+[; ;Funciones_Db.c: 203: }
+"203
 [e :UE 615 ]
 }
 [a 11C 68 101 102 97 117 108 116 0 ]

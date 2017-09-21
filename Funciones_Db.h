@@ -46,15 +46,13 @@
 //#define R2 PORTBbits.RB6
 //#define R1 PORTBbits.RB7
 
-#define G1 PORTCbits.RC0
+
 #define PWM2 PORTCbits.RC1
 #define PWM1 PORTCbits.RC2
-#define G4 PORTEbits.RE0  
-#define G6 PORTEbits.RE1  
-#define G8 PORTEbits.RE2  
-#define R2 PORTBbits.RB6
-#define R1 PORTBbits.RB7
-
+#define INPUT1 PORTDbits.RD7
+#define INPUT2 PORTDbits.RD4
+#define INPUT3 PORTDbits.RD3
+#define INPUT4 PORTCbits.RC4
 
 
 
@@ -70,6 +68,7 @@ char Tecla(void);
 void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
+
 void motor_forward(void);
 void motor_Backforward(void);
 

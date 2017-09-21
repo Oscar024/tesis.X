@@ -6527,7 +6527,7 @@ extern char * strichr(const char *, int);
 extern char * strrchr(const char *, int);
 extern char * strrichr(const char *, int);
 
-# 61 "Funciones_Db.h"
+# 59 "Funciones_Db.h"
 void PantallaPrin(void);
 void PONGBT(void);
 void clrBufferDato(void);
@@ -6540,6 +6540,7 @@ char Tecla(void);
 void Teclado(void);
 void DelayCommands();
 void BT_ModoVisible(void);
+
 void motor_forward(void);
 void motor_Backforward(void);
 
@@ -6737,28 +6738,20 @@ return;
 
 void motor_forward(void)
 {
-
-PORTBbits.RB6 = 1;
-PORTCbits.RC0 = 0;
-PORTEbits.RE0 = 1;
-
-PORTBbits.RB7=1;
-PORTEbits.RE1= 0;
-PORTEbits.RE2 = 1;
+PORTDbits.RD7 = 1;
+PORTDbits.RD4 = 0;
+PORTDbits.RD3 = 1;
+PORTCbits.RC4 = 0;
 
 return;
 }
 
 void motor_Backforward(void)
 {
-
-PORTBbits.RB6 = 0;
-PORTEbits.RE0 = 0;
-PORTCbits.RC0 = 1;
-
-PORTBbits.RB7 = 0;
-PORTEbits.RE2 = 0;
-PORTEbits.RE1 = 1;
+PORTDbits.RD7 = 0;
+PORTDbits.RD4 = 1;
+PORTDbits.RD3 = 0;
+PORTCbits.RC4 = 1;
 
 return;
 }
